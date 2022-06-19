@@ -30,7 +30,10 @@ def csv_to_json(csvFilePath, jsonFilePath):
                 try:
                     parsedValue = int(value)
                 except:
-                    parsedValue = value
+                    if len(value) == 0:
+                        parsedValue = None
+                    else:
+                        parsedValue = value
                 adjustedField = underscore_to_camel(field)
                 parsedRow[adjustedField] = parsedValue
             
@@ -41,9 +44,9 @@ def csv_to_json(csvFilePath, jsonFilePath):
         jsonString = json.dumps(jsonArray, indent=4)
         jsonf.write(jsonString)
 
-baseFilePath = '/Users/briancorbin/Desktop/csvToJSON'
-csvFilePath = baseFilePath + "/csv"
-jsonFilePath = baseFilePath + "/json"
+baseFilePath = '/Users/briancorbin/Programming/SwiftDexTools/csvToJSON'
+csvFilePath = baseFilePath + "/data/csv"
+jsonFilePath = baseFilePath + "/data/json"
 
 for filename in os.listdir(csvFilePath):
     inputFilename = csvFilePath + "/" + filename

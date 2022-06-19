@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E897E54727F0E9D5004849EC /* RealmDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E897E54327F0E9D5004849EC /* RealmDataModels.swift */; };
+		E897E54827F0E9D5004849EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E897E54427F0E9D5004849EC /* main.swift */; };
+		E897E54927F0E9D5004849EC /* loadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E897E54627F0E9D5004849EC /* loadData.swift */; };
+		E897E54D27F0EAC5004849EC /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E897E54C27F0EAC5004849EC /* Realm */; };
+		E897E54F27F0EAC5004849EC /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E897E54E27F0EAC5004849EC /* RealmSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E897E53727F0E9B3004849EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E897E53927F0E9B3004849EC /* RealmDexGen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RealmDexGen; sourceTree = BUILT_PRODUCTS_DIR; };
+		E897E54327F0E9D5004849EC /* RealmDataModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDataModels.swift; sourceTree = "<group>"; };
+		E897E54427F0E9D5004849EC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E897E54627F0E9D5004849EC /* loadData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loadData.swift; sourceTree = "<group>"; };
+		E897E5DD27F10F00004849EC /* pokemon_types_past.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_types_past.json; path = ../../../csvToJSON/data/json/pokemon_types_past.json; sourceTree = "<group>"; };
+		E897E5DE27F10F00004849EC /* pokemon_shape_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_shape_prose.json; path = ../../../csvToJSON/data/json/pokemon_shape_prose.json; sourceTree = "<group>"; };
+		E897E5DF27F10F00004849EC /* move_flavor_text.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_flavor_text.json; path = ../../../csvToJSON/data/json/move_flavor_text.json; sourceTree = "<group>"; };
+		E897E5E027F10F00004849EC /* pokedex_version_groups.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokedex_version_groups.json; path = ../../../csvToJSON/data/json/pokedex_version_groups.json; sourceTree = "<group>"; };
+		E897E5E127F10F00004849EC /* items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = items.json; path = ../../../csvToJSON/data/json/items.json; sourceTree = "<group>"; };
+		E897E5E227F10F00004849EC /* encounter_conditions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = encounter_conditions.json; path = ../../../csvToJSON/data/json/encounter_conditions.json; sourceTree = "<group>"; };
+		E897E5E327F10F00004849EC /* characteristics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = characteristics.json; path = ../../../csvToJSON/data/json/characteristics.json; sourceTree = "<group>"; };
+		E897E5E427F10F00004849EC /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = locations.json; path = ../../../csvToJSON/data/json/locations.json; sourceTree = "<group>"; };
+		E897E5E527F10F00004849EC /* move_flag_map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_flag_map.json; path = ../../../csvToJSON/data/json/move_flag_map.json; sourceTree = "<group>"; };
+		E897E5E627F10F00004849EC /* versions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = versions.json; path = ../../../csvToJSON/data/json/versions.json; sourceTree = "<group>"; };
+		E897E5E727F10F00004849EC /* encounter_condition_value_map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = encounter_condition_value_map.json; path = ../../../csvToJSON/data/json/encounter_condition_value_map.json; sourceTree = "<group>"; };
+		E897E5E827F10F00004849EC /* item_fling_effects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = item_fling_effects.json; path = ../../../csvToJSON/data/json/item_fling_effects.json; sourceTree = "<group>"; };
+		E897E5E927F10F00004849EC /* pokemon_dex_numbers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_dex_numbers.json; path = ../../../csvToJSON/data/json/pokemon_dex_numbers.json; sourceTree = "<group>"; };
+		E897E5EA27F10F00004849EC /* pokemon_evolution.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_evolution.json; path = ../../../csvToJSON/data/json/pokemon_evolution.json; sourceTree = "<group>"; };
+		E897E5EB27F10F00004849EC /* move_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_names.json; path = ../../../csvToJSON/data/json/move_names.json; sourceTree = "<group>"; };
+		E897E5EC27F10F00004849EC /* type_efficacy_past.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = type_efficacy_past.json; path = ../../../csvToJSON/data/json/type_efficacy_past.json; sourceTree = "<group>"; };
+		E897E5ED27F10F00004849EC /* move_target_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_target_prose.json; path = ../../../csvToJSON/data/json/move_target_prose.json; sourceTree = "<group>"; };
+		E897E5EE27F10F00004849EC /* move_meta_ailments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_meta_ailments.json; path = ../../../csvToJSON/data/json/move_meta_ailments.json; sourceTree = "<group>"; };
+		E897E5EF27F10F00004849EC /* genders.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = genders.json; path = ../../../csvToJSON/data/json/genders.json; sourceTree = "<group>"; };
+		E897E5F027F10F00004849EC /* move_changelog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_changelog.json; path = ../../../csvToJSON/data/json/move_changelog.json; sourceTree = "<group>"; };
+		E897E5F127F10F00004849EC /* pal_park.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pal_park.json; path = ../../../csvToJSON/data/json/pal_park.json; sourceTree = "<group>"; };
+		E897E5F227F10F01004849EC /* encounter_condition_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = encounter_condition_prose.json; path = ../../../csvToJSON/data/json/encounter_condition_prose.json; sourceTree = "<group>"; };
+		E897E5F327F10F01004849EC /* move_flags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_flags.json; path = ../../../csvToJSON/data/json/move_flags.json; sourceTree = "<group>"; };
+		E897E5F427F10F01004849EC /* regions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = regions.json; path = ../../../csvToJSON/data/json/regions.json; sourceTree = "<group>"; };
+		E897E5F527F10F01004849EC /* machines.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = machines.json; path = ../../../csvToJSON/data/json/machines.json; sourceTree = "<group>"; };
+		E897E5F627F10F01004849EC /* move_meta_ailment_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_meta_ailment_names.json; path = ../../../csvToJSON/data/json/move_meta_ailment_names.json; sourceTree = "<group>"; };
+		E897E5F727F10F01004849EC /* pokemon_abilities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_abilities.json; path = ../../../csvToJSON/data/json/pokemon_abilities.json; sourceTree = "<group>"; };
+		E897E5F827F10F01004849EC /* egg_groups.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = egg_groups.json; path = ../../../csvToJSON/data/json/egg_groups.json; sourceTree = "<group>"; };
+		E897E5F927F10F01004849EC /* ability_changelog_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ability_changelog_prose.json; path = ../../../csvToJSON/data/json/ability_changelog_prose.json; sourceTree = "<group>"; };
+		E897E5FA27F10F01004849EC /* item_pockets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = item_pockets.json; path = ../../../csvToJSON/data/json/item_pockets.json; sourceTree = "<group>"; };
+		E897E5FB27F10F01004849EC /* move_battle_styles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_battle_styles.json; path = ../../../csvToJSON/data/json/move_battle_styles.json; sourceTree = "<group>"; };
+		E897E5FC27F10F01004849EC /* move_effect_changelog_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_effect_changelog_prose.json; path = ../../../csvToJSON/data/json/move_effect_changelog_prose.json; sourceTree = "<group>"; };
+		E897E5FD27F10F01004849EC /* item_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = item_names.json; path = ../../../csvToJSON/data/json/item_names.json; sourceTree = "<group>"; };
+		E897E5FE27F10F01004849EC /* move_meta_category_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_meta_category_prose.json; path = ../../../csvToJSON/data/json/move_meta_category_prose.json; sourceTree = "<group>"; };
+		E897E5FF27F10F01004849EC /* pokemon_stats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_stats.json; path = ../../../csvToJSON/data/json/pokemon_stats.json; sourceTree = "<group>"; };
+		E897E60027F10F01004849EC /* berry_firmness.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = berry_firmness.json; path = ../../../csvToJSON/data/json/berry_firmness.json; sourceTree = "<group>"; };
+		E897E60127F10F01004849EC /* stat_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = stat_names.json; path = ../../../csvToJSON/data/json/stat_names.json; sourceTree = "<group>"; };
+		E897E60227F10F01004849EC /* version_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = version_names.json; path = ../../../csvToJSON/data/json/version_names.json; sourceTree = "<group>"; };
+		E897E60327F10F01004849EC /* growth_rates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = growth_rates.json; path = ../../../csvToJSON/data/json/growth_rates.json; sourceTree = "<group>"; };
+		E897E60427F10F01004849EC /* ability_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ability_names.json; path = ../../../csvToJSON/data/json/ability_names.json; sourceTree = "<group>"; };
+		E897E60527F10F01004849EC /* characteristic_text.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = characteristic_text.json; path = ../../../csvToJSON/data/json/characteristic_text.json; sourceTree = "<group>"; };
+		E897E60627F10F01004849EC /* generations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = generations.json; path = ../../../csvToJSON/data/json/generations.json; sourceTree = "<group>"; };
+		E897E60727F10F01004849EC /* pokemon_move_methods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_move_methods.json; path = ../../../csvToJSON/data/json/pokemon_move_methods.json; sourceTree = "<group>"; };
+		E897E60827F10F01004849EC /* encounter_slots.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = encounter_slots.json; path = ../../../csvToJSON/data/json/encounter_slots.json; sourceTree = "<group>"; };
+		E897E60927F10F01004849EC /* evolution_chains.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = evolution_chains.json; path = ../../../csvToJSON/data/json/evolution_chains.json; sourceTree = "<group>"; };
+		E897E60A27F10F01004849EC /* encounter_method_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = encounter_method_prose.json; path = ../../../csvToJSON/data/json/encounter_method_prose.json; sourceTree = "<group>"; };
+		E897E60B27F10F01004849EC /* type_game_indices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = type_game_indices.json; path = ../../../csvToJSON/data/json/type_game_indices.json; sourceTree = "<group>"; };
+		E897E60C27F10F01004849EC /* pokeathlon_stats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokeathlon_stats.json; path = ../../../csvToJSON/data/json/pokeathlon_stats.json; sourceTree = "<group>"; };
+		E897E60D27F10F01004849EC /* evolution_trigger_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = evolution_trigger_prose.json; path = ../../../csvToJSON/data/json/evolution_trigger_prose.json; sourceTree = "<group>"; };
+		E897E60E27F10F01004849EC /* move_battle_style_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_battle_style_prose.json; path = ../../../csvToJSON/data/json/move_battle_style_prose.json; sourceTree = "<group>"; };
+		E897E60F27F10F01004849EC /* contest_types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = contest_types.json; path = ../../../csvToJSON/data/json/contest_types.json; sourceTree = "<group>"; };
+		E897E61027F10F01004849EC /* move_effect_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_effect_prose.json; path = ../../../csvToJSON/data/json/move_effect_prose.json; sourceTree = "<group>"; };
+		E897E61127F10F01004849EC /* pokemon_game_indices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_game_indices.json; path = ../../../csvToJSON/data/json/pokemon_game_indices.json; sourceTree = "<group>"; };
+		E897E61227F10F01004849EC /* pokemon_habitat_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_habitat_names.json; path = ../../../csvToJSON/data/json/pokemon_habitat_names.json; sourceTree = "<group>"; };
+		E897E61327F10F01004849EC /* pokemon_habitats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_habitats.json; path = ../../../csvToJSON/data/json/pokemon_habitats.json; sourceTree = "<group>"; };
+		E897E61427F10F01004849EC /* encounter_condition_value_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = encounter_condition_value_prose.json; path = ../../../csvToJSON/data/json/encounter_condition_value_prose.json; sourceTree = "<group>"; };
+		E897E61527F10F01004849EC /* move_flag_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_flag_prose.json; path = ../../../csvToJSON/data/json/move_flag_prose.json; sourceTree = "<group>"; };
+		E897E61627F10F01004849EC /* super_contest_effect_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = super_contest_effect_prose.json; path = ../../../csvToJSON/data/json/super_contest_effect_prose.json; sourceTree = "<group>"; };
+		E897E61727F10F01004849EC /* move_effects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_effects.json; path = ../../../csvToJSON/data/json/move_effects.json; sourceTree = "<group>"; };
+		E897E61827F10F01004849EC /* type_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = type_names.json; path = ../../../csvToJSON/data/json/type_names.json; sourceTree = "<group>"; };
+		E897E61927F10F02004849EC /* item_flag_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = item_flag_prose.json; path = ../../../csvToJSON/data/json/item_flag_prose.json; sourceTree = "<group>"; };
+		E897E61A27F10F02004849EC /* pokemon_shapes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_shapes.json; path = ../../../csvToJSON/data/json/pokemon_shapes.json; sourceTree = "<group>"; };
+		E897E61B27F10F02004849EC /* ability_flavor_text.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ability_flavor_text.json; path = ../../../csvToJSON/data/json/ability_flavor_text.json; sourceTree = "<group>"; };
+		E897E61C27F10F02004849EC /* move_damage_classes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_damage_classes.json; path = ../../../csvToJSON/data/json/move_damage_classes.json; sourceTree = "<group>"; };
+		E897E61D27F10F02004849EC /* berries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = berries.json; path = ../../../csvToJSON/data/json/berries.json; sourceTree = "<group>"; };
+		E897E61E27F10F02004849EC /* pokemon_form_pokeathlon_stats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_form_pokeathlon_stats.json; path = ../../../csvToJSON/data/json/pokemon_form_pokeathlon_stats.json; sourceTree = "<group>"; };
+		E897E61F27F10F02004849EC /* pokemon_species_flavor_text.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_species_flavor_text.json; path = ../../../csvToJSON/data/json/pokemon_species_flavor_text.json; sourceTree = "<group>"; };
+		E897E62027F10F02004849EC /* item_fling_effect_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = item_fling_effect_prose.json; path = ../../../csvToJSON/data/json/item_fling_effect_prose.json; sourceTree = "<group>"; };
+		E897E62127F10F02004849EC /* pokemon_colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_colors.json; path = ../../../csvToJSON/data/json/pokemon_colors.json; sourceTree = "<group>"; };
+		E897E62227F10F02004849EC /* moves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = moves.json; path = ../../../csvToJSON/data/json/moves.json; sourceTree = "<group>"; };
+		E897E62327F10F02004849EC /* move_meta_stat_changes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_meta_stat_changes.json; path = ../../../csvToJSON/data/json/move_meta_stat_changes.json; sourceTree = "<group>"; };
+		E897E62427F10F02004849EC /* pokemon_species_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_species_prose.json; path = ../../../csvToJSON/data/json/pokemon_species_prose.json; sourceTree = "<group>"; };
+		E897E62527F10F02004849EC /* pal_park_area_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pal_park_area_names.json; path = ../../../csvToJSON/data/json/pal_park_area_names.json; sourceTree = "<group>"; };
+		E897E62627F10F02004849EC /* egg_group_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = egg_group_prose.json; path = ../../../csvToJSON/data/json/egg_group_prose.json; sourceTree = "<group>"; };
+		E897E62727F10F02004849EC /* growth_rate_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = growth_rate_prose.json; path = ../../../csvToJSON/data/json/growth_rate_prose.json; sourceTree = "<group>"; };
+		E897E62827F10F02004849EC /* region_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = region_names.json; path = ../../../csvToJSON/data/json/region_names.json; sourceTree = "<group>"; };
+		E897E62927F10F02004849EC /* nature_pokeathlon_stats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nature_pokeathlon_stats.json; path = ../../../csvToJSON/data/json/nature_pokeathlon_stats.json; sourceTree = "<group>"; };
+		E897E62A27F10F02004849EC /* pokemon_species.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_species.json; path = ../../../csvToJSON/data/json/pokemon_species.json; sourceTree = "<group>"; };
+		E897E62B27F10F02004849EC /* encounters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = encounters.json; path = ../../../csvToJSON/data/json/encounters.json; sourceTree = "<group>"; };
+		E897E62C27F10F02004849EC /* nature_battle_style_preferences.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nature_battle_style_preferences.json; path = ../../../csvToJSON/data/json/nature_battle_style_preferences.json; sourceTree = "<group>"; };
+		E897E62D27F10F02004849EC /* move_effect_changelog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_effect_changelog.json; path = ../../../csvToJSON/data/json/move_effect_changelog.json; sourceTree = "<group>"; };
+		E897E62E27F10F02004849EC /* evolution_triggers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = evolution_triggers.json; path = ../../../csvToJSON/data/json/evolution_triggers.json; sourceTree = "<group>"; };
+		E897E62F27F10F02004849EC /* super_contest_effects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = super_contest_effects.json; path = ../../../csvToJSON/data/json/super_contest_effects.json; sourceTree = "<group>"; };
+		E897E63027F10F02004849EC /* pokemon_move_method_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_move_method_prose.json; path = ../../../csvToJSON/data/json/pokemon_move_method_prose.json; sourceTree = "<group>"; };
+		E897E63127F10F02004849EC /* item_pocket_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = item_pocket_names.json; path = ../../../csvToJSON/data/json/item_pocket_names.json; sourceTree = "<group>"; };
+		E897E63227F10F02004849EC /* location_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = location_names.json; path = ../../../csvToJSON/data/json/location_names.json; sourceTree = "<group>"; };
+		E897E63327F10F02004849EC /* move_targets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_targets.json; path = ../../../csvToJSON/data/json/move_targets.json; sourceTree = "<group>"; };
+		E897E63427F10F02004849EC /* nature_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nature_names.json; path = ../../../csvToJSON/data/json/nature_names.json; sourceTree = "<group>"; };
+		E897E63527F10F02004849EC /* contest_effects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = contest_effects.json; path = ../../../csvToJSON/data/json/contest_effects.json; sourceTree = "<group>"; };
+		E897E63627F10F02004849EC /* pokemon_egg_groups.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_egg_groups.json; path = ../../../csvToJSON/data/json/pokemon_egg_groups.json; sourceTree = "<group>"; };
+		E897E63727F10F02004849EC /* item_flag_map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = item_flag_map.json; path = ../../../csvToJSON/data/json/item_flag_map.json; sourceTree = "<group>"; };
+		E897E63827F10F02004849EC /* item_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = item_prose.json; path = ../../../csvToJSON/data/json/item_prose.json; sourceTree = "<group>"; };
+		E897E63927F10F02004849EC /* experience.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = experience.json; path = ../../../csvToJSON/data/json/experience.json; sourceTree = "<group>"; };
+		E897E63A27F10F02004849EC /* pokemon_color_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_color_names.json; path = ../../../csvToJSON/data/json/pokemon_color_names.json; sourceTree = "<group>"; };
+		E897E63B27F10F02004849EC /* item_categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = item_categories.json; path = ../../../csvToJSON/data/json/item_categories.json; sourceTree = "<group>"; };
+		E897E63C27F10F02004849EC /* pokemon_moves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_moves.json; path = ../../../csvToJSON/data/json/pokemon_moves.json; sourceTree = "<group>"; };
+		E897E63D27F10F02004849EC /* item_game_indices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = item_game_indices.json; path = ../../../csvToJSON/data/json/item_game_indices.json; sourceTree = "<group>"; };
+		E897E63E27F10F02004849EC /* pokeathlon_stat_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokeathlon_stat_names.json; path = ../../../csvToJSON/data/json/pokeathlon_stat_names.json; sourceTree = "<group>"; };
+		E897E63F27F10F02004849EC /* location_area_encounter_rates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = location_area_encounter_rates.json; path = ../../../csvToJSON/data/json/location_area_encounter_rates.json; sourceTree = "<group>"; };
+		E897E64027F10F02004849EC /* contest_effect_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = contest_effect_prose.json; path = ../../../csvToJSON/data/json/contest_effect_prose.json; sourceTree = "<group>"; };
+		E897E64127F10F03004849EC /* item_flags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = item_flags.json; path = ../../../csvToJSON/data/json/item_flags.json; sourceTree = "<group>"; };
+		E897E64227F10F03004849EC /* natures.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = natures.json; path = ../../../csvToJSON/data/json/natures.json; sourceTree = "<group>"; };
+		E897E64327F10F03004849EC /* pokedexes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokedexes.json; path = ../../../csvToJSON/data/json/pokedexes.json; sourceTree = "<group>"; };
+		E897E64427F10F03004849EC /* language_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = language_names.json; path = ../../../csvToJSON/data/json/language_names.json; sourceTree = "<group>"; };
+		E897E64527F10F03004849EC /* version_groups.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = version_groups.json; path = ../../../csvToJSON/data/json/version_groups.json; sourceTree = "<group>"; };
+		E897E64627F10F03004849EC /* ability_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ability_prose.json; path = ../../../csvToJSON/data/json/ability_prose.json; sourceTree = "<group>"; };
+		E897E64727F10F03004849EC /* berry_firmness_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = berry_firmness_names.json; path = ../../../csvToJSON/data/json/berry_firmness_names.json; sourceTree = "<group>"; };
+		E897E64827F10F03004849EC /* type_efficacy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = type_efficacy.json; path = ../../../csvToJSON/data/json/type_efficacy.json; sourceTree = "<group>"; };
+		E897E64927F10F03004849EC /* location_game_indices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = location_game_indices.json; path = ../../../csvToJSON/data/json/location_game_indices.json; sourceTree = "<group>"; };
+		E897E64A27F10F03004849EC /* pal_park_areas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pal_park_areas.json; path = ../../../csvToJSON/data/json/pal_park_areas.json; sourceTree = "<group>"; };
+		E897E64B27F10F03004849EC /* types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = types.json; path = ../../../csvToJSON/data/json/types.json; sourceTree = "<group>"; };
+		E897E64C27F10F03004849EC /* languages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = languages.json; path = ../../../csvToJSON/data/json/languages.json; sourceTree = "<group>"; };
+		E897E64D27F10F03004849EC /* pokemon_form_generations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_form_generations.json; path = ../../../csvToJSON/data/json/pokemon_form_generations.json; sourceTree = "<group>"; };
+		E897E64E27F10F03004849EC /* move_meta_categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_meta_categories.json; path = ../../../csvToJSON/data/json/move_meta_categories.json; sourceTree = "<group>"; };
+		E897E64F27F10F03004849EC /* super_contest_combos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = super_contest_combos.json; path = ../../../csvToJSON/data/json/super_contest_combos.json; sourceTree = "<group>"; };
+		E897E65027F10F03004849EC /* version_group_regions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = version_group_regions.json; path = ../../../csvToJSON/data/json/version_group_regions.json; sourceTree = "<group>"; };
+		E897E65127F10F03004849EC /* encounter_condition_values.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = encounter_condition_values.json; path = ../../../csvToJSON/data/json/encounter_condition_values.json; sourceTree = "<group>"; };
+		E897E65227F10F03004849EC /* location_areas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = location_areas.json; path = ../../../csvToJSON/data/json/location_areas.json; sourceTree = "<group>"; };
+		E897E65327F10F03004849EC /* move_damage_class_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_damage_class_prose.json; path = ../../../csvToJSON/data/json/move_damage_class_prose.json; sourceTree = "<group>"; };
+		E897E65427F10F03004849EC /* abilities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = abilities.json; path = ../../../csvToJSON/data/json/abilities.json; sourceTree = "<group>"; };
+		E897E65527F10F03004849EC /* item_category_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = item_category_prose.json; path = ../../../csvToJSON/data/json/item_category_prose.json; sourceTree = "<group>"; };
+		E897E65627F10F03004849EC /* pokemon_form_types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_form_types.json; path = ../../../csvToJSON/data/json/pokemon_form_types.json; sourceTree = "<group>"; };
+		E897E65727F10F03004849EC /* pokemon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon.json; path = ../../../csvToJSON/data/json/pokemon.json; sourceTree = "<group>"; };
+		E897E65827F10F03004849EC /* encounter_methods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = encounter_methods.json; path = ../../../csvToJSON/data/json/encounter_methods.json; sourceTree = "<group>"; };
+		E897E65927F10F03004849EC /* pokemon_form_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_form_names.json; path = ../../../csvToJSON/data/json/pokemon_form_names.json; sourceTree = "<group>"; };
+		E897E65A27F10F03004849EC /* stats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = stats.json; path = ../../../csvToJSON/data/json/stats.json; sourceTree = "<group>"; };
+		E897E65B27F10F03004849EC /* location_area_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = location_area_prose.json; path = ../../../csvToJSON/data/json/location_area_prose.json; sourceTree = "<group>"; };
+		E897E65C27F10F03004849EC /* pokemon_species_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_species_names.json; path = ../../../csvToJSON/data/json/pokemon_species_names.json; sourceTree = "<group>"; };
+		E897E65D27F10F03004849EC /* generation_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = generation_names.json; path = ../../../csvToJSON/data/json/generation_names.json; sourceTree = "<group>"; };
+		E897E65E27F10F03004849EC /* ability_changelog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ability_changelog.json; path = ../../../csvToJSON/data/json/ability_changelog.json; sourceTree = "<group>"; };
+		E897E65F27F10F03004849EC /* pokemon_forms.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_forms.json; path = ../../../csvToJSON/data/json/pokemon_forms.json; sourceTree = "<group>"; };
+		E897E66027F10F03004849EC /* berry_flavors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = berry_flavors.json; path = ../../../csvToJSON/data/json/berry_flavors.json; sourceTree = "<group>"; };
+		E897E66127F10F03004849EC /* pokemon_types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_types.json; path = ../../../csvToJSON/data/json/pokemon_types.json; sourceTree = "<group>"; };
+		E897E66227F10F03004849EC /* move_meta.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = move_meta.json; path = ../../../csvToJSON/data/json/move_meta.json; sourceTree = "<group>"; };
+		E897E66327F10F03004849EC /* pokemon_items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon_items.json; path = ../../../csvToJSON/data/json/pokemon_items.json; sourceTree = "<group>"; };
+		E897E66427F10F03004849EC /* item_flavor_text.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = item_flavor_text.json; path = ../../../csvToJSON/data/json/item_flavor_text.json; sourceTree = "<group>"; };
+		E897E66527F10F03004849EC /* contest_type_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = contest_type_names.json; path = ../../../csvToJSON/data/json/contest_type_names.json; sourceTree = "<group>"; };
+		E897E66627F10F03004849EC /* contest_combos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = contest_combos.json; path = ../../../csvToJSON/data/json/contest_combos.json; sourceTree = "<group>"; };
+		E897E66727F10F03004849EC /* version_group_pokemon_move_methods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = version_group_pokemon_move_methods.json; path = ../../../csvToJSON/data/json/version_group_pokemon_move_methods.json; sourceTree = "<group>"; };
+		E897E66827F10F03004849EC /* pokedex_prose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokedex_prose.json; path = ../../../csvToJSON/data/json/pokedex_prose.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E897E53627F0E9B3004849EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E897E54F27F0EAC5004849EC /* RealmSwift in Frameworks */,
+				E897E54D27F0EAC5004849EC /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E897E53027F0E9B3004849EC = {
+			isa = PBXGroup;
+			children = (
+				E897E53B27F0E9B3004849EC /* RealmDexGen */,
+				E897E53A27F0E9B3004849EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E897E53A27F0E9B3004849EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E897E53927F0E9B3004849EC /* RealmDexGen */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E897E53B27F0E9B3004849EC /* RealmDexGen */ = {
+			isa = PBXGroup;
+			children = (
+				E897E55027F0ED8E004849EC /* jsonData */,
+				E897E54627F0E9D5004849EC /* loadData.swift */,
+				E897E54427F0E9D5004849EC /* main.swift */,
+				E897E54327F0E9D5004849EC /* RealmDataModels.swift */,
+			);
+			path = RealmDexGen;
+			sourceTree = "<group>";
+		};
+		E897E55027F0ED8E004849EC /* jsonData */ = {
+			isa = PBXGroup;
+			children = (
+				E897E65427F10F03004849EC /* abilities.json */,
+				E897E5F927F10F01004849EC /* ability_changelog_prose.json */,
+				E897E65E27F10F03004849EC /* ability_changelog.json */,
+				E897E61B27F10F02004849EC /* ability_flavor_text.json */,
+				E897E60427F10F01004849EC /* ability_names.json */,
+				E897E64627F10F03004849EC /* ability_prose.json */,
+				E897E61D27F10F02004849EC /* berries.json */,
+				E897E64727F10F03004849EC /* berry_firmness_names.json */,
+				E897E60027F10F01004849EC /* berry_firmness.json */,
+				E897E66027F10F03004849EC /* berry_flavors.json */,
+				E897E60527F10F01004849EC /* characteristic_text.json */,
+				E897E5E327F10F00004849EC /* characteristics.json */,
+				E897E66627F10F03004849EC /* contest_combos.json */,
+				E897E64027F10F02004849EC /* contest_effect_prose.json */,
+				E897E63527F10F02004849EC /* contest_effects.json */,
+				E897E66527F10F03004849EC /* contest_type_names.json */,
+				E897E60F27F10F01004849EC /* contest_types.json */,
+				E897E62627F10F02004849EC /* egg_group_prose.json */,
+				E897E5F827F10F01004849EC /* egg_groups.json */,
+				E897E5F227F10F01004849EC /* encounter_condition_prose.json */,
+				E897E5E727F10F00004849EC /* encounter_condition_value_map.json */,
+				E897E61427F10F01004849EC /* encounter_condition_value_prose.json */,
+				E897E65127F10F03004849EC /* encounter_condition_values.json */,
+				E897E5E227F10F00004849EC /* encounter_conditions.json */,
+				E897E60A27F10F01004849EC /* encounter_method_prose.json */,
+				E897E65827F10F03004849EC /* encounter_methods.json */,
+				E897E60827F10F01004849EC /* encounter_slots.json */,
+				E897E62B27F10F02004849EC /* encounters.json */,
+				E897E60927F10F01004849EC /* evolution_chains.json */,
+				E897E60D27F10F01004849EC /* evolution_trigger_prose.json */,
+				E897E62E27F10F02004849EC /* evolution_triggers.json */,
+				E897E63927F10F02004849EC /* experience.json */,
+				E897E5EF27F10F00004849EC /* genders.json */,
+				E897E65D27F10F03004849EC /* generation_names.json */,
+				E897E60627F10F01004849EC /* generations.json */,
+				E897E62727F10F02004849EC /* growth_rate_prose.json */,
+				E897E60327F10F01004849EC /* growth_rates.json */,
+				E897E63B27F10F02004849EC /* item_categories.json */,
+				E897E65527F10F03004849EC /* item_category_prose.json */,
+				E897E63727F10F02004849EC /* item_flag_map.json */,
+				E897E61927F10F02004849EC /* item_flag_prose.json */,
+				E897E64127F10F03004849EC /* item_flags.json */,
+				E897E66427F10F03004849EC /* item_flavor_text.json */,
+				E897E62027F10F02004849EC /* item_fling_effect_prose.json */,
+				E897E5E827F10F00004849EC /* item_fling_effects.json */,
+				E897E63D27F10F02004849EC /* item_game_indices.json */,
+				E897E5FD27F10F01004849EC /* item_names.json */,
+				E897E63127F10F02004849EC /* item_pocket_names.json */,
+				E897E5FA27F10F01004849EC /* item_pockets.json */,
+				E897E63827F10F02004849EC /* item_prose.json */,
+				E897E5E127F10F00004849EC /* items.json */,
+				E897E64427F10F03004849EC /* language_names.json */,
+				E897E64C27F10F03004849EC /* languages.json */,
+				E897E63F27F10F02004849EC /* location_area_encounter_rates.json */,
+				E897E65B27F10F03004849EC /* location_area_prose.json */,
+				E897E65227F10F03004849EC /* location_areas.json */,
+				E897E64927F10F03004849EC /* location_game_indices.json */,
+				E897E63227F10F02004849EC /* location_names.json */,
+				E897E5E427F10F00004849EC /* locations.json */,
+				E897E5F527F10F01004849EC /* machines.json */,
+				E897E60E27F10F01004849EC /* move_battle_style_prose.json */,
+				E897E5FB27F10F01004849EC /* move_battle_styles.json */,
+				E897E5F027F10F00004849EC /* move_changelog.json */,
+				E897E65327F10F03004849EC /* move_damage_class_prose.json */,
+				E897E61C27F10F02004849EC /* move_damage_classes.json */,
+				E897E5FC27F10F01004849EC /* move_effect_changelog_prose.json */,
+				E897E62D27F10F02004849EC /* move_effect_changelog.json */,
+				E897E61027F10F01004849EC /* move_effect_prose.json */,
+				E897E61727F10F01004849EC /* move_effects.json */,
+				E897E5E527F10F00004849EC /* move_flag_map.json */,
+				E897E61527F10F01004849EC /* move_flag_prose.json */,
+				E897E5F327F10F01004849EC /* move_flags.json */,
+				E897E5DF27F10F00004849EC /* move_flavor_text.json */,
+				E897E5F627F10F01004849EC /* move_meta_ailment_names.json */,
+				E897E5EE27F10F00004849EC /* move_meta_ailments.json */,
+				E897E64E27F10F03004849EC /* move_meta_categories.json */,
+				E897E5FE27F10F01004849EC /* move_meta_category_prose.json */,
+				E897E62327F10F02004849EC /* move_meta_stat_changes.json */,
+				E897E66227F10F03004849EC /* move_meta.json */,
+				E897E5EB27F10F00004849EC /* move_names.json */,
+				E897E5ED27F10F00004849EC /* move_target_prose.json */,
+				E897E63327F10F02004849EC /* move_targets.json */,
+				E897E62227F10F02004849EC /* moves.json */,
+				E897E62C27F10F02004849EC /* nature_battle_style_preferences.json */,
+				E897E63427F10F02004849EC /* nature_names.json */,
+				E897E62927F10F02004849EC /* nature_pokeathlon_stats.json */,
+				E897E64227F10F03004849EC /* natures.json */,
+				E897E62527F10F02004849EC /* pal_park_area_names.json */,
+				E897E64A27F10F03004849EC /* pal_park_areas.json */,
+				E897E5F127F10F00004849EC /* pal_park.json */,
+				E897E63E27F10F02004849EC /* pokeathlon_stat_names.json */,
+				E897E60C27F10F01004849EC /* pokeathlon_stats.json */,
+				E897E66827F10F03004849EC /* pokedex_prose.json */,
+				E897E5E027F10F00004849EC /* pokedex_version_groups.json */,
+				E897E64327F10F03004849EC /* pokedexes.json */,
+				E897E5F727F10F01004849EC /* pokemon_abilities.json */,
+				E897E63A27F10F02004849EC /* pokemon_color_names.json */,
+				E897E62127F10F02004849EC /* pokemon_colors.json */,
+				E897E5E927F10F00004849EC /* pokemon_dex_numbers.json */,
+				E897E63627F10F02004849EC /* pokemon_egg_groups.json */,
+				E897E5EA27F10F00004849EC /* pokemon_evolution.json */,
+				E897E64D27F10F03004849EC /* pokemon_form_generations.json */,
+				E897E65927F10F03004849EC /* pokemon_form_names.json */,
+				E897E61E27F10F02004849EC /* pokemon_form_pokeathlon_stats.json */,
+				E897E65627F10F03004849EC /* pokemon_form_types.json */,
+				E897E65F27F10F03004849EC /* pokemon_forms.json */,
+				E897E61127F10F01004849EC /* pokemon_game_indices.json */,
+				E897E61227F10F01004849EC /* pokemon_habitat_names.json */,
+				E897E61327F10F01004849EC /* pokemon_habitats.json */,
+				E897E66327F10F03004849EC /* pokemon_items.json */,
+				E897E63027F10F02004849EC /* pokemon_move_method_prose.json */,
+				E897E60727F10F01004849EC /* pokemon_move_methods.json */,
+				E897E63C27F10F02004849EC /* pokemon_moves.json */,
+				E897E5DE27F10F00004849EC /* pokemon_shape_prose.json */,
+				E897E61A27F10F02004849EC /* pokemon_shapes.json */,
+				E897E61F27F10F02004849EC /* pokemon_species_flavor_text.json */,
+				E897E65C27F10F03004849EC /* pokemon_species_names.json */,
+				E897E62427F10F02004849EC /* pokemon_species_prose.json */,
+				E897E62A27F10F02004849EC /* pokemon_species.json */,
+				E897E5FF27F10F01004849EC /* pokemon_stats.json */,
+				E897E5DD27F10F00004849EC /* pokemon_types_past.json */,
+				E897E66127F10F03004849EC /* pokemon_types.json */,
+				E897E65727F10F03004849EC /* pokemon.json */,
+				E897E62827F10F02004849EC /* region_names.json */,
+				E897E5F427F10F01004849EC /* regions.json */,
+				E897E60127F10F01004849EC /* stat_names.json */,
+				E897E65A27F10F03004849EC /* stats.json */,
+				E897E64F27F10F03004849EC /* super_contest_combos.json */,
+				E897E61627F10F01004849EC /* super_contest_effect_prose.json */,
+				E897E62F27F10F02004849EC /* super_contest_effects.json */,
+				E897E5EC27F10F00004849EC /* type_efficacy_past.json */,
+				E897E64827F10F03004849EC /* type_efficacy.json */,
+				E897E60B27F10F01004849EC /* type_game_indices.json */,
+				E897E61827F10F01004849EC /* type_names.json */,
+				E897E64B27F10F03004849EC /* types.json */,
+				E897E66727F10F03004849EC /* version_group_pokemon_move_methods.json */,
+				E897E65027F10F03004849EC /* version_group_regions.json */,
+				E897E64527F10F03004849EC /* version_groups.json */,
+				E897E60227F10F01004849EC /* version_names.json */,
+				E897E5E627F10F00004849EC /* versions.json */,
+			);
+			path = jsonData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E897E53827F0E9B3004849EC /* RealmDexGen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E897E54027F0E9B3004849EC /* Build configuration list for PBXNativeTarget "RealmDexGen" */;
+			buildPhases = (
+				E897E53527F0E9B3004849EC /* Sources */,
+				E897E53627F0E9B3004849EC /* Frameworks */,
+				E897E53727F0E9B3004849EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealmDexGen;
+			packageProductDependencies = (
+				E897E54C27F0EAC5004849EC /* Realm */,
+				E897E54E27F0EAC5004849EC /* RealmSwift */,
+			);
+			productName = RealmDexGen;
+			productReference = E897E53927F0E9B3004849EC /* RealmDexGen */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E897E53127F0E9B3004849EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E897E53827F0E9B3004849EC = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = E897E53427F0E9B3004849EC /* Build configuration list for PBXProject "RealmDexGen" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E897E53027F0E9B3004849EC;
+			packageReferences = (
+				E897E54B27F0EAC4004849EC /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = E897E53A27F0E9B3004849EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E897E53827F0E9B3004849EC /* RealmDexGen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E897E53527F0E9B3004849EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E897E54827F0E9D5004849EC /* main.swift in Sources */,
+				E897E54927F0E9D5004849EC /* loadData.swift in Sources */,
+				E897E54727F0E9D5004849EC /* RealmDataModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E897E53E27F0E9B3004849EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E897E53F27F0E9B3004849EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E897E54127F0E9B3004849EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27N85AU6XK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E897E54227F0E9B3004849EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27N85AU6XK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E897E53427F0E9B3004849EC /* Build configuration list for PBXProject "RealmDexGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E897E53E27F0E9B3004849EC /* Debug */,
+				E897E53F27F0E9B3004849EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E897E54027F0E9B3004849EC /* Build configuration list for PBXNativeTarget "RealmDexGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E897E54127F0E9B3004849EC /* Debug */,
+				E897E54227F0E9B3004849EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E897E54B27F0EAC4004849EC /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E897E54C27F0EAC5004849EC /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E897E54B27F0EAC4004849EC /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		E897E54E27F0EAC5004849EC /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E897E54B27F0EAC4004849EC /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E897E53127F0E9B3004849EC /* Project object */;
+}
