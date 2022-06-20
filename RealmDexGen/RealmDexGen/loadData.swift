@@ -832,8 +832,27 @@ func loadPokemonColors() {
 func loadPokemonDexNumbers() {
    for objectJSON in storedData["pokemon_dex_numbers"]! {
        let realmObject = PokemonDexNumber(value: objectJSON)
-        realmObject.species = realmDB.object(ofType: PokemonSpecies.self, forPrimaryKey: objectJSON["speciesId"])
+       
         realmObject.pokedex = realmDB.object(ofType: Pokedex.self, forPrimaryKey: objectJSON["pokedexId"])
+       
+       var pokemon = realmDB.object(ofType: Pokemon.self, forPrimaryKey: objectJSON["speciesId"])!
+       
+       // 16 - 25 is alola, check for alola forms
+       if realmObject.pokedex!.id >= 16 && realmObject.pokedex!.id <= 25 {
+           if let otherPokemon = realmDB.objects(Pokemon.self).filter({ $0.identifier ==  "\(pokemon.identifier)-alola"}).first {
+               pokemon = otherPokemon
+           }
+       }
+       
+       // 27 - 29 is galar, check for galar forms
+       if realmObject.pokedex!.id >= 27 && realmObject.pokedex!.id <= 29 {
+           if let otherPokemon = realmDB.objects(Pokemon.self).filter({ $0.identifier ==  "\(pokemon.identifier)-galar"}).first {
+               pokemon = otherPokemon
+           }
+       }
+       
+       realmObject.pokemon = pokemon
+       
        realmDB.add(realmObject)
    }
 }
@@ -850,7 +869,7 @@ func loadPokemonEggGroups() {
 func loadPokemonEvolution() {
    for objectJSON in storedData["pokemon_evolution"]! {
        let realmObject = PokemonEvolution(value: objectJSON)
-        realmObject.evolvedSpecies = realmDB.object(ofType: PokemonSpecies.self, forPrimaryKey: objectJSON["evolvedSpeciesId"] as? Int ?? 0)
+        realmObject.evolvedPokemon = realmDB.object(ofType: Pokemon.self, forPrimaryKey: objectJSON["evolvedSpeciesId"] as? Int ?? 0)
         realmObject.evolutionTrigger = realmDB.object(ofType: EvolutionTrigger.self, forPrimaryKey: objectJSON["evolutionTriggerId"] as? Int ?? 0)
         realmObject.triggerItem = realmDB.object(ofType: Item.self, forPrimaryKey: objectJSON["triggerItemId"] as? Int ?? 0)
         realmObject.gender = realmDB.object(ofType: Gender.self, forPrimaryKey: objectJSON["genderId"] as? Int ?? 0)

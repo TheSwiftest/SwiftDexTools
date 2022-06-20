@@ -15,9 +15,9 @@ realmDB.beginWrite()
 
 var storedData: StoredData = [:]
 
-let directoryContents = try! FileManager.default.contentsOfDirectory(atPath: "/Users/briancorbin/Programming/SwiftDexTools/csvToJSON/data/json")
+let directoryContents = try! FileManager.default.contentsOfDirectory(atPath: "/Users/briancorbin/Programming/SwiftDexTools/RealmDexGen/RealmDexGen/json")
 for fileName in directoryContents {
-    let url = URL(fileURLWithPath: fileName, relativeTo: URL(fileURLWithPath: "/Users/briancorbin/Programming/SwiftDexTools/csvToJSON/data/json"))
+    let url = URL(fileURLWithPath: fileName, relativeTo: URL(fileURLWithPath: "/Users/briancorbin/Programming/SwiftDexTools/RealmDexGen/RealmDexGen/json"))
     let data = try! Data(contentsOf: url)
     let json = try! JSONSerialization.jsonObject(with: data) as! [[String: Any]]
     storedData[fileName.replacingOccurrences(of: ".json", with: "")] = json

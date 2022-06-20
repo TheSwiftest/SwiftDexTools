@@ -894,12 +894,12 @@ class PokemonColor: Object {
 }
 
 class PokemonDexNumber: Object, Identifiable {
-    @Persisted var species: PokemonSpecies?
+    @Persisted var pokemon: Pokemon?
     @Persisted var pokedex: Pokedex?
     @Persisted var pokedexNumber: Int = 0
 
     var id: String {
-        return "\(pokedex!.id)-\(pokedexNumber)-\(species!.id)"
+        return "\(pokedex!.id)-\(pokedexNumber)-\(pokemon!.id)"
     }
 }
 
@@ -910,7 +910,7 @@ class PokemonEggGroup: Object {
 
 class PokemonEvolution: Object {
     @Persisted(primaryKey: true) var id = 0
-    @Persisted var evolvedSpecies: PokemonSpecies?
+    @Persisted var evolvedPokemon: Pokemon?
     @Persisted var evolutionTrigger: EvolutionTrigger?
     @Persisted var triggerItem: Item?
     @Persisted var minimumLevel: Int?
