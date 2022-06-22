@@ -1,0 +1,198 @@
+[
+    {
+        "pokemonShapeId": 1,
+        "localLanguageId": 5,
+        "name": "Balle",
+        "awesomeName": "Pomac\u00e9",
+        "description": "Pok\u00e9mon constitu\u00e9s uniquement d'une t\u00eate"
+    },
+    {
+        "pokemonShapeId": 1,
+        "localLanguageId": 9,
+        "name": "Ball",
+        "awesomeName": "Pomaceous",
+        "description": "Pok\u00e9mon consisting of only a head"
+    },
+    {
+        "pokemonShapeId": 2,
+        "localLanguageId": 5,
+        "name": "Sinueux",
+        "awesomeName": "Caudal",
+        "description": "Pok\u00e9mon avec un corps serpentin"
+    },
+    {
+        "pokemonShapeId": 2,
+        "localLanguageId": 9,
+        "name": "Squiggle",
+        "awesomeName": "Caudal",
+        "description": "Pok\u00e9mon with serpentine bodies"
+    },
+    {
+        "pokemonShapeId": 3,
+        "localLanguageId": 5,
+        "name": "Poisson",
+        "awesomeName": "Ichtyque",
+        "description": "Pok\u00e9mon disposant de nageoires"
+    },
+    {
+        "pokemonShapeId": 3,
+        "localLanguageId": 9,
+        "name": "Fish",
+        "awesomeName": "Ichthyic",
+        "description": "Pok\u00e9mon with fins"
+    },
+    {
+        "pokemonShapeId": 4,
+        "localLanguageId": 5,
+        "name": "Bras",
+        "awesomeName": "Brachial",
+        "description": "Pok\u00e9mon constitu\u00e9s d'une t\u00eate et de bras"
+    },
+    {
+        "pokemonShapeId": 4,
+        "localLanguageId": 9,
+        "name": "Arms",
+        "awesomeName": "Brachial",
+        "description": "Pok\u00e9mon consisting of a head and arms"
+    },
+    {
+        "pokemonShapeId": 5,
+        "localLanguageId": 5,
+        "name": "Goutte",
+        "awesomeName": "Alvin",
+        "description": "Pok\u00e9mon constitu\u00e9s d'une t\u00eate et d'un corps"
+    },
+    {
+        "pokemonShapeId": 5,
+        "localLanguageId": 9,
+        "name": "Blob",
+        "awesomeName": "Alvine",
+        "description": "Pok\u00e9mon consisting of a head and a base"
+    },
+    {
+        "pokemonShapeId": 6,
+        "localLanguageId": 5,
+        "name": "Droit",
+        "awesomeName": "Sciurine",
+        "description": "Pok\u00e9mon bip\u00e8des disposant d'une queue"
+    },
+    {
+        "pokemonShapeId": 6,
+        "localLanguageId": 9,
+        "name": "Upright",
+        "awesomeName": "Sciurine",
+        "description": "Pok\u00e9mon with a bipedal, tailed form"
+    },
+    {
+        "pokemonShapeId": 7,
+        "localLanguageId": 5,
+        "name": "Jambes",
+        "awesomeName": "Crural",
+        "description": "Pok\u00e9mon constitu\u00e9s d'une t\u00eate et de jambes"
+    },
+    {
+        "pokemonShapeId": 7,
+        "localLanguageId": 9,
+        "name": "Legs",
+        "awesomeName": "Crural",
+        "description": "Pok\u00e9mon consisting of a head and legs"
+    },
+    {
+        "pokemonShapeId": 8,
+        "localLanguageId": 5,
+        "name": "Quadrup\u00e8de",
+        "awesomeName": "Mensal",
+        "description": "Pok\u00e9mon quadrup\u00e8des"
+    },
+    {
+        "pokemonShapeId": 8,
+        "localLanguageId": 9,
+        "name": "Quadruped",
+        "awesomeName": "Mensal",
+        "description": "Pok\u00e9mon with a quadruped body"
+    },
+    {
+        "pokemonShapeId": 9,
+        "localLanguageId": 5,
+        "name": "Ailes",
+        "awesomeName": "Alaire",
+        "description": "Pok\u00e9mon avec une seule paire d'aile"
+    },
+    {
+        "pokemonShapeId": 9,
+        "localLanguageId": 9,
+        "name": "Wings",
+        "awesomeName": "Alar",
+        "description": "Pok\u00e9mon with a single pair of wings"
+    },
+    {
+        "pokemonShapeId": 10,
+        "localLanguageId": 5,
+        "name": "Tentacules",
+        "awesomeName": "Ciliaire",
+        "description": "Pok\u00e9mon avec des tentacules ou poss\u00e9dant de multiples pattes"
+    },
+    {
+        "pokemonShapeId": 10,
+        "localLanguageId": 9,
+        "name": "Tentacles",
+        "awesomeName": "Cilial",
+        "description": "Pok\u00e9mon with tentacles or a multiped body"
+    },
+    {
+        "pokemonShapeId": 11,
+        "localLanguageId": 5,
+        "name": "T\u00eates",
+        "awesomeName": "Polyc\u00e9phale",
+        "description": "Pok\u00e9mon avec un corps multiple"
+    },
+    {
+        "pokemonShapeId": 11,
+        "localLanguageId": 9,
+        "name": "Heads",
+        "awesomeName": "Polycephalic",
+        "description": "Pok\u00e9mon consisting of multiple bodies"
+    },
+    {
+        "pokemonShapeId": 12,
+        "localLanguageId": 5,
+        "name": "Humano\u00efde",
+        "awesomeName": "Anthropomorphique",
+        "description": "Pok\u00e9mon bip\u00e8des sans queue"
+    },
+    {
+        "pokemonShapeId": 12,
+        "localLanguageId": 9,
+        "name": "Humanoid",
+        "awesomeName": "Anthropomorphic",
+        "description": "Pok\u00e9mon with a bipedal, tailless form"
+    },
+    {
+        "pokemonShapeId": 13,
+        "localLanguageId": 5,
+        "name": "Ailes d'insecte",
+        "awesomeName": "L\u00e9pidopt\u00e8re",
+        "description": "Pok\u00e9mon avec deux paires d'ailes"
+    },
+    {
+        "pokemonShapeId": 13,
+        "localLanguageId": 9,
+        "name": "Bug wings",
+        "awesomeName": "Lepidopterous",
+        "description": "Pok\u00e9mon with two or more pairs of wings"
+    },
+    {
+        "pokemonShapeId": 14,
+        "localLanguageId": 5,
+        "name": "Armure",
+        "awesomeName": "Chitineux",
+        "description": "Pok\u00e9mon avec un corps insecto\u00efde"
+    },
+    {
+        "pokemonShapeId": 14,
+        "localLanguageId": 9,
+        "name": "Armor",
+        "awesomeName": "Chitinous",
+        "description": "Pok\u00e9mon with an insectoid body"
+    }
+]

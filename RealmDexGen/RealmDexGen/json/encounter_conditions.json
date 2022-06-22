@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "identifier": "swarm"
+    },
+    {
+        "id": 2,
+        "identifier": "time"
+    },
+    {
+        "id": 3,
+        "identifier": "radar"
+    },
+    {
+        "id": 4,
+        "identifier": "slot2"
+    },
+    {
+        "id": 5,
+        "identifier": "radio"
+    },
+    {
+        "id": 6,
+        "identifier": "season"
+    },
+    {
+        "id": 7,
+        "identifier": "starter"
+    },
+    {
+        "id": 8,
+        "identifier": "tv-option"
+    },
+    {
+        "id": 9,
+        "identifier": "story-progress"
+    },
+    {
+        "id": 10,
+        "identifier": "other"
+    }
+]

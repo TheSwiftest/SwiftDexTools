@@ -49,12 +49,9 @@ playground.xcworkspace
 .build/
 csvToJSON/data/.DS_Store
 
-*.csv
-
-*.json
-
 RealmDexGen/.DS_Store
 
 csvToJSON/.DS_Store
+csvToJSON/data/json/*
 
 .DS_Store

@@ -1,0 +1,282 @@
+[
+    {
+        "statId": 1,
+        "localLanguageId": 1,
+        "name": "HP"
+    },
+    {
+        "statId": 1,
+        "localLanguageId": 3,
+        "name": "HP"
+    },
+    {
+        "statId": 1,
+        "localLanguageId": 5,
+        "name": "PV"
+    },
+    {
+        "statId": 1,
+        "localLanguageId": 6,
+        "name": "KP"
+    },
+    {
+        "statId": 1,
+        "localLanguageId": 7,
+        "name": "PS"
+    },
+    {
+        "statId": 1,
+        "localLanguageId": 8,
+        "name": "PS"
+    },
+    {
+        "statId": 1,
+        "localLanguageId": 9,
+        "name": "HP"
+    },
+    {
+        "statId": 2,
+        "localLanguageId": 1,
+        "name": "\u3053\u3046\u3052\u304d"
+    },
+    {
+        "statId": 2,
+        "localLanguageId": 3,
+        "name": "\uacf5\uaca9"
+    },
+    {
+        "statId": 2,
+        "localLanguageId": 5,
+        "name": "Attaque"
+    },
+    {
+        "statId": 2,
+        "localLanguageId": 6,
+        "name": "Angriff"
+    },
+    {
+        "statId": 2,
+        "localLanguageId": 7,
+        "name": "Ataque"
+    },
+    {
+        "statId": 2,
+        "localLanguageId": 8,
+        "name": "Attacco"
+    },
+    {
+        "statId": 2,
+        "localLanguageId": 9,
+        "name": "Attack"
+    },
+    {
+        "statId": 3,
+        "localLanguageId": 1,
+        "name": "\u307c\u3046\u304e\u3087"
+    },
+    {
+        "statId": 3,
+        "localLanguageId": 3,
+        "name": "\ubc29\uc5b4"
+    },
+    {
+        "statId": 3,
+        "localLanguageId": 5,
+        "name": "D\u00e9fense"
+    },
+    {
+        "statId": 3,
+        "localLanguageId": 6,
+        "name": "Verteidigung"
+    },
+    {
+        "statId": 3,
+        "localLanguageId": 7,
+        "name": "Defensa"
+    },
+    {
+        "statId": 3,
+        "localLanguageId": 8,
+        "name": "Difesa"
+    },
+    {
+        "statId": 3,
+        "localLanguageId": 9,
+        "name": "Defense"
+    },
+    {
+        "statId": 4,
+        "localLanguageId": 1,
+        "name": "\u3068\u304f\u3053\u3046"
+    },
+    {
+        "statId": 4,
+        "localLanguageId": 3,
+        "name": "\ud2b9\uc218\uacf5\uaca9"
+    },
+    {
+        "statId": 4,
+        "localLanguageId": 5,
+        "name": "Attaque Sp\u00e9ciale"
+    },
+    {
+        "statId": 4,
+        "localLanguageId": 6,
+        "name": "Spezialangriff"
+    },
+    {
+        "statId": 4,
+        "localLanguageId": 7,
+        "name": "Ataque Especial"
+    },
+    {
+        "statId": 4,
+        "localLanguageId": 8,
+        "name": "Attacco Speciale"
+    },
+    {
+        "statId": 4,
+        "localLanguageId": 9,
+        "name": "Special Attack"
+    },
+    {
+        "statId": 5,
+        "localLanguageId": 1,
+        "name": "\u3068\u304f\u307c\u3046"
+    },
+    {
+        "statId": 5,
+        "localLanguageId": 3,
+        "name": "\ud2b9\uc218\ubc29\uc5b4"
+    },
+    {
+        "statId": 5,
+        "localLanguageId": 5,
+        "name": "D\u00e9fense Sp\u00e9ciale"
+    },
+    {
+        "statId": 5,
+        "localLanguageId": 6,
+        "name": "Spezialverteidigung"
+    },
+    {
+        "statId": 5,
+        "localLanguageId": 7,
+        "name": "Defensa Especial"
+    },
+    {
+        "statId": 5,
+        "localLanguageId": 8,
+        "name": "Difesa Speciale"
+    },
+    {
+        "statId": 5,
+        "localLanguageId": 9,
+        "name": "Special Defense"
+    },
+    {
+        "statId": 6,
+        "localLanguageId": 1,
+        "name": "\u3059\u3070\u3084\u3055"
+    },
+    {
+        "statId": 6,
+        "localLanguageId": 3,
+        "name": "\uc2a4\ud53c\ub4dc"
+    },
+    {
+        "statId": 6,
+        "localLanguageId": 5,
+        "name": "Vitesse"
+    },
+    {
+        "statId": 6,
+        "localLanguageId": 6,
+        "name": "Initiative"
+    },
+    {
+        "statId": 6,
+        "localLanguageId": 7,
+        "name": "Velocidad"
+    },
+    {
+        "statId": 6,
+        "localLanguageId": 8,
+        "name": "Velocit\u00e0"
+    },
+    {
+        "statId": 6,
+        "localLanguageId": 9,
+        "name": "Speed"
+    },
+    {
+        "statId": 7,
+        "localLanguageId": 1,
+        "name": "\u3081\u3044\u3061\u3085\u3046"
+    },
+    {
+        "statId": 7,
+        "localLanguageId": 3,
+        "name": "\uba85\uc911\ub960"
+    },
+    {
+        "statId": 7,
+        "localLanguageId": 5,
+        "name": "Pr\u00e9cision"
+    },
+    {
+        "statId": 7,
+        "localLanguageId": 6,
+        "name": "Genauigkeit"
+    },
+    {
+        "statId": 7,
+        "localLanguageId": 7,
+        "name": "Precisi\u00f3n"
+    },
+    {
+        "statId": 7,
+        "localLanguageId": 8,
+        "name": "precisione"
+    },
+    {
+        "statId": 7,
+        "localLanguageId": 9,
+        "name": "accuracy"
+    },
+    {
+        "statId": 8,
+        "localLanguageId": 1,
+        "name": "\u304b\u3044\u3072"
+    },
+    {
+        "statId": 8,
+        "localLanguageId": 3,
+        "name": "\ud68c\ud53c\uc728"
+    },
+    {
+        "statId": 8,
+        "localLanguageId": 5,
+        "name": "Esquive"
+    },
+    {
+        "statId": 8,
+        "localLanguageId": 6,
+        "name": "Fluchtwert"
+    },
+    {
+        "statId": 8,
+        "localLanguageId": 7,
+        "name": "Evasi\u00f3n"
+    },
+    {
+        "statId": 8,
+        "localLanguageId": 8,
+        "name": "elusione"
+    },
+    {
+        "statId": 8,
+        "localLanguageId": 9,
+        "name": "evasion"
+    }
+]

@@ -1,0 +1,297 @@
+[
+    {
+        "languageId": 1,
+        "localLanguageId": 1,
+        "name": "\u65e5\u672c\u8a9e"
+    },
+    {
+        "languageId": 1,
+        "localLanguageId": 3,
+        "name": "\uc77c\ubcf8\uc5b4"
+    },
+    {
+        "languageId": 1,
+        "localLanguageId": 5,
+        "name": "Japonais"
+    },
+    {
+        "languageId": 1,
+        "localLanguageId": 6,
+        "name": "Japanisch"
+    },
+    {
+        "languageId": 1,
+        "localLanguageId": 7,
+        "name": "Japon\u00e9s"
+    },
+    {
+        "languageId": 1,
+        "localLanguageId": 9,
+        "name": "Japanese"
+    },
+    {
+        "languageId": 2,
+        "localLanguageId": 1,
+        "name": "\u6b63\u5f0f\u30ed\u30fc\u30de\u30b8"
+    },
+    {
+        "languageId": 2,
+        "localLanguageId": 3,
+        "name": "\uc815\uc2dd \ub85c\ub9c8\uc790"
+    },
+    {
+        "languageId": 2,
+        "localLanguageId": 5,
+        "name": "Romaji"
+    },
+    {
+        "languageId": 2,
+        "localLanguageId": 6,
+        "name": "R\u014dmaji"
+    },
+    {
+        "languageId": 2,
+        "localLanguageId": 9,
+        "name": "Official roomaji"
+    },
+    {
+        "languageId": 3,
+        "localLanguageId": 1,
+        "name": "\u97d3\u56fd\u8a9e"
+    },
+    {
+        "languageId": 3,
+        "localLanguageId": 3,
+        "name": "\ud55c\uad6d\uc5b4"
+    },
+    {
+        "languageId": 3,
+        "localLanguageId": 5,
+        "name": "Cor\u00e9en"
+    },
+    {
+        "languageId": 3,
+        "localLanguageId": 6,
+        "name": "Koreanisch"
+    },
+    {
+        "languageId": 3,
+        "localLanguageId": 7,
+        "name": "Coreano"
+    },
+    {
+        "languageId": 3,
+        "localLanguageId": 9,
+        "name": "Korean"
+    },
+    {
+        "languageId": 4,
+        "localLanguageId": 1,
+        "name": "\u4e2d\u56fd\u8a9e"
+    },
+    {
+        "languageId": 4,
+        "localLanguageId": 3,
+        "name": "\uc911\uad6d\uc5b4"
+    },
+    {
+        "languageId": 4,
+        "localLanguageId": 5,
+        "name": "Chinois"
+    },
+    {
+        "languageId": 4,
+        "localLanguageId": 6,
+        "name": "Chinesisch"
+    },
+    {
+        "languageId": 4,
+        "localLanguageId": 7,
+        "name": "Chino"
+    },
+    {
+        "languageId": 4,
+        "localLanguageId": 9,
+        "name": "Chinese"
+    },
+    {
+        "languageId": 5,
+        "localLanguageId": 1,
+        "name": "\u30d5\u30e9\u30f3\u30b9\u8a9e"
+    },
+    {
+        "languageId": 5,
+        "localLanguageId": 3,
+        "name": "\ud504\ub791\uc2a4\uc5b4"
+    },
+    {
+        "languageId": 5,
+        "localLanguageId": 5,
+        "name": "Fran\u00e7ais"
+    },
+    {
+        "languageId": 5,
+        "localLanguageId": 6,
+        "name": "Franz\u00f6sisch"
+    },
+    {
+        "languageId": 5,
+        "localLanguageId": 7,
+        "name": "Franc\u00e9s"
+    },
+    {
+        "languageId": 5,
+        "localLanguageId": 9,
+        "name": "French"
+    },
+    {
+        "languageId": 6,
+        "localLanguageId": 1,
+        "name": "\u30c9\u30a4\u30c4\u8a9e"
+    },
+    {
+        "languageId": 6,
+        "localLanguageId": 3,
+        "name": "\ub3c4\uc774\uce58\uc5b4"
+    },
+    {
+        "languageId": 6,
+        "localLanguageId": 5,
+        "name": "Allemand"
+    },
+    {
+        "languageId": 6,
+        "localLanguageId": 6,
+        "name": "Deutsch"
+    },
+    {
+        "languageId": 6,
+        "localLanguageId": 7,
+        "name": "Alem\u00e1n"
+    },
+    {
+        "languageId": 6,
+        "localLanguageId": 9,
+        "name": "German"
+    },
+    {
+        "languageId": 7,
+        "localLanguageId": 1,
+        "name": "\u897f\u8a9e"
+    },
+    {
+        "languageId": 7,
+        "localLanguageId": 3,
+        "name": "\uc2a4\ud398\uc778\uc5b4"
+    },
+    {
+        "languageId": 7,
+        "localLanguageId": 5,
+        "name": "Espagnol"
+    },
+    {
+        "languageId": 7,
+        "localLanguageId": 6,
+        "name": "Spanisch"
+    },
+    {
+        "languageId": 7,
+        "localLanguageId": 7,
+        "name": "Espa\u00f1ol"
+    },
+    {
+        "languageId": 7,
+        "localLanguageId": 9,
+        "name": "Spanish"
+    },
+    {
+        "languageId": 8,
+        "localLanguageId": 1,
+        "name": "\u4f0a\u8a9e"
+    },
+    {
+        "languageId": 8,
+        "localLanguageId": 3,
+        "name": "\uc774\ud0c8\ub9ac\uc544\uc5b4"
+    },
+    {
+        "languageId": 8,
+        "localLanguageId": 5,
+        "name": "Italien"
+    },
+    {
+        "languageId": 8,
+        "localLanguageId": 6,
+        "name": "Italienisch"
+    },
+    {
+        "languageId": 8,
+        "localLanguageId": 7,
+        "name": "Italiano"
+    },
+    {
+        "languageId": 8,
+        "localLanguageId": 9,
+        "name": "Italian"
+    },
+    {
+        "languageId": 9,
+        "localLanguageId": 1,
+        "name": "\u82f1\u8a9e"
+    },
+    {
+        "languageId": 9,
+        "localLanguageId": 3,
+        "name": "\uc601\uc5b4"
+    },
+    {
+        "languageId": 9,
+        "localLanguageId": 5,
+        "name": "Anglais"
+    },
+    {
+        "languageId": 9,
+        "localLanguageId": 6,
+        "name": "Englisch"
+    },
+    {
+        "languageId": 9,
+        "localLanguageId": 7,
+        "name": "Ingl\u00e9s"
+    },
+    {
+        "languageId": 9,
+        "localLanguageId": 9,
+        "name": "English"
+    },
+    {
+        "languageId": 10,
+        "localLanguageId": 1,
+        "name": "\u30c1\u30a7\u30b3\u8a9e"
+    },
+    {
+        "languageId": 10,
+        "localLanguageId": 3,
+        "name": "\uccb4\ucf54\uc5b4"
+    },
+    {
+        "languageId": 10,
+        "localLanguageId": 5,
+        "name": "Tch\u00e8que"
+    },
+    {
+        "languageId": 10,
+        "localLanguageId": 6,
+        "name": "Tschechisch"
+    },
+    {
+        "languageId": 10,
+        "localLanguageId": 7,
+        "name": "Checo"
+    },
+    {
+        "languageId": 10,
+        "localLanguageId": 9,
+        "name": "Czech"
+    }
+]

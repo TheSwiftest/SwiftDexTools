@@ -1,0 +1,192 @@
+[
+    {
+        "regionId": 1,
+        "localLanguageId": 1,
+        "name": "\u30ab\u30f3\u30c8\u30fc\u5730\u65b9"
+    },
+    {
+        "regionId": 1,
+        "localLanguageId": 3,
+        "name": "\uad00\ub3d9\uc9c0\ubc29"
+    },
+    {
+        "regionId": 1,
+        "localLanguageId": 5,
+        "name": "Kanto"
+    },
+    {
+        "regionId": 1,
+        "localLanguageId": 6,
+        "name": "Kanto"
+    },
+    {
+        "regionId": 1,
+        "localLanguageId": 8,
+        "name": "Kanto"
+    },
+    {
+        "regionId": 1,
+        "localLanguageId": 9,
+        "name": "Kanto"
+    },
+    {
+        "regionId": 2,
+        "localLanguageId": 1,
+        "name": "\u30b8\u30e7\u30a6\u30c8\u5730\u65b9"
+    },
+    {
+        "regionId": 2,
+        "localLanguageId": 3,
+        "name": "\uc131\ub3c4\uc9c0\ubc29"
+    },
+    {
+        "regionId": 2,
+        "localLanguageId": 5,
+        "name": "Johto"
+    },
+    {
+        "regionId": 2,
+        "localLanguageId": 6,
+        "name": "Johto"
+    },
+    {
+        "regionId": 2,
+        "localLanguageId": 8,
+        "name": "Johto"
+    },
+    {
+        "regionId": 2,
+        "localLanguageId": 9,
+        "name": "Johto"
+    },
+    {
+        "regionId": 3,
+        "localLanguageId": 1,
+        "name": "\u30db\u30a6\u30a8\u30f3\u5730\u65b9"
+    },
+    {
+        "regionId": 3,
+        "localLanguageId": 3,
+        "name": "\ud638\uc5f0\uc9c0\ubc29"
+    },
+    {
+        "regionId": 3,
+        "localLanguageId": 5,
+        "name": "Hoenn"
+    },
+    {
+        "regionId": 3,
+        "localLanguageId": 6,
+        "name": "Hoenn"
+    },
+    {
+        "regionId": 3,
+        "localLanguageId": 8,
+        "name": "Hoenn"
+    },
+    {
+        "regionId": 3,
+        "localLanguageId": 9,
+        "name": "Hoenn"
+    },
+    {
+        "regionId": 4,
+        "localLanguageId": 1,
+        "name": "\u30b7\u30f3\u30aa\u30a6\u5730\u65b9"
+    },
+    {
+        "regionId": 4,
+        "localLanguageId": 3,
+        "name": "\uc2e0\uc624\uc9c0\ubc29"
+    },
+    {
+        "regionId": 4,
+        "localLanguageId": 5,
+        "name": "Sinnoh"
+    },
+    {
+        "regionId": 4,
+        "localLanguageId": 6,
+        "name": "Sinnoh"
+    },
+    {
+        "regionId": 4,
+        "localLanguageId": 8,
+        "name": "Sinnoh"
+    },
+    {
+        "regionId": 4,
+        "localLanguageId": 9,
+        "name": "Sinnoh"
+    },
+    {
+        "regionId": 5,
+        "localLanguageId": 1,
+        "name": "\u30a4\u30c3\u30b7\u30e5\u5730\u65b9"
+    },
+    {
+        "regionId": 5,
+        "localLanguageId": 3,
+        "name": "\ud558\ub098\uc9c0\ubc29"
+    },
+    {
+        "regionId": 5,
+        "localLanguageId": 5,
+        "name": "Unys"
+    },
+    {
+        "regionId": 5,
+        "localLanguageId": 6,
+        "name": "Einall"
+    },
+    {
+        "regionId": 5,
+        "localLanguageId": 8,
+        "name": "Unima"
+    },
+    {
+        "regionId": 5,
+        "localLanguageId": 9,
+        "name": "Unova"
+    },
+    {
+        "regionId": 6,
+        "localLanguageId": 1,
+        "name": "\u30ab\u30ed\u30b9\u5730\u65b9"
+    },
+    {
+        "regionId": 6,
+        "localLanguageId": 3,
+        "name": "\uce7c\ub85c\uc2a4\uc9c0\ubc29"
+    },
+    {
+        "regionId": 6,
+        "localLanguageId": 5,
+        "name": "Kalos"
+    },
+    {
+        "regionId": 6,
+        "localLanguageId": 6,
+        "name": "Kalos"
+    },
+    {
+        "regionId": 6,
+        "localLanguageId": 8,
+        "name": "Kalos"
+    },
+    {
+        "regionId": 6,
+        "localLanguageId": 9,
+        "name": "Kalos"
+    },
+    {
+        "regionId": 7,
+        "localLanguageId": 9,
+        "name": "Alola"
+    },
+    {
+        "regionId": 8,
+        "localLanguageId": 9,
+        "name": "Galar"
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "regionId": null,
+        "identifier": "national",
+        "isMainSeries": 1
+    },
+    {
+        "id": 2,
+        "regionId": 1,
+        "identifier": "kanto",
+        "isMainSeries": 1
+    },
+    {
+        "id": 3,
+        "regionId": 2,
+        "identifier": "original-johto",
+        "isMainSeries": 1
+    },
+    {
+        "id": 4,
+        "regionId": 3,
+        "identifier": "hoenn",
+        "isMainSeries": 1
+    },
+    {
+        "id": 5,
+        "regionId": 4,
+        "identifier": "original-sinnoh",
+        "isMainSeries": 1
+    },
+    {
+        "id": 6,
+        "regionId": 4,
+        "identifier": "extended-sinnoh",
+        "isMainSeries": 1
+    },
+    {
+        "id": 7,
+        "regionId": 2,
+        "identifier": "updated-johto",
+        "isMainSeries": 1
+    },
+    {
+        "id": 8,
+        "regionId": 5,
+        "identifier": "original-unova",
+        "isMainSeries": 1
+    },
+    {
+        "id": 9,
+        "regionId": 5,
+        "identifier": "updated-unova",
+        "isMainSeries": 1
+    },
+    {
+        "id": 11,
+        "regionId": null,
+        "identifier": "conquest-gallery",
+        "isMainSeries": 0
+    },
+    {
+        "id": 12,
+        "regionId": 6,
+        "identifier": "kalos-central",
+        "isMainSeries": 1
+    },
+    {
+        "id": 13,
+        "regionId": 6,
+        "identifier": "kalos-coastal",
+        "isMainSeries": 1
+    },
+    {
+        "id": 14,
+        "regionId": 6,
+        "identifier": "kalos-mountain",
+        "isMainSeries": 1
+    },
+    {
+        "id": 15,
+        "regionId": 3,
+        "identifier": "updated-hoenn",
+        "isMainSeries": 1
+    },
+    {
+        "id": 16,
+        "regionId": 7,
+        "identifier": "original-alola",
+        "isMainSeries": 1
+    },
+    {
+        "id": 17,
+        "regionId": 7,
+        "identifier": "original-melemele",
+        "isMainSeries": 1
+    },
+    {
+        "id": 18,
+        "regionId": 7,
+        "identifier": "original-akala",
+        "isMainSeries": 1
+    },
+    {
+        "id": 19,
+        "regionId": 7,
+        "identifier": "original-ulaula",
+        "isMainSeries": 1
+    },
+    {
+        "id": 20,
+        "regionId": 7,
+        "identifier": "original-poni",
+        "isMainSeries": 1
+    },
+    {
+        "id": 21,
+        "regionId": 7,
+        "identifier": "updated-alola",
+        "isMainSeries": 1
+    },
+    {
+        "id": 22,
+        "regionId": 7,
+        "identifier": "updated-melemele",
+        "isMainSeries": 1
+    },
+    {
+        "id": 23,
+        "regionId": 7,
+        "identifier": "updated-akala",
+        "isMainSeries": 1
+    },
+    {
+        "id": 24,
+        "regionId": 7,
+        "identifier": "updated-ulaula",
+        "isMainSeries": 1
+    },
+    {
+        "id": 25,
+        "regionId": 7,
+        "identifier": "updated-poni",
+        "isMainSeries": 1
+    },
+    {
+        "id": 26,
+        "regionId": 1,
+        "identifier": "letsgo-kanto",
+        "isMainSeries": 1
+    },
+    {
+        "id": 27,
+        "regionId": 8,
+        "identifier": "galar",
+        "isMainSeries": 1
+    },
+    {
+        "id": 28,
+        "regionId": 8,
+        "identifier": "isle-of-armor",
+        "isMainSeries": 1
+    },
+    {
+        "id": 29,
+        "regionId": 8,
+        "identifier": "crown-tundra",
+        "isMainSeries": 1
+    }
+]

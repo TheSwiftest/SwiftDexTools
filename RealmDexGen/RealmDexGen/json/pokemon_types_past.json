@@ -1,0 +1,218 @@
+[
+    {
+        "pokemonId": 35,
+        "generationId": 5,
+        "typeId": 1,
+        "slot": 1
+    },
+    {
+        "pokemonId": 36,
+        "generationId": 5,
+        "typeId": 1,
+        "slot": 1
+    },
+    {
+        "pokemonId": 39,
+        "generationId": 5,
+        "typeId": 1,
+        "slot": 1
+    },
+    {
+        "pokemonId": 40,
+        "generationId": 5,
+        "typeId": 1,
+        "slot": 1
+    },
+    {
+        "pokemonId": 81,
+        "generationId": 1,
+        "typeId": 13,
+        "slot": 1
+    },
+    {
+        "pokemonId": 82,
+        "generationId": 1,
+        "typeId": 13,
+        "slot": 1
+    },
+    {
+        "pokemonId": 122,
+        "generationId": 5,
+        "typeId": 14,
+        "slot": 1
+    },
+    {
+        "pokemonId": 173,
+        "generationId": 5,
+        "typeId": 1,
+        "slot": 1
+    },
+    {
+        "pokemonId": 174,
+        "generationId": 5,
+        "typeId": 1,
+        "slot": 1
+    },
+    {
+        "pokemonId": 175,
+        "generationId": 5,
+        "typeId": 1,
+        "slot": 1
+    },
+    {
+        "pokemonId": 176,
+        "generationId": 5,
+        "typeId": 1,
+        "slot": 1
+    },
+    {
+        "pokemonId": 176,
+        "generationId": 5,
+        "typeId": 3,
+        "slot": 2
+    },
+    {
+        "pokemonId": 183,
+        "generationId": 5,
+        "typeId": 11,
+        "slot": 1
+    },
+    {
+        "pokemonId": 184,
+        "generationId": 5,
+        "typeId": 11,
+        "slot": 1
+    },
+    {
+        "pokemonId": 209,
+        "generationId": 5,
+        "typeId": 1,
+        "slot": 1
+    },
+    {
+        "pokemonId": 210,
+        "generationId": 5,
+        "typeId": 1,
+        "slot": 1
+    },
+    {
+        "pokemonId": 280,
+        "generationId": 5,
+        "typeId": 14,
+        "slot": 1
+    },
+    {
+        "pokemonId": 281,
+        "generationId": 5,
+        "typeId": 14,
+        "slot": 1
+    },
+    {
+        "pokemonId": 282,
+        "generationId": 5,
+        "typeId": 14,
+        "slot": 1
+    },
+    {
+        "pokemonId": 298,
+        "generationId": 5,
+        "typeId": 1,
+        "slot": 1
+    },
+    {
+        "pokemonId": 303,
+        "generationId": 5,
+        "typeId": 9,
+        "slot": 1
+    },
+    {
+        "pokemonId": 439,
+        "generationId": 5,
+        "typeId": 14,
+        "slot": 1
+    },
+    {
+        "pokemonId": 468,
+        "generationId": 5,
+        "typeId": 1,
+        "slot": 1
+    },
+    {
+        "pokemonId": 468,
+        "generationId": 5,
+        "typeId": 3,
+        "slot": 2
+    },
+    {
+        "pokemonId": 546,
+        "generationId": 5,
+        "typeId": 12,
+        "slot": 1
+    },
+    {
+        "pokemonId": 547,
+        "generationId": 5,
+        "typeId": 12,
+        "slot": 1
+    },
+    {
+        "pokemonId": 10008,
+        "generationId": 4,
+        "typeId": 13,
+        "slot": 1
+    },
+    {
+        "pokemonId": 10008,
+        "generationId": 4,
+        "typeId": 8,
+        "slot": 2
+    },
+    {
+        "pokemonId": 10009,
+        "generationId": 4,
+        "typeId": 13,
+        "slot": 1
+    },
+    {
+        "pokemonId": 10009,
+        "generationId": 4,
+        "typeId": 8,
+        "slot": 2
+    },
+    {
+        "pokemonId": 10010,
+        "generationId": 4,
+        "typeId": 13,
+        "slot": 1
+    },
+    {
+        "pokemonId": 10010,
+        "generationId": 4,
+        "typeId": 8,
+        "slot": 2
+    },
+    {
+        "pokemonId": 10011,
+        "generationId": 4,
+        "typeId": 13,
+        "slot": 1
+    },
+    {
+        "pokemonId": 10011,
+        "generationId": 4,
+        "typeId": 8,
+        "slot": 2
+    },
+    {
+        "pokemonId": 10012,
+        "generationId": 4,
+        "typeId": 13,
+        "slot": 1
+    },
+    {
+        "pokemonId": 10012,
+        "generationId": 4,
+        "typeId": 8,
+        "slot": 2
+    }
+]

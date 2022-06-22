@@ -1,0 +1,1072 @@
+[
+    {
+        "versionId": 1,
+        "localLanguageId": 1,
+        "name": "\u8d64"
+    },
+    {
+        "versionId": 1,
+        "localLanguageId": 3,
+        "name": "\ub808\ub4dc"
+    },
+    {
+        "versionId": 1,
+        "localLanguageId": 5,
+        "name": "Rouge"
+    },
+    {
+        "versionId": 1,
+        "localLanguageId": 6,
+        "name": "Rot"
+    },
+    {
+        "versionId": 1,
+        "localLanguageId": 7,
+        "name": "Rojo"
+    },
+    {
+        "versionId": 1,
+        "localLanguageId": 8,
+        "name": "Rossa"
+    },
+    {
+        "versionId": 1,
+        "localLanguageId": 9,
+        "name": "Red"
+    },
+    {
+        "versionId": 2,
+        "localLanguageId": 1,
+        "name": "\u7dd1"
+    },
+    {
+        "versionId": 2,
+        "localLanguageId": 3,
+        "name": "\ube14\ub8e8"
+    },
+    {
+        "versionId": 2,
+        "localLanguageId": 5,
+        "name": "Bleu"
+    },
+    {
+        "versionId": 2,
+        "localLanguageId": 6,
+        "name": "Blau"
+    },
+    {
+        "versionId": 2,
+        "localLanguageId": 7,
+        "name": "Azul"
+    },
+    {
+        "versionId": 2,
+        "localLanguageId": 8,
+        "name": "Blu"
+    },
+    {
+        "versionId": 2,
+        "localLanguageId": 9,
+        "name": "Blue"
+    },
+    {
+        "versionId": 3,
+        "localLanguageId": 1,
+        "name": "\u30d4\u30ab\u30c1\u30e5\u30a6"
+    },
+    {
+        "versionId": 3,
+        "localLanguageId": 3,
+        "name": "\ud53c\uce74\uce04"
+    },
+    {
+        "versionId": 3,
+        "localLanguageId": 5,
+        "name": "Jaune"
+    },
+    {
+        "versionId": 3,
+        "localLanguageId": 6,
+        "name": "Gelb"
+    },
+    {
+        "versionId": 3,
+        "localLanguageId": 7,
+        "name": "Amarillo"
+    },
+    {
+        "versionId": 3,
+        "localLanguageId": 8,
+        "name": "Gialla"
+    },
+    {
+        "versionId": 3,
+        "localLanguageId": 9,
+        "name": "Yellow"
+    },
+    {
+        "versionId": 4,
+        "localLanguageId": 1,
+        "name": "\u91d1"
+    },
+    {
+        "versionId": 4,
+        "localLanguageId": 3,
+        "name": "\uace8\ub4dc"
+    },
+    {
+        "versionId": 4,
+        "localLanguageId": 5,
+        "name": "Or"
+    },
+    {
+        "versionId": 4,
+        "localLanguageId": 6,
+        "name": "Gold"
+    },
+    {
+        "versionId": 4,
+        "localLanguageId": 7,
+        "name": "Oro"
+    },
+    {
+        "versionId": 4,
+        "localLanguageId": 8,
+        "name": "Oro"
+    },
+    {
+        "versionId": 4,
+        "localLanguageId": 9,
+        "name": "Gold"
+    },
+    {
+        "versionId": 5,
+        "localLanguageId": 1,
+        "name": "\u9280"
+    },
+    {
+        "versionId": 5,
+        "localLanguageId": 3,
+        "name": "\uc2e4\ubc84"
+    },
+    {
+        "versionId": 5,
+        "localLanguageId": 5,
+        "name": "Argent"
+    },
+    {
+        "versionId": 5,
+        "localLanguageId": 6,
+        "name": "Silber"
+    },
+    {
+        "versionId": 5,
+        "localLanguageId": 7,
+        "name": "Plata"
+    },
+    {
+        "versionId": 5,
+        "localLanguageId": 8,
+        "name": "Argento"
+    },
+    {
+        "versionId": 5,
+        "localLanguageId": 9,
+        "name": "Silver"
+    },
+    {
+        "versionId": 6,
+        "localLanguageId": 1,
+        "name": "\u30af\u30ea\u30b9\u30bf\u30eb"
+    },
+    {
+        "versionId": 6,
+        "localLanguageId": 3,
+        "name": "\ud06c\ub9ac\uc2a4\ud0c8"
+    },
+    {
+        "versionId": 6,
+        "localLanguageId": 5,
+        "name": "Cristal"
+    },
+    {
+        "versionId": 6,
+        "localLanguageId": 6,
+        "name": "Kristall"
+    },
+    {
+        "versionId": 6,
+        "localLanguageId": 7,
+        "name": "Cristal"
+    },
+    {
+        "versionId": 6,
+        "localLanguageId": 8,
+        "name": "Cristallo"
+    },
+    {
+        "versionId": 6,
+        "localLanguageId": 9,
+        "name": "Crystal"
+    },
+    {
+        "versionId": 7,
+        "localLanguageId": 1,
+        "name": "\u30eb\u30d3\u30fc"
+    },
+    {
+        "versionId": 7,
+        "localLanguageId": 3,
+        "name": "\ub8e8\ube44"
+    },
+    {
+        "versionId": 7,
+        "localLanguageId": 5,
+        "name": "Rubis"
+    },
+    {
+        "versionId": 7,
+        "localLanguageId": 6,
+        "name": "Rubin"
+    },
+    {
+        "versionId": 7,
+        "localLanguageId": 7,
+        "name": "Rub\u00ed"
+    },
+    {
+        "versionId": 7,
+        "localLanguageId": 8,
+        "name": "Rubino"
+    },
+    {
+        "versionId": 7,
+        "localLanguageId": 9,
+        "name": "Ruby"
+    },
+    {
+        "versionId": 8,
+        "localLanguageId": 1,
+        "name": "\u30b5\u30d5\u30a1\u30a4\u30a2"
+    },
+    {
+        "versionId": 8,
+        "localLanguageId": 3,
+        "name": "\uc0ac\ud30c\uc774\uc5b4"
+    },
+    {
+        "versionId": 8,
+        "localLanguageId": 5,
+        "name": "Saphir"
+    },
+    {
+        "versionId": 8,
+        "localLanguageId": 6,
+        "name": "Saphir"
+    },
+    {
+        "versionId": 8,
+        "localLanguageId": 7,
+        "name": "Zafiro"
+    },
+    {
+        "versionId": 8,
+        "localLanguageId": 8,
+        "name": "Zaffiro"
+    },
+    {
+        "versionId": 8,
+        "localLanguageId": 9,
+        "name": "Sapphire"
+    },
+    {
+        "versionId": 9,
+        "localLanguageId": 1,
+        "name": "\u30a8\u30e1\u30e9\u30eb\u30c9"
+    },
+    {
+        "versionId": 9,
+        "localLanguageId": 3,
+        "name": "\uc5d0\uba54\ub784\ub4dc"
+    },
+    {
+        "versionId": 9,
+        "localLanguageId": 5,
+        "name": "\u00c9meraude"
+    },
+    {
+        "versionId": 9,
+        "localLanguageId": 6,
+        "name": "Smaragd"
+    },
+    {
+        "versionId": 9,
+        "localLanguageId": 7,
+        "name": "Esmeralda"
+    },
+    {
+        "versionId": 9,
+        "localLanguageId": 8,
+        "name": "Smeraldo"
+    },
+    {
+        "versionId": 9,
+        "localLanguageId": 9,
+        "name": "Emerald"
+    },
+    {
+        "versionId": 10,
+        "localLanguageId": 1,
+        "name": "\u30d5\u30a1\u30a4\u30a2\u30ec\u30c3\u30c9"
+    },
+    {
+        "versionId": 10,
+        "localLanguageId": 3,
+        "name": "\ud30c\uc774\uc5b4\ub808\ub4dc"
+    },
+    {
+        "versionId": 10,
+        "localLanguageId": 5,
+        "name": "Rouge Feu"
+    },
+    {
+        "versionId": 10,
+        "localLanguageId": 6,
+        "name": "Feuerrot"
+    },
+    {
+        "versionId": 10,
+        "localLanguageId": 7,
+        "name": "Rojo Fuego"
+    },
+    {
+        "versionId": 10,
+        "localLanguageId": 8,
+        "name": "Rosso Fuoco"
+    },
+    {
+        "versionId": 10,
+        "localLanguageId": 9,
+        "name": "FireRed"
+    },
+    {
+        "versionId": 11,
+        "localLanguageId": 1,
+        "name": "\u30ea\u30fc\u30d5\u30b0\u30ea\u30fc\u30f3"
+    },
+    {
+        "versionId": 11,
+        "localLanguageId": 3,
+        "name": "\ub9ac\ud504\uadf8\ub9b0"
+    },
+    {
+        "versionId": 11,
+        "localLanguageId": 5,
+        "name": "Vert Feuille"
+    },
+    {
+        "versionId": 11,
+        "localLanguageId": 6,
+        "name": "Blattgr\u00fcn"
+    },
+    {
+        "versionId": 11,
+        "localLanguageId": 7,
+        "name": "Verde Hoja"
+    },
+    {
+        "versionId": 11,
+        "localLanguageId": 8,
+        "name": "Verde Foglia"
+    },
+    {
+        "versionId": 11,
+        "localLanguageId": 9,
+        "name": "LeafGreen"
+    },
+    {
+        "versionId": 12,
+        "localLanguageId": 1,
+        "name": "\u30c0\u30a4\u30e4\u30e2\u30f3\u30c9"
+    },
+    {
+        "versionId": 12,
+        "localLanguageId": 3,
+        "name": "\ub514\uc544\ub8e8\uac00"
+    },
+    {
+        "versionId": 12,
+        "localLanguageId": 5,
+        "name": "Diamant"
+    },
+    {
+        "versionId": 12,
+        "localLanguageId": 6,
+        "name": "Diamant"
+    },
+    {
+        "versionId": 12,
+        "localLanguageId": 7,
+        "name": "Diamante"
+    },
+    {
+        "versionId": 12,
+        "localLanguageId": 8,
+        "name": "Diamante"
+    },
+    {
+        "versionId": 12,
+        "localLanguageId": 9,
+        "name": "Diamond"
+    },
+    {
+        "versionId": 13,
+        "localLanguageId": 1,
+        "name": "\u30d1\u30fc\u30eb"
+    },
+    {
+        "versionId": 13,
+        "localLanguageId": 3,
+        "name": "\ud384\uae30\uc544"
+    },
+    {
+        "versionId": 13,
+        "localLanguageId": 5,
+        "name": "Perle"
+    },
+    {
+        "versionId": 13,
+        "localLanguageId": 6,
+        "name": "Perl"
+    },
+    {
+        "versionId": 13,
+        "localLanguageId": 7,
+        "name": "Perla"
+    },
+    {
+        "versionId": 13,
+        "localLanguageId": 8,
+        "name": "Perla"
+    },
+    {
+        "versionId": 13,
+        "localLanguageId": 9,
+        "name": "Pearl"
+    },
+    {
+        "versionId": 14,
+        "localLanguageId": 1,
+        "name": "\u30d7\u30e9\u30c1\u30ca"
+    },
+    {
+        "versionId": 14,
+        "localLanguageId": 3,
+        "name": "\uae30\ub77c\ud2f0\ub098"
+    },
+    {
+        "versionId": 14,
+        "localLanguageId": 5,
+        "name": "Platine"
+    },
+    {
+        "versionId": 14,
+        "localLanguageId": 6,
+        "name": "Platin"
+    },
+    {
+        "versionId": 14,
+        "localLanguageId": 7,
+        "name": "Platino"
+    },
+    {
+        "versionId": 14,
+        "localLanguageId": 8,
+        "name": "Platino"
+    },
+    {
+        "versionId": 14,
+        "localLanguageId": 9,
+        "name": "Platinum"
+    },
+    {
+        "versionId": 15,
+        "localLanguageId": 1,
+        "name": "\u30cf\u30fc\u30c8\u30b4\u30fc\u30eb\u30c9"
+    },
+    {
+        "versionId": 15,
+        "localLanguageId": 3,
+        "name": "\ud558\ud2b8\uace8\ub4dc"
+    },
+    {
+        "versionId": 15,
+        "localLanguageId": 5,
+        "name": "Or HeartGold"
+    },
+    {
+        "versionId": 15,
+        "localLanguageId": 6,
+        "name": "HeartGold"
+    },
+    {
+        "versionId": 15,
+        "localLanguageId": 7,
+        "name": "Oro HeartGold"
+    },
+    {
+        "versionId": 15,
+        "localLanguageId": 8,
+        "name": "Oro HeartGold"
+    },
+    {
+        "versionId": 15,
+        "localLanguageId": 9,
+        "name": "HeartGold"
+    },
+    {
+        "versionId": 16,
+        "localLanguageId": 1,
+        "name": "\u30bd\u30a6\u30eb\u30b7\u30eb\u30d0\u30fc"
+    },
+    {
+        "versionId": 16,
+        "localLanguageId": 3,
+        "name": "\uc18c\uc6b8\uc2e4\ubc84"
+    },
+    {
+        "versionId": 16,
+        "localLanguageId": 5,
+        "name": "Argent SoulSilver"
+    },
+    {
+        "versionId": 16,
+        "localLanguageId": 6,
+        "name": "SoulSilver"
+    },
+    {
+        "versionId": 16,
+        "localLanguageId": 7,
+        "name": "Plata SoulSilver"
+    },
+    {
+        "versionId": 16,
+        "localLanguageId": 8,
+        "name": "Argento SoulSilver"
+    },
+    {
+        "versionId": 16,
+        "localLanguageId": 9,
+        "name": "SoulSilver"
+    },
+    {
+        "versionId": 17,
+        "localLanguageId": 1,
+        "name": "\u30d6\u30e9\u30c3\u30af"
+    },
+    {
+        "versionId": 17,
+        "localLanguageId": 3,
+        "name": "\ube14\ub799"
+    },
+    {
+        "versionId": 17,
+        "localLanguageId": 5,
+        "name": "Noir"
+    },
+    {
+        "versionId": 17,
+        "localLanguageId": 6,
+        "name": "Schwarz"
+    },
+    {
+        "versionId": 17,
+        "localLanguageId": 7,
+        "name": "Negro"
+    },
+    {
+        "versionId": 17,
+        "localLanguageId": 8,
+        "name": "Nera"
+    },
+    {
+        "versionId": 17,
+        "localLanguageId": 9,
+        "name": "Black"
+    },
+    {
+        "versionId": 18,
+        "localLanguageId": 1,
+        "name": "\u30db\u30ef\u30a4\u30c8"
+    },
+    {
+        "versionId": 18,
+        "localLanguageId": 3,
+        "name": "\ud654\uc774\ud2b8"
+    },
+    {
+        "versionId": 18,
+        "localLanguageId": 5,
+        "name": "Blanc"
+    },
+    {
+        "versionId": 18,
+        "localLanguageId": 6,
+        "name": "Wei\u00df"
+    },
+    {
+        "versionId": 18,
+        "localLanguageId": 7,
+        "name": "Blanco"
+    },
+    {
+        "versionId": 18,
+        "localLanguageId": 8,
+        "name": "Bianca"
+    },
+    {
+        "versionId": 18,
+        "localLanguageId": 9,
+        "name": "White"
+    },
+    {
+        "versionId": 19,
+        "localLanguageId": 1,
+        "name": "\u30b3\u30ed\u30b7\u30a2\u30e0"
+    },
+    {
+        "versionId": 19,
+        "localLanguageId": 3,
+        "name": "\ucf5c\ub85c\uc138\uc6c0"
+    },
+    {
+        "versionId": 19,
+        "localLanguageId": 5,
+        "name": "Colosseum"
+    },
+    {
+        "versionId": 19,
+        "localLanguageId": 6,
+        "name": "Colosseum"
+    },
+    {
+        "versionId": 19,
+        "localLanguageId": 7,
+        "name": "Colosseum"
+    },
+    {
+        "versionId": 19,
+        "localLanguageId": 8,
+        "name": "Colosseum"
+    },
+    {
+        "versionId": 19,
+        "localLanguageId": 9,
+        "name": "Colosseum"
+    },
+    {
+        "versionId": 20,
+        "localLanguageId": 1,
+        "name": "XD"
+    },
+    {
+        "versionId": 20,
+        "localLanguageId": 3,
+        "name": "XD"
+    },
+    {
+        "versionId": 20,
+        "localLanguageId": 5,
+        "name": "XD"
+    },
+    {
+        "versionId": 20,
+        "localLanguageId": 6,
+        "name": "XD"
+    },
+    {
+        "versionId": 20,
+        "localLanguageId": 7,
+        "name": "XD"
+    },
+    {
+        "versionId": 20,
+        "localLanguageId": 8,
+        "name": "XD"
+    },
+    {
+        "versionId": 20,
+        "localLanguageId": 9,
+        "name": "XD"
+    },
+    {
+        "versionId": 21,
+        "localLanguageId": 1,
+        "name": "\u30d6\u30e9\u30c3\u30af2"
+    },
+    {
+        "versionId": 21,
+        "localLanguageId": 3,
+        "name": "\ube14\ub799 2"
+    },
+    {
+        "versionId": 21,
+        "localLanguageId": 5,
+        "name": "Noir 2"
+    },
+    {
+        "versionId": 21,
+        "localLanguageId": 6,
+        "name": "Schwarz 2"
+    },
+    {
+        "versionId": 21,
+        "localLanguageId": 7,
+        "name": "Negro 2"
+    },
+    {
+        "versionId": 21,
+        "localLanguageId": 8,
+        "name": "Nera 2"
+    },
+    {
+        "versionId": 21,
+        "localLanguageId": 9,
+        "name": "Black 2"
+    },
+    {
+        "versionId": 22,
+        "localLanguageId": 1,
+        "name": "\u30db\u30ef\u30a4\u30c82"
+    },
+    {
+        "versionId": 22,
+        "localLanguageId": 3,
+        "name": "\ud654\uc774\ud2b8 2"
+    },
+    {
+        "versionId": 22,
+        "localLanguageId": 5,
+        "name": "Blanc 2"
+    },
+    {
+        "versionId": 22,
+        "localLanguageId": 6,
+        "name": "Wei\u00df 2"
+    },
+    {
+        "versionId": 22,
+        "localLanguageId": 7,
+        "name": "Blanco 2"
+    },
+    {
+        "versionId": 22,
+        "localLanguageId": 8,
+        "name": "Bianca 2"
+    },
+    {
+        "versionId": 22,
+        "localLanguageId": 9,
+        "name": "White 2"
+    },
+    {
+        "versionId": 23,
+        "localLanguageId": 1,
+        "name": "X"
+    },
+    {
+        "versionId": 23,
+        "localLanguageId": 3,
+        "name": "X"
+    },
+    {
+        "versionId": 23,
+        "localLanguageId": 5,
+        "name": "X"
+    },
+    {
+        "versionId": 23,
+        "localLanguageId": 6,
+        "name": "X"
+    },
+    {
+        "versionId": 23,
+        "localLanguageId": 7,
+        "name": "X"
+    },
+    {
+        "versionId": 23,
+        "localLanguageId": 8,
+        "name": "X"
+    },
+    {
+        "versionId": 23,
+        "localLanguageId": 9,
+        "name": "X"
+    },
+    {
+        "versionId": 24,
+        "localLanguageId": 1,
+        "name": "Y"
+    },
+    {
+        "versionId": 24,
+        "localLanguageId": 3,
+        "name": "Y"
+    },
+    {
+        "versionId": 24,
+        "localLanguageId": 5,
+        "name": "Y"
+    },
+    {
+        "versionId": 24,
+        "localLanguageId": 6,
+        "name": "Y"
+    },
+    {
+        "versionId": 24,
+        "localLanguageId": 7,
+        "name": "Y"
+    },
+    {
+        "versionId": 24,
+        "localLanguageId": 8,
+        "name": "Y"
+    },
+    {
+        "versionId": 24,
+        "localLanguageId": 9,
+        "name": "Y"
+    },
+    {
+        "versionId": 25,
+        "localLanguageId": 1,
+        "name": "\u30aa\u30e1\u30ac\u30eb\u30d3\u30fc"
+    },
+    {
+        "versionId": 25,
+        "localLanguageId": 3,
+        "name": "\uc624\uba54\uac00\ub8e8\ube44"
+    },
+    {
+        "versionId": 25,
+        "localLanguageId": 5,
+        "name": "Rubis Om\u00e9ga"
+    },
+    {
+        "versionId": 25,
+        "localLanguageId": 6,
+        "name": "Omega Rubin"
+    },
+    {
+        "versionId": 25,
+        "localLanguageId": 7,
+        "name": "Rub\u00ed Omega"
+    },
+    {
+        "versionId": 25,
+        "localLanguageId": 8,
+        "name": "Rubino Omega"
+    },
+    {
+        "versionId": 25,
+        "localLanguageId": 9,
+        "name": "Omega Ruby"
+    },
+    {
+        "versionId": 26,
+        "localLanguageId": 1,
+        "name": "\u30a2\u30eb\u30d5\u30a1\u30b5\u30d5\u30a1\u30a4\u30a2"
+    },
+    {
+        "versionId": 26,
+        "localLanguageId": 3,
+        "name": "\uc54c\ud30c\uc0ac\ud30c\uc774\uc5b4"
+    },
+    {
+        "versionId": 26,
+        "localLanguageId": 5,
+        "name": "Saphir Alpha"
+    },
+    {
+        "versionId": 26,
+        "localLanguageId": 6,
+        "name": "Alpha Saphir"
+    },
+    {
+        "versionId": 26,
+        "localLanguageId": 7,
+        "name": "Zafiro Alfa"
+    },
+    {
+        "versionId": 26,
+        "localLanguageId": 8,
+        "name": "Zaffiro Alpha"
+    },
+    {
+        "versionId": 26,
+        "localLanguageId": 9,
+        "name": "Alpha Sapphire"
+    },
+    {
+        "versionId": 27,
+        "localLanguageId": 1,
+        "name": "\u30b5\u30f3"
+    },
+    {
+        "versionId": 27,
+        "localLanguageId": 3,
+        "name": "\uc36c"
+    },
+    {
+        "versionId": 27,
+        "localLanguageId": 5,
+        "name": "Soleil"
+    },
+    {
+        "versionId": 27,
+        "localLanguageId": 6,
+        "name": "Sonne"
+    },
+    {
+        "versionId": 27,
+        "localLanguageId": 7,
+        "name": "Sol"
+    },
+    {
+        "versionId": 27,
+        "localLanguageId": 8,
+        "name": "Sole"
+    },
+    {
+        "versionId": 27,
+        "localLanguageId": 9,
+        "name": "Sun"
+    },
+    {
+        "versionId": 28,
+        "localLanguageId": 1,
+        "name": "\u30e0\u30fc\u30f3"
+    },
+    {
+        "versionId": 28,
+        "localLanguageId": 3,
+        "name": "\ubb38"
+    },
+    {
+        "versionId": 28,
+        "localLanguageId": 5,
+        "name": "Lune"
+    },
+    {
+        "versionId": 28,
+        "localLanguageId": 6,
+        "name": "Mond"
+    },
+    {
+        "versionId": 28,
+        "localLanguageId": 7,
+        "name": "Luna"
+    },
+    {
+        "versionId": 28,
+        "localLanguageId": 8,
+        "name": "Luna"
+    },
+    {
+        "versionId": 28,
+        "localLanguageId": 9,
+        "name": "Moon"
+    },
+    {
+        "versionId": 29,
+        "localLanguageId": 1,
+        "name": "\u30a6\u30eb\u30c8\u30e9\u30b5\u30f3"
+    },
+    {
+        "versionId": 29,
+        "localLanguageId": 3,
+        "name": "\uc6b8\ud2b8\ub77c\uc36c"
+    },
+    {
+        "versionId": 29,
+        "localLanguageId": 5,
+        "name": "Ultra-Soleil"
+    },
+    {
+        "versionId": 29,
+        "localLanguageId": 6,
+        "name": "Ultrasonne"
+    },
+    {
+        "versionId": 29,
+        "localLanguageId": 7,
+        "name": "Ultrasol"
+    },
+    {
+        "versionId": 29,
+        "localLanguageId": 8,
+        "name": "Ultrasole"
+    },
+    {
+        "versionId": 29,
+        "localLanguageId": 9,
+        "name": "Ultra Sun"
+    },
+    {
+        "versionId": 30,
+        "localLanguageId": 1,
+        "name": "\u30a6\u30eb\u30c8\u30e9\u30e0\u30fc\u30f3"
+    },
+    {
+        "versionId": 30,
+        "localLanguageId": 3,
+        "name": "\uc6b8\ud2b8\ub77c\ubb38"
+    },
+    {
+        "versionId": 30,
+        "localLanguageId": 5,
+        "name": "Ultra-Lune"
+    },
+    {
+        "versionId": 30,
+        "localLanguageId": 6,
+        "name": "Ultramond"
+    },
+    {
+        "versionId": 30,
+        "localLanguageId": 7,
+        "name": "Ultraluna"
+    },
+    {
+        "versionId": 30,
+        "localLanguageId": 8,
+        "name": "Ultraluna"
+    },
+    {
+        "versionId": 30,
+        "localLanguageId": 9,
+        "name": "Ultra Moon"
+    },
+    {
+        "versionId": 31,
+        "localLanguageId": 9,
+        "name": "Let\u2019s Go, Pikachu!"
+    },
+    {
+        "versionId": 32,
+        "localLanguageId": 9,
+        "name": "Let\u2019s Go, Eevee!"
+    },
+    {
+        "versionId": 33,
+        "localLanguageId": 9,
+        "name": "Sword"
+    },
+    {
+        "versionId": 34,
+        "localLanguageId": 9,
+        "name": "Shield"
+    }
+]

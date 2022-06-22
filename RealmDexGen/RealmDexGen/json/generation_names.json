@@ -1,0 +1,252 @@
+[
+    {
+        "generationId": 1,
+        "localLanguageId": 1,
+        "name": "\u3060\u3044\u3044\u3061\u305b\u3060\u3044"
+    },
+    {
+        "generationId": 1,
+        "localLanguageId": 3,
+        "name": "1\uc138\ub300"
+    },
+    {
+        "generationId": 1,
+        "localLanguageId": 5,
+        "name": "G\u00e9n\u00e9ration I"
+    },
+    {
+        "generationId": 1,
+        "localLanguageId": 6,
+        "name": "Generation I"
+    },
+    {
+        "generationId": 1,
+        "localLanguageId": 7,
+        "name": "Generaci\u00f3n I"
+    },
+    {
+        "generationId": 1,
+        "localLanguageId": 9,
+        "name": "Generation I"
+    },
+    {
+        "generationId": 1,
+        "localLanguageId": 11,
+        "name": "\u7b2c\u4e00\u4e16\u4ee3"
+    },
+    {
+        "generationId": 2,
+        "localLanguageId": 1,
+        "name": "\u3060\u3044\u306b\u305b\u3060\u3044"
+    },
+    {
+        "generationId": 2,
+        "localLanguageId": 3,
+        "name": "2\uc138\ub300"
+    },
+    {
+        "generationId": 2,
+        "localLanguageId": 5,
+        "name": "G\u00e9n\u00e9ration II"
+    },
+    {
+        "generationId": 2,
+        "localLanguageId": 6,
+        "name": "Generation II"
+    },
+    {
+        "generationId": 2,
+        "localLanguageId": 7,
+        "name": "Generaci\u00f3n II"
+    },
+    {
+        "generationId": 2,
+        "localLanguageId": 9,
+        "name": "Generation II"
+    },
+    {
+        "generationId": 2,
+        "localLanguageId": 11,
+        "name": "\u7b2c\u4e8c\u4e16\u4ee3"
+    },
+    {
+        "generationId": 3,
+        "localLanguageId": 1,
+        "name": "\u3060\u3044\u3055\u3093\u305b\u3060\u3044"
+    },
+    {
+        "generationId": 3,
+        "localLanguageId": 3,
+        "name": "3\uc138\ub300"
+    },
+    {
+        "generationId": 3,
+        "localLanguageId": 5,
+        "name": "G\u00e9n\u00e9ration III"
+    },
+    {
+        "generationId": 3,
+        "localLanguageId": 6,
+        "name": "Generation III"
+    },
+    {
+        "generationId": 3,
+        "localLanguageId": 7,
+        "name": "Generaci\u00f3n III"
+    },
+    {
+        "generationId": 3,
+        "localLanguageId": 9,
+        "name": "Generation III"
+    },
+    {
+        "generationId": 3,
+        "localLanguageId": 11,
+        "name": "\u7b2c\u4e09\u4e16\u4ee3"
+    },
+    {
+        "generationId": 4,
+        "localLanguageId": 1,
+        "name": "\u3060\u3044\u3088\u3093\u305b\u3060\u3044"
+    },
+    {
+        "generationId": 4,
+        "localLanguageId": 3,
+        "name": "4\uc138\ub300"
+    },
+    {
+        "generationId": 4,
+        "localLanguageId": 5,
+        "name": "G\u00e9n\u00e9ration IV"
+    },
+    {
+        "generationId": 4,
+        "localLanguageId": 6,
+        "name": "Generation IV"
+    },
+    {
+        "generationId": 4,
+        "localLanguageId": 7,
+        "name": "Generaci\u00f3n IV"
+    },
+    {
+        "generationId": 4,
+        "localLanguageId": 9,
+        "name": "Generation IV"
+    },
+    {
+        "generationId": 4,
+        "localLanguageId": 11,
+        "name": "\u7b2c\u56db\u4e16\u4ee3"
+    },
+    {
+        "generationId": 5,
+        "localLanguageId": 1,
+        "name": "\u3060\u3044\u3054\u305b\u3060\u3044"
+    },
+    {
+        "generationId": 5,
+        "localLanguageId": 3,
+        "name": "5\uc138\ub300"
+    },
+    {
+        "generationId": 5,
+        "localLanguageId": 5,
+        "name": "G\u00e9n\u00e9ration V"
+    },
+    {
+        "generationId": 5,
+        "localLanguageId": 6,
+        "name": "Generation V"
+    },
+    {
+        "generationId": 5,
+        "localLanguageId": 7,
+        "name": "Generaci\u00f3n V"
+    },
+    {
+        "generationId": 5,
+        "localLanguageId": 9,
+        "name": "Generation V"
+    },
+    {
+        "generationId": 5,
+        "localLanguageId": 11,
+        "name": "\u7b2c\u4e94\u4e16\u4ee3"
+    },
+    {
+        "generationId": 6,
+        "localLanguageId": 1,
+        "name": "\u3060\u3044\u308d\u304f\u305b\u3060\u3044"
+    },
+    {
+        "generationId": 6,
+        "localLanguageId": 3,
+        "name": "6\uc138\ub300"
+    },
+    {
+        "generationId": 6,
+        "localLanguageId": 5,
+        "name": "G\u00e9n\u00e9ration VI"
+    },
+    {
+        "generationId": 6,
+        "localLanguageId": 6,
+        "name": "Generation VI"
+    },
+    {
+        "generationId": 6,
+        "localLanguageId": 7,
+        "name": "Generaci\u00f3n VI"
+    },
+    {
+        "generationId": 6,
+        "localLanguageId": 9,
+        "name": "Generation VI"
+    },
+    {
+        "generationId": 6,
+        "localLanguageId": 11,
+        "name": "\u7b2c\u516d\u4e16\u4ee3"
+    },
+    {
+        "generationId": 7,
+        "localLanguageId": 1,
+        "name": "\u3060\u3044\u306a\u306a\u305b\u3060\u3044"
+    },
+    {
+        "generationId": 7,
+        "localLanguageId": 3,
+        "name": "7\uc138\ub300"
+    },
+    {
+        "generationId": 7,
+        "localLanguageId": 5,
+        "name": "G\u00e9n\u00e9ration VII"
+    },
+    {
+        "generationId": 7,
+        "localLanguageId": 6,
+        "name": "Generation VII"
+    },
+    {
+        "generationId": 7,
+        "localLanguageId": 7,
+        "name": "Generaci\u00f3n VII"
+    },
+    {
+        "generationId": 7,
+        "localLanguageId": 9,
+        "name": "Generation VII"
+    },
+    {
+        "generationId": 7,
+        "localLanguageId": 11,
+        "name": "\u7b2c\u4e03\u4e16\u4ee3"
+    },
+    {
+        "generationId": 8,
+        "localLanguageId": 9,
+        "name": "Generation VIII"
+    }
+]

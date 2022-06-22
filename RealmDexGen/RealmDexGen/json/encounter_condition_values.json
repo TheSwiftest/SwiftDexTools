@@ -1,0 +1,236 @@
+[
+    {
+        "id": 1,
+        "encounterConditionId": 1,
+        "identifier": "swarm-yes",
+        "isDefault": 0
+    },
+    {
+        "id": 2,
+        "encounterConditionId": 1,
+        "identifier": "swarm-no",
+        "isDefault": 1
+    },
+    {
+        "id": 3,
+        "encounterConditionId": 2,
+        "identifier": "time-morning",
+        "isDefault": 0
+    },
+    {
+        "id": 4,
+        "encounterConditionId": 2,
+        "identifier": "time-day",
+        "isDefault": 1
+    },
+    {
+        "id": 5,
+        "encounterConditionId": 2,
+        "identifier": "time-night",
+        "isDefault": 0
+    },
+    {
+        "id": 6,
+        "encounterConditionId": 3,
+        "identifier": "radar-on",
+        "isDefault": 0
+    },
+    {
+        "id": 7,
+        "encounterConditionId": 3,
+        "identifier": "radar-off",
+        "isDefault": 1
+    },
+    {
+        "id": 8,
+        "encounterConditionId": 4,
+        "identifier": "slot2-none",
+        "isDefault": 1
+    },
+    {
+        "id": 9,
+        "encounterConditionId": 4,
+        "identifier": "slot2-ruby",
+        "isDefault": 0
+    },
+    {
+        "id": 10,
+        "encounterConditionId": 4,
+        "identifier": "slot2-sapphire",
+        "isDefault": 0
+    },
+    {
+        "id": 11,
+        "encounterConditionId": 4,
+        "identifier": "slot2-emerald",
+        "isDefault": 0
+    },
+    {
+        "id": 12,
+        "encounterConditionId": 4,
+        "identifier": "slot2-firered",
+        "isDefault": 0
+    },
+    {
+        "id": 13,
+        "encounterConditionId": 4,
+        "identifier": "slot2-leafgreen",
+        "isDefault": 0
+    },
+    {
+        "id": 14,
+        "encounterConditionId": 5,
+        "identifier": "radio-off",
+        "isDefault": 1
+    },
+    {
+        "id": 15,
+        "encounterConditionId": 5,
+        "identifier": "radio-hoenn",
+        "isDefault": 0
+    },
+    {
+        "id": 16,
+        "encounterConditionId": 5,
+        "identifier": "radio-sinnoh",
+        "isDefault": 0
+    },
+    {
+        "id": 17,
+        "encounterConditionId": 6,
+        "identifier": "season-spring",
+        "isDefault": 0
+    },
+    {
+        "id": 18,
+        "encounterConditionId": 6,
+        "identifier": "season-summer",
+        "isDefault": 0
+    },
+    {
+        "id": 19,
+        "encounterConditionId": 6,
+        "identifier": "season-autumn",
+        "isDefault": 0
+    },
+    {
+        "id": 20,
+        "encounterConditionId": 6,
+        "identifier": "season-winter",
+        "isDefault": 0
+    },
+    {
+        "id": 21,
+        "encounterConditionId": 7,
+        "identifier": "starter-bulbasaur",
+        "isDefault": 0
+    },
+    {
+        "id": 22,
+        "encounterConditionId": 7,
+        "identifier": "starter-squirtle",
+        "isDefault": 0
+    },
+    {
+        "id": 23,
+        "encounterConditionId": 7,
+        "identifier": "starter-charmander",
+        "isDefault": 0
+    },
+    {
+        "id": 24,
+        "encounterConditionId": 7,
+        "identifier": "starter-chespin",
+        "isDefault": 0
+    },
+    {
+        "id": 25,
+        "encounterConditionId": 7,
+        "identifier": "starter-fennekin",
+        "isDefault": 0
+    },
+    {
+        "id": 26,
+        "encounterConditionId": 7,
+        "identifier": "starter-froakie",
+        "isDefault": 0
+    },
+    {
+        "id": 27,
+        "encounterConditionId": 8,
+        "identifier": "tv-option-blue",
+        "isDefault": 1
+    },
+    {
+        "id": 28,
+        "encounterConditionId": 8,
+        "identifier": "tv-option-red",
+        "isDefault": 0
+    },
+    {
+        "id": 29,
+        "encounterConditionId": 9,
+        "identifier": "story-progress-awakened-beasts",
+        "isDefault": 0
+    },
+    {
+        "id": 30,
+        "encounterConditionId": 9,
+        "identifier": "story-progress-beat-galactic-coronet",
+        "isDefault": 0
+    },
+    {
+        "id": 31,
+        "encounterConditionId": 9,
+        "identifier": "story-progress-oak-eterna-city",
+        "isDefault": 0
+    },
+    {
+        "id": 32,
+        "encounterConditionId": 9,
+        "identifier": "story-progress-vermilion-copycat",
+        "isDefault": 0
+    },
+    {
+        "id": 33,
+        "encounterConditionId": 9,
+        "identifier": "story-progress-met-tornadus-thundurus",
+        "isDefault": 0
+    },
+    {
+        "id": 34,
+        "encounterConditionId": 9,
+        "identifier": "story-progress-beat-elite-four-round-two",
+        "isDefault": 0
+    },
+    {
+        "id": 35,
+        "encounterConditionId": 9,
+        "identifier": "story-progress-hall-of-fame",
+        "isDefault": 0
+    },
+    {
+        "id": 36,
+        "encounterConditionId": 9,
+        "identifier": "story-progress-none",
+        "isDefault": 1
+    },
+    {
+        "id": 37,
+        "encounterConditionId": 9,
+        "identifier": "story-progress-national-dex",
+        "isDefault": 0
+    },
+    {
+        "id": 38,
+        "encounterConditionId": 10,
+        "identifier": "other-none",
+        "isDefault": 1
+    },
+    {
+        "id": 39,
+        "encounterConditionId": 10,
+        "identifier": "other-snorlax-11-beat-league",
+        "isDefault": 0
+    }
+]

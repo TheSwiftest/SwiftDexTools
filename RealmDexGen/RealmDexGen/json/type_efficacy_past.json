@@ -1,0 +1,38 @@
+[
+    {
+        "damageTypeId": 4,
+        "targetTypeId": 7,
+        "damageFactor": 200,
+        "generationId": 1
+    },
+    {
+        "damageTypeId": 7,
+        "targetTypeId": 4,
+        "damageFactor": 200,
+        "generationId": 1
+    },
+    {
+        "damageTypeId": 8,
+        "targetTypeId": 14,
+        "damageFactor": 0,
+        "generationId": 1
+    },
+    {
+        "damageTypeId": 15,
+        "targetTypeId": 10,
+        "damageFactor": 100,
+        "generationId": 1
+    },
+    {
+        "damageTypeId": 8,
+        "targetTypeId": 9,
+        "damageFactor": 50,
+        "generationId": 5
+    },
+    {
+        "damageTypeId": 17,
+        "targetTypeId": 9,
+        "damageFactor": 50,
+        "generationId": 5
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "damageClassId": null,
+        "identifier": "hp",
+        "isBattleOnly": 0,
+        "gameIndex": 1
+    },
+    {
+        "id": 2,
+        "damageClassId": 2,
+        "identifier": "atk",
+        "isBattleOnly": 0,
+        "gameIndex": 2
+    },
+    {
+        "id": 3,
+        "damageClassId": 2,
+        "identifier": "def",
+        "isBattleOnly": 0,
+        "gameIndex": 3
+    },
+    {
+        "id": 4,
+        "damageClassId": 3,
+        "identifier": "satk",
+        "isBattleOnly": 0,
+        "gameIndex": 5
+    },
+    {
+        "id": 5,
+        "damageClassId": 3,
+        "identifier": "sdef",
+        "isBattleOnly": 0,
+        "gameIndex": 6
+    },
+    {
+        "id": 6,
+        "damageClassId": null,
+        "identifier": "spe",
+        "isBattleOnly": 0,
+        "gameIndex": 4
+    },
+    {
+        "id": 7,
+        "damageClassId": null,
+        "identifier": "acc",
+        "isBattleOnly": 1,
+        "gameIndex": null
+    },
+    {
+        "id": 8,
+        "damageClassId": null,
+        "identifier": "eva",
+        "isBattleOnly": 1,
+        "gameIndex": null
+    }
+]

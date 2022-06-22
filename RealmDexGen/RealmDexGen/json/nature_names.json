@@ -1,0 +1,1252 @@
+[
+    {
+        "natureId": 1,
+        "localLanguageId": 1,
+        "name": "\u304c\u3093\u3070\u308a\u3084"
+    },
+    {
+        "natureId": 1,
+        "localLanguageId": 3,
+        "name": "\ub178\ub825"
+    },
+    {
+        "natureId": 1,
+        "localLanguageId": 4,
+        "name": "\u52e4\u596e"
+    },
+    {
+        "natureId": 1,
+        "localLanguageId": 5,
+        "name": "Hardi"
+    },
+    {
+        "natureId": 1,
+        "localLanguageId": 6,
+        "name": "Robust"
+    },
+    {
+        "natureId": 1,
+        "localLanguageId": 7,
+        "name": "Fuerte"
+    },
+    {
+        "natureId": 1,
+        "localLanguageId": 8,
+        "name": "Ardita"
+    },
+    {
+        "natureId": 1,
+        "localLanguageId": 9,
+        "name": "Hardy"
+    },
+    {
+        "natureId": 1,
+        "localLanguageId": 11,
+        "name": "\u304c\u3093\u3070\u308a\u3084"
+    },
+    {
+        "natureId": 1,
+        "localLanguageId": 12,
+        "name": "\u52e4\u594b"
+    },
+    {
+        "natureId": 2,
+        "localLanguageId": 1,
+        "name": "\u305a\u3076\u3068\u3044"
+    },
+    {
+        "natureId": 2,
+        "localLanguageId": 3,
+        "name": "\ub300\ub2f4"
+    },
+    {
+        "natureId": 2,
+        "localLanguageId": 4,
+        "name": "\u5927\u81bd"
+    },
+    {
+        "natureId": 2,
+        "localLanguageId": 5,
+        "name": "Assur\u00e9"
+    },
+    {
+        "natureId": 2,
+        "localLanguageId": 6,
+        "name": "K\u00fchn"
+    },
+    {
+        "natureId": 2,
+        "localLanguageId": 7,
+        "name": "Osada"
+    },
+    {
+        "natureId": 2,
+        "localLanguageId": 8,
+        "name": "Sicura"
+    },
+    {
+        "natureId": 2,
+        "localLanguageId": 9,
+        "name": "Bold"
+    },
+    {
+        "natureId": 2,
+        "localLanguageId": 11,
+        "name": "\u305a\u3076\u3068\u3044"
+    },
+    {
+        "natureId": 2,
+        "localLanguageId": 12,
+        "name": "\u5927\u80c6"
+    },
+    {
+        "natureId": 3,
+        "localLanguageId": 1,
+        "name": "\u3072\u304b\u3048\u3081"
+    },
+    {
+        "natureId": 3,
+        "localLanguageId": 3,
+        "name": "\uc870\uc2ec"
+    },
+    {
+        "natureId": 3,
+        "localLanguageId": 4,
+        "name": "\u5167\u6582"
+    },
+    {
+        "natureId": 3,
+        "localLanguageId": 5,
+        "name": "Modeste"
+    },
+    {
+        "natureId": 3,
+        "localLanguageId": 6,
+        "name": "M\u00e4\u00dfig"
+    },
+    {
+        "natureId": 3,
+        "localLanguageId": 7,
+        "name": "Modesta"
+    },
+    {
+        "natureId": 3,
+        "localLanguageId": 8,
+        "name": "Modesta"
+    },
+    {
+        "natureId": 3,
+        "localLanguageId": 9,
+        "name": "Modest"
+    },
+    {
+        "natureId": 3,
+        "localLanguageId": 11,
+        "name": "\u3072\u304b\u3048\u3081"
+    },
+    {
+        "natureId": 3,
+        "localLanguageId": 12,
+        "name": "\u5185\u655b"
+    },
+    {
+        "natureId": 4,
+        "localLanguageId": 1,
+        "name": "\u304a\u3060\u3084\u304b"
+    },
+    {
+        "natureId": 4,
+        "localLanguageId": 3,
+        "name": "\ucc28\ubd84"
+    },
+    {
+        "natureId": 4,
+        "localLanguageId": 4,
+        "name": "\u6eab\u548c"
+    },
+    {
+        "natureId": 4,
+        "localLanguageId": 5,
+        "name": "Calme"
+    },
+    {
+        "natureId": 4,
+        "localLanguageId": 6,
+        "name": "Still"
+    },
+    {
+        "natureId": 4,
+        "localLanguageId": 7,
+        "name": "Serena"
+    },
+    {
+        "natureId": 4,
+        "localLanguageId": 8,
+        "name": "Calma"
+    },
+    {
+        "natureId": 4,
+        "localLanguageId": 9,
+        "name": "Calm"
+    },
+    {
+        "natureId": 4,
+        "localLanguageId": 11,
+        "name": "\u304a\u3060\u3084\u304b"
+    },
+    {
+        "natureId": 4,
+        "localLanguageId": 12,
+        "name": "\u6e29\u548c"
+    },
+    {
+        "natureId": 5,
+        "localLanguageId": 1,
+        "name": "\u304a\u304f\u3073\u3087\u3046"
+    },
+    {
+        "natureId": 5,
+        "localLanguageId": 3,
+        "name": "\uac81\uc7c1\uc774"
+    },
+    {
+        "natureId": 5,
+        "localLanguageId": 4,
+        "name": "\u81bd\u5c0f"
+    },
+    {
+        "natureId": 5,
+        "localLanguageId": 5,
+        "name": "Timide"
+    },
+    {
+        "natureId": 5,
+        "localLanguageId": 6,
+        "name": "Scheu"
+    },
+    {
+        "natureId": 5,
+        "localLanguageId": 7,
+        "name": "Miedosa"
+    },
+    {
+        "natureId": 5,
+        "localLanguageId": 8,
+        "name": "Timida"
+    },
+    {
+        "natureId": 5,
+        "localLanguageId": 9,
+        "name": "Timid"
+    },
+    {
+        "natureId": 5,
+        "localLanguageId": 11,
+        "name": "\u304a\u304f\u3073\u3087\u3046"
+    },
+    {
+        "natureId": 5,
+        "localLanguageId": 12,
+        "name": "\u80c6\u5c0f"
+    },
+    {
+        "natureId": 6,
+        "localLanguageId": 1,
+        "name": "\u3055\u307f\u3057\u304c\u308a"
+    },
+    {
+        "natureId": 6,
+        "localLanguageId": 3,
+        "name": "\uc678\ub85c\uc6c0"
+    },
+    {
+        "natureId": 6,
+        "localLanguageId": 4,
+        "name": "\u6015\u5bc2\u5bde"
+    },
+    {
+        "natureId": 6,
+        "localLanguageId": 5,
+        "name": "Solo"
+    },
+    {
+        "natureId": 6,
+        "localLanguageId": 6,
+        "name": "Solo"
+    },
+    {
+        "natureId": 6,
+        "localLanguageId": 7,
+        "name": "Hura\u00f1a"
+    },
+    {
+        "natureId": 6,
+        "localLanguageId": 8,
+        "name": "Schiva"
+    },
+    {
+        "natureId": 6,
+        "localLanguageId": 9,
+        "name": "Lonely"
+    },
+    {
+        "natureId": 6,
+        "localLanguageId": 11,
+        "name": "\u3055\u307f\u3057\u304c\u308a"
+    },
+    {
+        "natureId": 6,
+        "localLanguageId": 12,
+        "name": "\u6015\u5bc2\u5bde"
+    },
+    {
+        "natureId": 7,
+        "localLanguageId": 1,
+        "name": "\u3059\u306a\u304a"
+    },
+    {
+        "natureId": 7,
+        "localLanguageId": 3,
+        "name": "\uc628\uc21c"
+    },
+    {
+        "natureId": 7,
+        "localLanguageId": 4,
+        "name": "\u5766\u7387"
+    },
+    {
+        "natureId": 7,
+        "localLanguageId": 5,
+        "name": "Docile"
+    },
+    {
+        "natureId": 7,
+        "localLanguageId": 6,
+        "name": "Sanft"
+    },
+    {
+        "natureId": 7,
+        "localLanguageId": 7,
+        "name": "D\u00f3cil"
+    },
+    {
+        "natureId": 7,
+        "localLanguageId": 8,
+        "name": "Docile"
+    },
+    {
+        "natureId": 7,
+        "localLanguageId": 9,
+        "name": "Docile"
+    },
+    {
+        "natureId": 7,
+        "localLanguageId": 11,
+        "name": "\u3059\u306a\u304a"
+    },
+    {
+        "natureId": 7,
+        "localLanguageId": 12,
+        "name": "\u5766\u7387"
+    },
+    {
+        "natureId": 8,
+        "localLanguageId": 1,
+        "name": "\u304a\u3063\u3068\u308a"
+    },
+    {
+        "natureId": 8,
+        "localLanguageId": 3,
+        "name": "\uc758\uc813"
+    },
+    {
+        "natureId": 8,
+        "localLanguageId": 4,
+        "name": "\u6162\u541e\u541e"
+    },
+    {
+        "natureId": 8,
+        "localLanguageId": 5,
+        "name": "Doux"
+    },
+    {
+        "natureId": 8,
+        "localLanguageId": 6,
+        "name": "Mild"
+    },
+    {
+        "natureId": 8,
+        "localLanguageId": 7,
+        "name": "Afable"
+    },
+    {
+        "natureId": 8,
+        "localLanguageId": 8,
+        "name": "Mite"
+    },
+    {
+        "natureId": 8,
+        "localLanguageId": 9,
+        "name": "Mild"
+    },
+    {
+        "natureId": 8,
+        "localLanguageId": 11,
+        "name": "\u304a\u3063\u3068\u308a"
+    },
+    {
+        "natureId": 8,
+        "localLanguageId": 12,
+        "name": "\u6162\u541e\u541e"
+    },
+    {
+        "natureId": 9,
+        "localLanguageId": 1,
+        "name": "\u304a\u3068\u306a\u3057\u3044"
+    },
+    {
+        "natureId": 9,
+        "localLanguageId": 3,
+        "name": "\uc58c\uc804"
+    },
+    {
+        "natureId": 9,
+        "localLanguageId": 4,
+        "name": "\u6eab\u9806"
+    },
+    {
+        "natureId": 9,
+        "localLanguageId": 5,
+        "name": "Gentil"
+    },
+    {
+        "natureId": 9,
+        "localLanguageId": 6,
+        "name": "Zart"
+    },
+    {
+        "natureId": 9,
+        "localLanguageId": 7,
+        "name": "Amable"
+    },
+    {
+        "natureId": 9,
+        "localLanguageId": 8,
+        "name": "Gentile"
+    },
+    {
+        "natureId": 9,
+        "localLanguageId": 9,
+        "name": "Gentle"
+    },
+    {
+        "natureId": 9,
+        "localLanguageId": 11,
+        "name": "\u304a\u3068\u306a\u3057\u3044"
+    },
+    {
+        "natureId": 9,
+        "localLanguageId": 12,
+        "name": "\u6e29\u987a"
+    },
+    {
+        "natureId": 10,
+        "localLanguageId": 1,
+        "name": "\u305b\u3063\u304b\u3061"
+    },
+    {
+        "natureId": 10,
+        "localLanguageId": 3,
+        "name": "\uc131\uae09"
+    },
+    {
+        "natureId": 10,
+        "localLanguageId": 4,
+        "name": "\u6025\u8e81"
+    },
+    {
+        "natureId": 10,
+        "localLanguageId": 5,
+        "name": "Press\u00e9"
+    },
+    {
+        "natureId": 10,
+        "localLanguageId": 6,
+        "name": "Hastig"
+    },
+    {
+        "natureId": 10,
+        "localLanguageId": 7,
+        "name": "Activa"
+    },
+    {
+        "natureId": 10,
+        "localLanguageId": 8,
+        "name": "Lesta"
+    },
+    {
+        "natureId": 10,
+        "localLanguageId": 9,
+        "name": "Hasty"
+    },
+    {
+        "natureId": 10,
+        "localLanguageId": 11,
+        "name": "\u305b\u3063\u304b\u3061"
+    },
+    {
+        "natureId": 10,
+        "localLanguageId": 12,
+        "name": "\u6025\u8e81"
+    },
+    {
+        "natureId": 11,
+        "localLanguageId": 1,
+        "name": "\u3044\u3058\u3063\u3071\u308a"
+    },
+    {
+        "natureId": 11,
+        "localLanguageId": 3,
+        "name": "\uace0\uc9d1"
+    },
+    {
+        "natureId": 11,
+        "localLanguageId": 4,
+        "name": "\u56fa\u57f7"
+    },
+    {
+        "natureId": 11,
+        "localLanguageId": 5,
+        "name": "Rigide"
+    },
+    {
+        "natureId": 11,
+        "localLanguageId": 6,
+        "name": "Hart"
+    },
+    {
+        "natureId": 11,
+        "localLanguageId": 7,
+        "name": "Firme"
+    },
+    {
+        "natureId": 11,
+        "localLanguageId": 8,
+        "name": "Decisa"
+    },
+    {
+        "natureId": 11,
+        "localLanguageId": 9,
+        "name": "Adamant"
+    },
+    {
+        "natureId": 11,
+        "localLanguageId": 11,
+        "name": "\u3044\u3058\u3063\u3071\u308a"
+    },
+    {
+        "natureId": 11,
+        "localLanguageId": 12,
+        "name": "\u56fa\u6267"
+    },
+    {
+        "natureId": 12,
+        "localLanguageId": 1,
+        "name": "\u308f\u3093\u3071\u304f"
+    },
+    {
+        "natureId": 12,
+        "localLanguageId": 3,
+        "name": "\uc7a5\ub09c\uafb8\ub7ec\uae30"
+    },
+    {
+        "natureId": 12,
+        "localLanguageId": 4,
+        "name": "\u6dd8\u6c23"
+    },
+    {
+        "natureId": 12,
+        "localLanguageId": 5,
+        "name": "Malin"
+    },
+    {
+        "natureId": 12,
+        "localLanguageId": 6,
+        "name": "Pfiffig"
+    },
+    {
+        "natureId": 12,
+        "localLanguageId": 7,
+        "name": "Agitada"
+    },
+    {
+        "natureId": 12,
+        "localLanguageId": 8,
+        "name": "Scaltra"
+    },
+    {
+        "natureId": 12,
+        "localLanguageId": 9,
+        "name": "Impish"
+    },
+    {
+        "natureId": 12,
+        "localLanguageId": 11,
+        "name": "\u308f\u3093\u3071\u304f"
+    },
+    {
+        "natureId": 12,
+        "localLanguageId": 12,
+        "name": "\u6dd8\u6c14"
+    },
+    {
+        "natureId": 13,
+        "localLanguageId": 1,
+        "name": "\u3066\u308c\u3084"
+    },
+    {
+        "natureId": 13,
+        "localLanguageId": 3,
+        "name": "\uc218\uc90d\uc74c"
+    },
+    {
+        "natureId": 13,
+        "localLanguageId": 4,
+        "name": "\u5bb3\u7f9e"
+    },
+    {
+        "natureId": 13,
+        "localLanguageId": 5,
+        "name": "Pudique"
+    },
+    {
+        "natureId": 13,
+        "localLanguageId": 6,
+        "name": "Zaghaft"
+    },
+    {
+        "natureId": 13,
+        "localLanguageId": 7,
+        "name": "T\u00edmida"
+    },
+    {
+        "natureId": 13,
+        "localLanguageId": 8,
+        "name": "Ritrosa"
+    },
+    {
+        "natureId": 13,
+        "localLanguageId": 9,
+        "name": "Bashful"
+    },
+    {
+        "natureId": 13,
+        "localLanguageId": 11,
+        "name": "\u3066\u308c\u3084"
+    },
+    {
+        "natureId": 13,
+        "localLanguageId": 12,
+        "name": "\u5bb3\u7f9e"
+    },
+    {
+        "natureId": 14,
+        "localLanguageId": 1,
+        "name": "\u3057\u3093\u3061\u3087\u3046"
+    },
+    {
+        "natureId": 14,
+        "localLanguageId": 3,
+        "name": "\uc2e0\uc911"
+    },
+    {
+        "natureId": 14,
+        "localLanguageId": 4,
+        "name": "\u614e\u91cd"
+    },
+    {
+        "natureId": 14,
+        "localLanguageId": 5,
+        "name": "Prudent"
+    },
+    {
+        "natureId": 14,
+        "localLanguageId": 6,
+        "name": "Sacht"
+    },
+    {
+        "natureId": 14,
+        "localLanguageId": 7,
+        "name": "Cauta"
+    },
+    {
+        "natureId": 14,
+        "localLanguageId": 8,
+        "name": "Cauta"
+    },
+    {
+        "natureId": 14,
+        "localLanguageId": 9,
+        "name": "Careful"
+    },
+    {
+        "natureId": 14,
+        "localLanguageId": 11,
+        "name": "\u3057\u3093\u3061\u3087\u3046"
+    },
+    {
+        "natureId": 14,
+        "localLanguageId": 12,
+        "name": "\u614e\u91cd"
+    },
+    {
+        "natureId": 15,
+        "localLanguageId": 1,
+        "name": "\u3046\u3063\u304b\u308a\u3084"
+    },
+    {
+        "natureId": 15,
+        "localLanguageId": 3,
+        "name": "\ub35c\ub801"
+    },
+    {
+        "natureId": 15,
+        "localLanguageId": 4,
+        "name": "\u99ac\u864e"
+    },
+    {
+        "natureId": 15,
+        "localLanguageId": 5,
+        "name": "Foufou"
+    },
+    {
+        "natureId": 15,
+        "localLanguageId": 6,
+        "name": "Hitzig"
+    },
+    {
+        "natureId": 15,
+        "localLanguageId": 7,
+        "name": "Alocada"
+    },
+    {
+        "natureId": 15,
+        "localLanguageId": 8,
+        "name": "Ardente"
+    },
+    {
+        "natureId": 15,
+        "localLanguageId": 9,
+        "name": "Rash"
+    },
+    {
+        "natureId": 15,
+        "localLanguageId": 11,
+        "name": "\u3046\u3063\u304b\u308a\u3084"
+    },
+    {
+        "natureId": 15,
+        "localLanguageId": 12,
+        "name": "\u9a6c\u864e"
+    },
+    {
+        "natureId": 16,
+        "localLanguageId": 1,
+        "name": "\u3088\u3046\u304d"
+    },
+    {
+        "natureId": 16,
+        "localLanguageId": 3,
+        "name": "\uba85\ub791"
+    },
+    {
+        "natureId": 16,
+        "localLanguageId": 4,
+        "name": "\u723d\u6717"
+    },
+    {
+        "natureId": 16,
+        "localLanguageId": 5,
+        "name": "Jovial"
+    },
+    {
+        "natureId": 16,
+        "localLanguageId": 6,
+        "name": "Froh"
+    },
+    {
+        "natureId": 16,
+        "localLanguageId": 7,
+        "name": "Alegre"
+    },
+    {
+        "natureId": 16,
+        "localLanguageId": 8,
+        "name": "Allegra"
+    },
+    {
+        "natureId": 16,
+        "localLanguageId": 9,
+        "name": "Jolly"
+    },
+    {
+        "natureId": 16,
+        "localLanguageId": 11,
+        "name": "\u3088\u3046\u304d"
+    },
+    {
+        "natureId": 16,
+        "localLanguageId": 12,
+        "name": "\u723d\u6717"
+    },
+    {
+        "natureId": 17,
+        "localLanguageId": 1,
+        "name": "\u3084\u3093\u3061\u3083"
+    },
+    {
+        "natureId": 17,
+        "localLanguageId": 3,
+        "name": "\uac1c\uad6c\uc7c1\uc774"
+    },
+    {
+        "natureId": 17,
+        "localLanguageId": 4,
+        "name": "\u9811\u76ae"
+    },
+    {
+        "natureId": 17,
+        "localLanguageId": 5,
+        "name": "Mauvais"
+    },
+    {
+        "natureId": 17,
+        "localLanguageId": 6,
+        "name": "Frech"
+    },
+    {
+        "natureId": 17,
+        "localLanguageId": 7,
+        "name": "P\u00edcara"
+    },
+    {
+        "natureId": 17,
+        "localLanguageId": 8,
+        "name": "Birbona"
+    },
+    {
+        "natureId": 17,
+        "localLanguageId": 9,
+        "name": "Naughty"
+    },
+    {
+        "natureId": 17,
+        "localLanguageId": 11,
+        "name": "\u3084\u3093\u3061\u3083"
+    },
+    {
+        "natureId": 17,
+        "localLanguageId": 12,
+        "name": "\u987d\u76ae"
+    },
+    {
+        "natureId": 18,
+        "localLanguageId": 1,
+        "name": "\u306e\u3046\u3066\u3093\u304d"
+    },
+    {
+        "natureId": 18,
+        "localLanguageId": 3,
+        "name": "\ucd10\ub791"
+    },
+    {
+        "natureId": 18,
+        "localLanguageId": 4,
+        "name": "\u6a02\u5929"
+    },
+    {
+        "natureId": 18,
+        "localLanguageId": 5,
+        "name": "L\u00e2che"
+    },
+    {
+        "natureId": 18,
+        "localLanguageId": 6,
+        "name": "Lasch"
+    },
+    {
+        "natureId": 18,
+        "localLanguageId": 7,
+        "name": "Floja"
+    },
+    {
+        "natureId": 18,
+        "localLanguageId": 8,
+        "name": "Fiacca"
+    },
+    {
+        "natureId": 18,
+        "localLanguageId": 9,
+        "name": "Lax"
+    },
+    {
+        "natureId": 18,
+        "localLanguageId": 11,
+        "name": "\u306e\u3046\u3066\u3093\u304d"
+    },
+    {
+        "natureId": 18,
+        "localLanguageId": 12,
+        "name": "\u4e50\u5929"
+    },
+    {
+        "natureId": 19,
+        "localLanguageId": 1,
+        "name": "\u304d\u307e\u3050\u308c"
+    },
+    {
+        "natureId": 19,
+        "localLanguageId": 3,
+        "name": "\ubcc0\ub355"
+    },
+    {
+        "natureId": 19,
+        "localLanguageId": 4,
+        "name": "\u6d6e\u8e81"
+    },
+    {
+        "natureId": 19,
+        "localLanguageId": 5,
+        "name": "Bizarre"
+    },
+    {
+        "natureId": 19,
+        "localLanguageId": 6,
+        "name": "Kauzig"
+    },
+    {
+        "natureId": 19,
+        "localLanguageId": 7,
+        "name": "Rara"
+    },
+    {
+        "natureId": 19,
+        "localLanguageId": 8,
+        "name": "Furba"
+    },
+    {
+        "natureId": 19,
+        "localLanguageId": 9,
+        "name": "Quirky"
+    },
+    {
+        "natureId": 19,
+        "localLanguageId": 11,
+        "name": "\u304d\u307e\u3050\u308c"
+    },
+    {
+        "natureId": 19,
+        "localLanguageId": 12,
+        "name": "\u6d6e\u8e81"
+    },
+    {
+        "natureId": 20,
+        "localLanguageId": 1,
+        "name": "\u3080\u3058\u3083\u304d"
+    },
+    {
+        "natureId": 20,
+        "localLanguageId": 3,
+        "name": "\ucc9c\uc9c4\ub09c\ub9cc"
+    },
+    {
+        "natureId": 20,
+        "localLanguageId": 4,
+        "name": "\u5929\u771f"
+    },
+    {
+        "natureId": 20,
+        "localLanguageId": 5,
+        "name": "Na\u00eff"
+    },
+    {
+        "natureId": 20,
+        "localLanguageId": 6,
+        "name": "Naiv"
+    },
+    {
+        "natureId": 20,
+        "localLanguageId": 7,
+        "name": "Ingenua"
+    },
+    {
+        "natureId": 20,
+        "localLanguageId": 8,
+        "name": "Ingenua"
+    },
+    {
+        "natureId": 20,
+        "localLanguageId": 9,
+        "name": "Naive"
+    },
+    {
+        "natureId": 20,
+        "localLanguageId": 11,
+        "name": "\u3080\u3058\u3083\u304d"
+    },
+    {
+        "natureId": 20,
+        "localLanguageId": 12,
+        "name": "\u5929\u771f"
+    },
+    {
+        "natureId": 21,
+        "localLanguageId": 1,
+        "name": "\u3086\u3046\u304b\u3093"
+    },
+    {
+        "natureId": 21,
+        "localLanguageId": 3,
+        "name": "\uc6a9\uac10"
+    },
+    {
+        "natureId": 21,
+        "localLanguageId": 4,
+        "name": "\u52c7\u6562"
+    },
+    {
+        "natureId": 21,
+        "localLanguageId": 5,
+        "name": "Brave"
+    },
+    {
+        "natureId": 21,
+        "localLanguageId": 6,
+        "name": "Mutig"
+    },
+    {
+        "natureId": 21,
+        "localLanguageId": 7,
+        "name": "Audaz"
+    },
+    {
+        "natureId": 21,
+        "localLanguageId": 8,
+        "name": "Audace"
+    },
+    {
+        "natureId": 21,
+        "localLanguageId": 9,
+        "name": "Brave"
+    },
+    {
+        "natureId": 21,
+        "localLanguageId": 11,
+        "name": "\u3086\u3046\u304b\u3093"
+    },
+    {
+        "natureId": 21,
+        "localLanguageId": 12,
+        "name": "\u52c7\u6562"
+    },
+    {
+        "natureId": 22,
+        "localLanguageId": 1,
+        "name": "\u306e\u3093\u304d"
+    },
+    {
+        "natureId": 22,
+        "localLanguageId": 3,
+        "name": "\ubb34\uc0ac\ud0dc\ud3c9"
+    },
+    {
+        "natureId": 22,
+        "localLanguageId": 4,
+        "name": "\u60a0\u9592"
+    },
+    {
+        "natureId": 22,
+        "localLanguageId": 5,
+        "name": "Relax"
+    },
+    {
+        "natureId": 22,
+        "localLanguageId": 6,
+        "name": "Locker"
+    },
+    {
+        "natureId": 22,
+        "localLanguageId": 7,
+        "name": "Pl\u00e1cida"
+    },
+    {
+        "natureId": 22,
+        "localLanguageId": 8,
+        "name": "Placida"
+    },
+    {
+        "natureId": 22,
+        "localLanguageId": 9,
+        "name": "Relaxed"
+    },
+    {
+        "natureId": 22,
+        "localLanguageId": 11,
+        "name": "\u306e\u3093\u304d"
+    },
+    {
+        "natureId": 22,
+        "localLanguageId": 12,
+        "name": "\u60a0\u95f2"
+    },
+    {
+        "natureId": 23,
+        "localLanguageId": 1,
+        "name": "\u308c\u3044\u305b\u3044"
+    },
+    {
+        "natureId": 23,
+        "localLanguageId": 3,
+        "name": "\ub0c9\uc815"
+    },
+    {
+        "natureId": 23,
+        "localLanguageId": 4,
+        "name": "\u51b7\u975c"
+    },
+    {
+        "natureId": 23,
+        "localLanguageId": 5,
+        "name": "Discret"
+    },
+    {
+        "natureId": 23,
+        "localLanguageId": 6,
+        "name": "Ruhig"
+    },
+    {
+        "natureId": 23,
+        "localLanguageId": 7,
+        "name": "Mansa"
+    },
+    {
+        "natureId": 23,
+        "localLanguageId": 8,
+        "name": "Quieta"
+    },
+    {
+        "natureId": 23,
+        "localLanguageId": 9,
+        "name": "Quiet"
+    },
+    {
+        "natureId": 23,
+        "localLanguageId": 11,
+        "name": "\u308c\u3044\u305b\u3044"
+    },
+    {
+        "natureId": 23,
+        "localLanguageId": 12,
+        "name": "\u51b7\u9759"
+    },
+    {
+        "natureId": 24,
+        "localLanguageId": 1,
+        "name": "\u306a\u307e\u3044\u304d"
+    },
+    {
+        "natureId": 24,
+        "localLanguageId": 3,
+        "name": "\uac74\ubc29"
+    },
+    {
+        "natureId": 24,
+        "localLanguageId": 4,
+        "name": "\u81ea\u5927"
+    },
+    {
+        "natureId": 24,
+        "localLanguageId": 5,
+        "name": "Malpoli"
+    },
+    {
+        "natureId": 24,
+        "localLanguageId": 6,
+        "name": "Forsch"
+    },
+    {
+        "natureId": 24,
+        "localLanguageId": 7,
+        "name": "Grosera"
+    },
+    {
+        "natureId": 24,
+        "localLanguageId": 8,
+        "name": "Vivace"
+    },
+    {
+        "natureId": 24,
+        "localLanguageId": 9,
+        "name": "Sassy"
+    },
+    {
+        "natureId": 24,
+        "localLanguageId": 11,
+        "name": "\u306a\u307e\u3044\u304d"
+    },
+    {
+        "natureId": 24,
+        "localLanguageId": 12,
+        "name": "\u81ea\u5927"
+    },
+    {
+        "natureId": 25,
+        "localLanguageId": 1,
+        "name": "\u307e\u3058\u3081"
+    },
+    {
+        "natureId": 25,
+        "localLanguageId": 3,
+        "name": "\uc131\uc2e4"
+    },
+    {
+        "natureId": 25,
+        "localLanguageId": 4,
+        "name": "\u8a8d\u771f"
+    },
+    {
+        "natureId": 25,
+        "localLanguageId": 5,
+        "name": "S\u00e9rieux"
+    },
+    {
+        "natureId": 25,
+        "localLanguageId": 6,
+        "name": "Ernst"
+    },
+    {
+        "natureId": 25,
+        "localLanguageId": 7,
+        "name": "Seria"
+    },
+    {
+        "natureId": 25,
+        "localLanguageId": 8,
+        "name": "Seria"
+    },
+    {
+        "natureId": 25,
+        "localLanguageId": 9,
+        "name": "Serious"
+    },
+    {
+        "natureId": 25,
+        "localLanguageId": 11,
+        "name": "\u307e\u3058\u3081"
+    },
+    {
+        "natureId": 25,
+        "localLanguageId": 12,
+        "name": "\u8ba4\u771f"
+    }
+]

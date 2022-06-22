@@ -1,0 +1,350 @@
+[
+    {
+        "pokedexId": 1,
+        "localLanguageId": 5,
+        "name": "National",
+        "description": "Pok\u00e9dex National complet"
+    },
+    {
+        "pokedexId": 1,
+        "localLanguageId": 6,
+        "name": "National",
+        "description": "Komplette Nationale Dex"
+    },
+    {
+        "pokedexId": 1,
+        "localLanguageId": 7,
+        "name": "Nacional",
+        "description": "Pok\u00e9dex Nacional completa"
+    },
+    {
+        "pokedexId": 1,
+        "localLanguageId": 9,
+        "name": "National",
+        "description": "Entire National dex"
+    },
+    {
+        "pokedexId": 2,
+        "localLanguageId": 5,
+        "name": "Kanto",
+        "description": "Pok\u00e9dex r\u00e9gional de Kanto dans Rouge/Bleu/Jaune"
+    },
+    {
+        "pokedexId": 2,
+        "localLanguageId": 6,
+        "name": "Kanto",
+        "description": "Rot/Blau/Gelb Kanto Dex"
+    },
+    {
+        "pokedexId": 2,
+        "localLanguageId": 7,
+        "name": "Kanto",
+        "description": "Pok\u00e9dex regional de Rojo/Azul/Amarillo"
+    },
+    {
+        "pokedexId": 2,
+        "localLanguageId": 9,
+        "name": "Kanto",
+        "description": "Red/Blue/Yellow Kanto dex"
+    },
+    {
+        "pokedexId": 3,
+        "localLanguageId": 5,
+        "name": "Johto initial",
+        "description": "Pok\u00e9dex r\u00e9gional de Johto dans Or/Argent/Cristal, appell\u00e9 \"Nouveau\" Pok\u00e9dex dans le jeu"
+    },
+    {
+        "pokedexId": 3,
+        "localLanguageId": 6,
+        "name": "Original Johto",
+        "description": "Gold/Silber/Kristall Johto Dex \u2014 Auch der \"Neue\" Pok\u00e9dex im Spiel genannt"
+    },
+    {
+        "pokedexId": 3,
+        "localLanguageId": 9,
+        "name": "Original Johto",
+        "description": "Gold/Silver/Crystal Johto dex\u2014called the \"New\" Pok\u00e9dex in-game"
+    },
+    {
+        "pokedexId": 4,
+        "localLanguageId": 5,
+        "name": "Hoenn initial",
+        "description": "Pok\u00e9dex r\u00e9gional d'Hoenn dans Rubis/Saphir/\u00c9meraude"
+    },
+    {
+        "pokedexId": 4,
+        "localLanguageId": 6,
+        "name": "Original Hoenn",
+        "description": "Rubin/Saphir/Smaragd Hoenn Dex"
+    },
+    {
+        "pokedexId": 4,
+        "localLanguageId": 9,
+        "name": "Original Hoenn",
+        "description": "Ruby/Sapphire/Emerald Hoenn dex"
+    },
+    {
+        "pokedexId": 5,
+        "localLanguageId": 5,
+        "name": "Sinnoh initial",
+        "description": "Pok\u00e9dex r\u00e9gional de Sinnoh dans Diamant/Perle"
+    },
+    {
+        "pokedexId": 5,
+        "localLanguageId": 6,
+        "name": "Original Sinnoh",
+        "description": "Diamant/Perl Sinnoh Dex"
+    },
+    {
+        "pokedexId": 5,
+        "localLanguageId": 9,
+        "name": "Original Sinnoh",
+        "description": "Diamond/Pearl Sinnoh dex"
+    },
+    {
+        "pokedexId": 6,
+        "localLanguageId": 5,
+        "name": "Sinnoh \u00e9tendu",
+        "description": "Pok\u00e9dex r\u00e9gional de Sinnoh dans Platine"
+    },
+    {
+        "pokedexId": 6,
+        "localLanguageId": 6,
+        "name": "Erweitertes Sinnoh",
+        "description": "Platin Sinnoh Dex \u2014 eine erweiterte Version von Diamant und Perl"
+    },
+    {
+        "pokedexId": 6,
+        "localLanguageId": 9,
+        "name": "Extended Sinnoh",
+        "description": "Platinum Sinnoh dex\u2014an extended version of Diamond and Pearl's"
+    },
+    {
+        "pokedexId": 7,
+        "localLanguageId": 5,
+        "name": "Johto am\u00e9lior\u00e9",
+        "description": "Pok\u00e9dex r\u00e9gional de Johto dans Or HeartGold/Argent SoulSilver, mis \u00e0 jour pour la 4\u00e8me g\u00e9n\u00e9ration"
+    },
+    {
+        "pokedexId": 7,
+        "localLanguageId": 6,
+        "name": "Aktualisiertes Johto",
+        "description": "HeartGold/SoulSilver Johto Dex \u2014 Dex aus Gold/Silber/Kristall um F\u00e4higkeiten basierende Entwicklungen aus Generation IV erweitert"
+    },
+    {
+        "pokedexId": 7,
+        "localLanguageId": 9,
+        "name": "Updated Johto",
+        "description": "HeartGold/SoulSilver Johto dex\u2014Gold/Silver/Crystal's, extended to add move-based Generation IV evolutions"
+    },
+    {
+        "pokedexId": 8,
+        "localLanguageId": 5,
+        "name": "Unys initial",
+        "description": "Pok\u00e9dex r\u00e9gional d'Unys dans Noir/Blanc"
+    },
+    {
+        "pokedexId": 8,
+        "localLanguageId": 6,
+        "name": "Original Einall",
+        "description": "Schwarz/Wei\u00df Einall Dex"
+    },
+    {
+        "pokedexId": 8,
+        "localLanguageId": 9,
+        "name": "Original Unova",
+        "description": "Black/White Unova dex"
+    },
+    {
+        "pokedexId": 9,
+        "localLanguageId": 5,
+        "name": "Unys am\u00e9lior\u00e9",
+        "description": "Pok\u00e9dex r\u00e9gional d'Unys dans Noir 2/Blanc 2"
+    },
+    {
+        "pokedexId": 9,
+        "localLanguageId": 6,
+        "name": "Aktualisiertes Einall",
+        "description": "Schwarz 2/Wei\u00df 2 Einall Dex"
+    },
+    {
+        "pokedexId": 9,
+        "localLanguageId": 9,
+        "name": "Updated Unova",
+        "description": "Black 2/White 2 Unova dex"
+    },
+    {
+        "pokedexId": 11,
+        "localLanguageId": 5,
+        "name": "Galerie",
+        "description": "Ordre de la Galerie dans Pok\u00e9mon Conquest"
+    },
+    {
+        "pokedexId": 11,
+        "localLanguageId": 6,
+        "name": "Gallerie",
+        "description": "Pok\u00e9mon Conquest Galerie Reihenfolge"
+    },
+    {
+        "pokedexId": 11,
+        "localLanguageId": 9,
+        "name": "Gallery",
+        "description": "Pok\u00e9mon Conquest gallery order"
+    },
+    {
+        "pokedexId": 12,
+        "localLanguageId": 5,
+        "name": "Kalos : Centre",
+        "description": null
+    },
+    {
+        "pokedexId": 12,
+        "localLanguageId": 6,
+        "name": "Kalos-Zentral",
+        "description": null
+    },
+    {
+        "pokedexId": 12,
+        "localLanguageId": 9,
+        "name": "Central Kalos",
+        "description": null
+    },
+    {
+        "pokedexId": 13,
+        "localLanguageId": 5,
+        "name": "Kalos : C\u00f4tes",
+        "description": null
+    },
+    {
+        "pokedexId": 13,
+        "localLanguageId": 6,
+        "name": "Kalos-K\u00fcste",
+        "description": null
+    },
+    {
+        "pokedexId": 13,
+        "localLanguageId": 9,
+        "name": "Coastal Kalos",
+        "description": null
+    },
+    {
+        "pokedexId": 14,
+        "localLanguageId": 5,
+        "name": "Kalos : Monts",
+        "description": null
+    },
+    {
+        "pokedexId": 14,
+        "localLanguageId": 6,
+        "name": "Kalos-Gebirge",
+        "description": null
+    },
+    {
+        "pokedexId": 14,
+        "localLanguageId": 9,
+        "name": "Mountain Kalos",
+        "description": null
+    },
+    {
+        "pokedexId": 15,
+        "localLanguageId": 5,
+        "name": "Hoenn am\u00e9lior\u00e9",
+        "description": "Pok\u00e9dex r\u00e9gional d'Hoenn dans Rubis Om\u00e9ga/Saphir Alpha, mis \u00e0 jour pour les nouvelles \u00e9volutions"
+    },
+    {
+        "pokedexId": 15,
+        "localLanguageId": 6,
+        "name": "Neue Hoenn",
+        "description": "Omega Rubin/Alpha Saphir Hoenn Dex \u2014 Dex aus Rubin/Saphir/Smaragd um Neue Entwicklungen erweitert"
+    },
+    {
+        "pokedexId": 15,
+        "localLanguageId": 9,
+        "name": "New Hoenn",
+        "description": "Omega Ruby/Alpha Sapphire Hoenn Dex\u2014Ruby/Sapphire/Emerald's, updated to add new evolutions"
+    },
+    {
+        "pokedexId": 16,
+        "localLanguageId": 9,
+        "name": "Original Alola",
+        "description": "Sun/Moon Alola dex"
+    },
+    {
+        "pokedexId": 17,
+        "localLanguageId": 9,
+        "name": "Original Melemele",
+        "description": "Sun/Moon Melemele dex"
+    },
+    {
+        "pokedexId": 18,
+        "localLanguageId": 9,
+        "name": "Original Akala",
+        "description": "Sun/Moon Akala dex"
+    },
+    {
+        "pokedexId": 19,
+        "localLanguageId": 9,
+        "name": "Original Ula'ula",
+        "description": "Sun/Moon Ula'ula dex"
+    },
+    {
+        "pokedexId": 20,
+        "localLanguageId": 9,
+        "name": "Original Poni",
+        "description": "Sun/Moon Poni dex"
+    },
+    {
+        "pokedexId": 21,
+        "localLanguageId": 9,
+        "name": "Updated Alola",
+        "description": "Ultra Sun/Ultra Moon Alola dex"
+    },
+    {
+        "pokedexId": 22,
+        "localLanguageId": 9,
+        "name": "Updated Melemele",
+        "description": "Ultra Sun/Ultra Moon Melemele dex"
+    },
+    {
+        "pokedexId": 23,
+        "localLanguageId": 9,
+        "name": "Updated Akala",
+        "description": "Ultra Sun/Ultra Moon Akala dex"
+    },
+    {
+        "pokedexId": 24,
+        "localLanguageId": 9,
+        "name": "Updated Ula'ula",
+        "description": "Ultra Sun/Ultra Moon Ula'ula dex"
+    },
+    {
+        "pokedexId": 25,
+        "localLanguageId": 9,
+        "name": "Updated Poni",
+        "description": "Ultra Sun/Ultra Moon Poni dex"
+    },
+    {
+        "pokedexId": 26,
+        "localLanguageId": 9,
+        "name": "Let\u2019s Go Kanto",
+        "description": "Let\u2019s Go: Pikachu/Let\u2019s Go: Eevee Kanto dex"
+    },
+    {
+        "pokedexId": 27,
+        "localLanguageId": 9,
+        "name": "Galar",
+        "description": "Sword/Shield Galar dex"
+    },
+    {
+        "pokedexId": 28,
+        "localLanguageId": 9,
+        "name": "Isle of Armor",
+        "description": "Isle of Armor dex"
+    },
+    {
+        "pokedexId": 29,
+        "localLanguageId": 9,
+        "name": "Crown Tundra",
+        "description": "Crown Tundra dex"
+    }
+]

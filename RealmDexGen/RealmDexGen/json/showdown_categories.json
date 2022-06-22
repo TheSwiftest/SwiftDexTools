@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "name": "Singles"
+    },
+    {
+        "id": 1,
+        "name": "Doubles"
+    },
+    {
+        "id": 2,
+        "name": "National Dex"
+    },
+    {
+        "id": 3,
+        "name": "Pet Mods"
+    },
+    {
+        "id": 4,
+        "name": "OM of the Month"
+    },
+    {
+        "id": 5,
+        "name": "Other"
+    }
+]

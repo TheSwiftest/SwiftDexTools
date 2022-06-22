@@ -1,0 +1,72 @@
+[
+    {
+        "contestTypeId": 1,
+        "localLanguageId": 5,
+        "name": "Sang-froid",
+        "flavor": "\u00c9pic\u00e9",
+        "color": "Rouge"
+    },
+    {
+        "contestTypeId": 1,
+        "localLanguageId": 9,
+        "name": "Cool",
+        "flavor": "Spicy",
+        "color": "Red"
+    },
+    {
+        "contestTypeId": 2,
+        "localLanguageId": 5,
+        "name": "Beaut\u00e9",
+        "flavor": "Sec",
+        "color": "Bleu"
+    },
+    {
+        "contestTypeId": 2,
+        "localLanguageId": 9,
+        "name": "Beauty",
+        "flavor": "Dry",
+        "color": "Blue"
+    },
+    {
+        "contestTypeId": 3,
+        "localLanguageId": 5,
+        "name": "Gr\u00e2ce",
+        "flavor": "Sucr\u00e9",
+        "color": "Rose"
+    },
+    {
+        "contestTypeId": 3,
+        "localLanguageId": 9,
+        "name": "Cute",
+        "flavor": "Sweet",
+        "color": "Pink"
+    },
+    {
+        "contestTypeId": 4,
+        "localLanguageId": 5,
+        "name": "Intelligence",
+        "flavor": "Am\u00e8re",
+        "color": "Vert"
+    },
+    {
+        "contestTypeId": 4,
+        "localLanguageId": 9,
+        "name": "Smart",
+        "flavor": "Bitter",
+        "color": "Green"
+    },
+    {
+        "contestTypeId": 5,
+        "localLanguageId": 5,
+        "name": "Robustesse",
+        "flavor": "Acide",
+        "color": "Jaune"
+    },
+    {
+        "contestTypeId": 5,
+        "localLanguageId": 9,
+        "name": "Tough",
+        "flavor": "Sour",
+        "color": "Yellow"
+    }
+]

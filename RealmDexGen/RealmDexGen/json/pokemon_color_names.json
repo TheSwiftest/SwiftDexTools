@@ -1,0 +1,502 @@
+[
+    {
+        "pokemonColorId": 1,
+        "localLanguageId": 1,
+        "name": "\u304f\u308d\u3044\u308d"
+    },
+    {
+        "pokemonColorId": 1,
+        "localLanguageId": 3,
+        "name": "\uac80\uc815"
+    },
+    {
+        "pokemonColorId": 1,
+        "localLanguageId": 4,
+        "name": "\u9ed1\u8272"
+    },
+    {
+        "pokemonColorId": 1,
+        "localLanguageId": 5,
+        "name": "Noir"
+    },
+    {
+        "pokemonColorId": 1,
+        "localLanguageId": 6,
+        "name": "Schwarz"
+    },
+    {
+        "pokemonColorId": 1,
+        "localLanguageId": 7,
+        "name": "Negro"
+    },
+    {
+        "pokemonColorId": 1,
+        "localLanguageId": 8,
+        "name": "Nero"
+    },
+    {
+        "pokemonColorId": 1,
+        "localLanguageId": 9,
+        "name": "Black"
+    },
+    {
+        "pokemonColorId": 1,
+        "localLanguageId": 11,
+        "name": "\u9ed2\u8272"
+    },
+    {
+        "pokemonColorId": 1,
+        "localLanguageId": 12,
+        "name": "\u9ed1\u8272"
+    },
+    {
+        "pokemonColorId": 2,
+        "localLanguageId": 1,
+        "name": "\u3042\u304a\u3044\u308d"
+    },
+    {
+        "pokemonColorId": 2,
+        "localLanguageId": 3,
+        "name": "\ud30c\ub791"
+    },
+    {
+        "pokemonColorId": 2,
+        "localLanguageId": 4,
+        "name": "\u85cd\u8272"
+    },
+    {
+        "pokemonColorId": 2,
+        "localLanguageId": 5,
+        "name": "Bleu"
+    },
+    {
+        "pokemonColorId": 2,
+        "localLanguageId": 6,
+        "name": "Blau"
+    },
+    {
+        "pokemonColorId": 2,
+        "localLanguageId": 7,
+        "name": "Azul"
+    },
+    {
+        "pokemonColorId": 2,
+        "localLanguageId": 8,
+        "name": "Blu"
+    },
+    {
+        "pokemonColorId": 2,
+        "localLanguageId": 9,
+        "name": "Blue"
+    },
+    {
+        "pokemonColorId": 2,
+        "localLanguageId": 11,
+        "name": "\u9752\u8272"
+    },
+    {
+        "pokemonColorId": 2,
+        "localLanguageId": 12,
+        "name": "\u84dd\u8272"
+    },
+    {
+        "pokemonColorId": 3,
+        "localLanguageId": 1,
+        "name": "\u3061\u3083\u3044\u308d"
+    },
+    {
+        "pokemonColorId": 3,
+        "localLanguageId": 3,
+        "name": "\uac08\uc0c9"
+    },
+    {
+        "pokemonColorId": 3,
+        "localLanguageId": 4,
+        "name": "\u8910\u8272"
+    },
+    {
+        "pokemonColorId": 3,
+        "localLanguageId": 5,
+        "name": "Brun"
+    },
+    {
+        "pokemonColorId": 3,
+        "localLanguageId": 6,
+        "name": "Braun"
+    },
+    {
+        "pokemonColorId": 3,
+        "localLanguageId": 7,
+        "name": "Marr\u00f3n"
+    },
+    {
+        "pokemonColorId": 3,
+        "localLanguageId": 8,
+        "name": "Marrone"
+    },
+    {
+        "pokemonColorId": 3,
+        "localLanguageId": 9,
+        "name": "Brown"
+    },
+    {
+        "pokemonColorId": 3,
+        "localLanguageId": 11,
+        "name": "\u8336\u8272"
+    },
+    {
+        "pokemonColorId": 3,
+        "localLanguageId": 12,
+        "name": "\u8910\u8272"
+    },
+    {
+        "pokemonColorId": 4,
+        "localLanguageId": 1,
+        "name": "\u306f\u3044\u3044\u308d"
+    },
+    {
+        "pokemonColorId": 4,
+        "localLanguageId": 3,
+        "name": "\ud68c\uc0c9"
+    },
+    {
+        "pokemonColorId": 4,
+        "localLanguageId": 4,
+        "name": "\u7070\u8272"
+    },
+    {
+        "pokemonColorId": 4,
+        "localLanguageId": 5,
+        "name": "Gris"
+    },
+    {
+        "pokemonColorId": 4,
+        "localLanguageId": 6,
+        "name": "Grau"
+    },
+    {
+        "pokemonColorId": 4,
+        "localLanguageId": 7,
+        "name": "Gris"
+    },
+    {
+        "pokemonColorId": 4,
+        "localLanguageId": 8,
+        "name": "Grigio"
+    },
+    {
+        "pokemonColorId": 4,
+        "localLanguageId": 9,
+        "name": "Gray"
+    },
+    {
+        "pokemonColorId": 4,
+        "localLanguageId": 11,
+        "name": "\u7070\u8272"
+    },
+    {
+        "pokemonColorId": 4,
+        "localLanguageId": 12,
+        "name": "\u7070\u8272"
+    },
+    {
+        "pokemonColorId": 5,
+        "localLanguageId": 1,
+        "name": "\u307f\u3069\u308a\u3044\u308d"
+    },
+    {
+        "pokemonColorId": 5,
+        "localLanguageId": 3,
+        "name": "\ucd08\ub85d"
+    },
+    {
+        "pokemonColorId": 5,
+        "localLanguageId": 4,
+        "name": "\u7da0\u8272"
+    },
+    {
+        "pokemonColorId": 5,
+        "localLanguageId": 5,
+        "name": "Vert"
+    },
+    {
+        "pokemonColorId": 5,
+        "localLanguageId": 6,
+        "name": "Gr\u00fcn"
+    },
+    {
+        "pokemonColorId": 5,
+        "localLanguageId": 7,
+        "name": "Verde"
+    },
+    {
+        "pokemonColorId": 5,
+        "localLanguageId": 8,
+        "name": "Verde"
+    },
+    {
+        "pokemonColorId": 5,
+        "localLanguageId": 9,
+        "name": "Green"
+    },
+    {
+        "pokemonColorId": 5,
+        "localLanguageId": 11,
+        "name": "\u7dd1\u8272"
+    },
+    {
+        "pokemonColorId": 5,
+        "localLanguageId": 12,
+        "name": "\u7eff\u8272"
+    },
+    {
+        "pokemonColorId": 6,
+        "localLanguageId": 1,
+        "name": "\u3082\u3082\u3044\u308d"
+    },
+    {
+        "pokemonColorId": 6,
+        "localLanguageId": 3,
+        "name": "\ub2f4\ud64d"
+    },
+    {
+        "pokemonColorId": 6,
+        "localLanguageId": 4,
+        "name": "\u7c89\u7d05\u8272"
+    },
+    {
+        "pokemonColorId": 6,
+        "localLanguageId": 5,
+        "name": "Rose"
+    },
+    {
+        "pokemonColorId": 6,
+        "localLanguageId": 6,
+        "name": "Rosa"
+    },
+    {
+        "pokemonColorId": 6,
+        "localLanguageId": 7,
+        "name": "Rosa"
+    },
+    {
+        "pokemonColorId": 6,
+        "localLanguageId": 8,
+        "name": "Rosa"
+    },
+    {
+        "pokemonColorId": 6,
+        "localLanguageId": 9,
+        "name": "Pink"
+    },
+    {
+        "pokemonColorId": 6,
+        "localLanguageId": 11,
+        "name": "\u6843\u8272"
+    },
+    {
+        "pokemonColorId": 6,
+        "localLanguageId": 12,
+        "name": "\u7c89\u7ea2\u8272"
+    },
+    {
+        "pokemonColorId": 7,
+        "localLanguageId": 1,
+        "name": "\u3080\u3089\u3055\u304d\u3044\u308d"
+    },
+    {
+        "pokemonColorId": 7,
+        "localLanguageId": 3,
+        "name": "\ubcf4\ub77c"
+    },
+    {
+        "pokemonColorId": 7,
+        "localLanguageId": 4,
+        "name": "\u7d2b\u8272"
+    },
+    {
+        "pokemonColorId": 7,
+        "localLanguageId": 5,
+        "name": "Violet"
+    },
+    {
+        "pokemonColorId": 7,
+        "localLanguageId": 6,
+        "name": "Violett"
+    },
+    {
+        "pokemonColorId": 7,
+        "localLanguageId": 7,
+        "name": "Morado"
+    },
+    {
+        "pokemonColorId": 7,
+        "localLanguageId": 8,
+        "name": "Viola"
+    },
+    {
+        "pokemonColorId": 7,
+        "localLanguageId": 9,
+        "name": "Purple"
+    },
+    {
+        "pokemonColorId": 7,
+        "localLanguageId": 11,
+        "name": "\u7d2b\u8272"
+    },
+    {
+        "pokemonColorId": 7,
+        "localLanguageId": 12,
+        "name": "\u7d2b\u8272"
+    },
+    {
+        "pokemonColorId": 8,
+        "localLanguageId": 1,
+        "name": "\u3042\u304b\u3044\u308d"
+    },
+    {
+        "pokemonColorId": 8,
+        "localLanguageId": 3,
+        "name": "\ube68\uac15"
+    },
+    {
+        "pokemonColorId": 8,
+        "localLanguageId": 4,
+        "name": "\u7d05\u8272"
+    },
+    {
+        "pokemonColorId": 8,
+        "localLanguageId": 5,
+        "name": "Rouge"
+    },
+    {
+        "pokemonColorId": 8,
+        "localLanguageId": 6,
+        "name": "Rot"
+    },
+    {
+        "pokemonColorId": 8,
+        "localLanguageId": 7,
+        "name": "Rojo"
+    },
+    {
+        "pokemonColorId": 8,
+        "localLanguageId": 8,
+        "name": "Rosso"
+    },
+    {
+        "pokemonColorId": 8,
+        "localLanguageId": 9,
+        "name": "Red"
+    },
+    {
+        "pokemonColorId": 8,
+        "localLanguageId": 11,
+        "name": "\u8d64\u8272"
+    },
+    {
+        "pokemonColorId": 8,
+        "localLanguageId": 12,
+        "name": "\u7ea2\u8272"
+    },
+    {
+        "pokemonColorId": 9,
+        "localLanguageId": 1,
+        "name": "\u3057\u308d\u3044\u308d"
+    },
+    {
+        "pokemonColorId": 9,
+        "localLanguageId": 3,
+        "name": "\ud558\uc591"
+    },
+    {
+        "pokemonColorId": 9,
+        "localLanguageId": 4,
+        "name": "\u767d\u8272"
+    },
+    {
+        "pokemonColorId": 9,
+        "localLanguageId": 5,
+        "name": "Blanc"
+    },
+    {
+        "pokemonColorId": 9,
+        "localLanguageId": 6,
+        "name": "Wei\u00df"
+    },
+    {
+        "pokemonColorId": 9,
+        "localLanguageId": 7,
+        "name": "Blanco"
+    },
+    {
+        "pokemonColorId": 9,
+        "localLanguageId": 8,
+        "name": "Bianco"
+    },
+    {
+        "pokemonColorId": 9,
+        "localLanguageId": 9,
+        "name": "White"
+    },
+    {
+        "pokemonColorId": 9,
+        "localLanguageId": 11,
+        "name": "\u767d\u8272"
+    },
+    {
+        "pokemonColorId": 9,
+        "localLanguageId": 12,
+        "name": "\u767d\u8272"
+    },
+    {
+        "pokemonColorId": 10,
+        "localLanguageId": 1,
+        "name": "\u304d\u3044\u308d"
+    },
+    {
+        "pokemonColorId": 10,
+        "localLanguageId": 3,
+        "name": "\ub178\ub791"
+    },
+    {
+        "pokemonColorId": 10,
+        "localLanguageId": 4,
+        "name": "\u9ec3\u8272"
+    },
+    {
+        "pokemonColorId": 10,
+        "localLanguageId": 5,
+        "name": "Jaune"
+    },
+    {
+        "pokemonColorId": 10,
+        "localLanguageId": 6,
+        "name": "Gelb"
+    },
+    {
+        "pokemonColorId": 10,
+        "localLanguageId": 7,
+        "name": "Amarillo"
+    },
+    {
+        "pokemonColorId": 10,
+        "localLanguageId": 8,
+        "name": "Giallo"
+    },
+    {
+        "pokemonColorId": 10,
+        "localLanguageId": 9,
+        "name": "Yellow"
+    },
+    {
+        "pokemonColorId": 10,
+        "localLanguageId": 11,
+        "name": "\u9ec4\u8272"
+    },
+    {
+        "pokemonColorId": 10,
+        "localLanguageId": 12,
+        "name": "\u9ec4\u8272"
+    }
+]

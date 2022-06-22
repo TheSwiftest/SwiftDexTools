@@ -1,0 +1,297 @@
+[
+    {
+        "encounterConditionValueId": 1,
+        "localLanguageId": 6,
+        "name": "W\u00e4hrend eines Schwarms"
+    },
+    {
+        "encounterConditionValueId": 1,
+        "localLanguageId": 9,
+        "name": "During a swarm"
+    },
+    {
+        "encounterConditionValueId": 2,
+        "localLanguageId": 6,
+        "name": "Au\u00dferhalb eines Schwarms"
+    },
+    {
+        "encounterConditionValueId": 2,
+        "localLanguageId": 9,
+        "name": "Not during a swarm"
+    },
+    {
+        "encounterConditionValueId": 3,
+        "localLanguageId": 6,
+        "name": "Am Morgen"
+    },
+    {
+        "encounterConditionValueId": 3,
+        "localLanguageId": 9,
+        "name": "In the morning"
+    },
+    {
+        "encounterConditionValueId": 4,
+        "localLanguageId": 6,
+        "name": "Am Tag"
+    },
+    {
+        "encounterConditionValueId": 4,
+        "localLanguageId": 9,
+        "name": "During the day"
+    },
+    {
+        "encounterConditionValueId": 5,
+        "localLanguageId": 6,
+        "name": "In der Nacht"
+    },
+    {
+        "encounterConditionValueId": 5,
+        "localLanguageId": 9,
+        "name": "At night"
+    },
+    {
+        "encounterConditionValueId": 6,
+        "localLanguageId": 6,
+        "name": "Durch Benutzung des Pok\u00e9radars"
+    },
+    {
+        "encounterConditionValueId": 6,
+        "localLanguageId": 9,
+        "name": "Using Pok\u00e9Radar"
+    },
+    {
+        "encounterConditionValueId": 7,
+        "localLanguageId": 6,
+        "name": "Ohne Benutzung des Pok\u00e9radars"
+    },
+    {
+        "encounterConditionValueId": 7,
+        "localLanguageId": 9,
+        "name": "Not using Pok\u00e9Radar"
+    },
+    {
+        "encounterConditionValueId": 8,
+        "localLanguageId": 6,
+        "name": "Kein Spiel in Slot 2"
+    },
+    {
+        "encounterConditionValueId": 8,
+        "localLanguageId": 9,
+        "name": "No game in slot 2"
+    },
+    {
+        "encounterConditionValueId": 9,
+        "localLanguageId": 6,
+        "name": "Rubin in Slot 2"
+    },
+    {
+        "encounterConditionValueId": 9,
+        "localLanguageId": 9,
+        "name": "Ruby in slot 2"
+    },
+    {
+        "encounterConditionValueId": 10,
+        "localLanguageId": 6,
+        "name": "Saphir in Slot 2"
+    },
+    {
+        "encounterConditionValueId": 10,
+        "localLanguageId": 9,
+        "name": "Sapphire in slot 2"
+    },
+    {
+        "encounterConditionValueId": 11,
+        "localLanguageId": 6,
+        "name": "Smaragd in Slot 2"
+    },
+    {
+        "encounterConditionValueId": 11,
+        "localLanguageId": 9,
+        "name": "Emerald in slot 2"
+    },
+    {
+        "encounterConditionValueId": 12,
+        "localLanguageId": 6,
+        "name": "Feuerrot in slot 2"
+    },
+    {
+        "encounterConditionValueId": 12,
+        "localLanguageId": 9,
+        "name": "FireRed in slot 2"
+    },
+    {
+        "encounterConditionValueId": 13,
+        "localLanguageId": 6,
+        "name": "Blattgr\u00fcn in slot 2"
+    },
+    {
+        "encounterConditionValueId": 13,
+        "localLanguageId": 9,
+        "name": "LeafGreen in slot 2"
+    },
+    {
+        "encounterConditionValueId": 14,
+        "localLanguageId": 6,
+        "name": "Radio aus"
+    },
+    {
+        "encounterConditionValueId": 14,
+        "localLanguageId": 9,
+        "name": "Radio off"
+    },
+    {
+        "encounterConditionValueId": 15,
+        "localLanguageId": 6,
+        "name": "Hoenn-Sound im Radio"
+    },
+    {
+        "encounterConditionValueId": 15,
+        "localLanguageId": 9,
+        "name": "Hoenn radio"
+    },
+    {
+        "encounterConditionValueId": 16,
+        "localLanguageId": 6,
+        "name": "Sinnoh-Sound im Radio"
+    },
+    {
+        "encounterConditionValueId": 16,
+        "localLanguageId": 9,
+        "name": "Sinnoh radio"
+    },
+    {
+        "encounterConditionValueId": 17,
+        "localLanguageId": 6,
+        "name": "Im Fr\u00fchling"
+    },
+    {
+        "encounterConditionValueId": 17,
+        "localLanguageId": 9,
+        "name": "During Spring"
+    },
+    {
+        "encounterConditionValueId": 18,
+        "localLanguageId": 6,
+        "name": "Im Sommer"
+    },
+    {
+        "encounterConditionValueId": 18,
+        "localLanguageId": 9,
+        "name": "During Summer"
+    },
+    {
+        "encounterConditionValueId": 19,
+        "localLanguageId": 6,
+        "name": "Im Herbst"
+    },
+    {
+        "encounterConditionValueId": 19,
+        "localLanguageId": 9,
+        "name": "During Autumn"
+    },
+    {
+        "encounterConditionValueId": 20,
+        "localLanguageId": 6,
+        "name": "Im Winter"
+    },
+    {
+        "encounterConditionValueId": 20,
+        "localLanguageId": 9,
+        "name": "During Winter"
+    },
+    {
+        "encounterConditionValueId": 21,
+        "localLanguageId": 9,
+        "name": "Bulbasaur as starter"
+    },
+    {
+        "encounterConditionValueId": 22,
+        "localLanguageId": 9,
+        "name": "Squirtle as starter"
+    },
+    {
+        "encounterConditionValueId": 23,
+        "localLanguageId": 9,
+        "name": "Charmander as starter"
+    },
+    {
+        "encounterConditionValueId": 24,
+        "localLanguageId": 9,
+        "name": "Chespin as starter"
+    },
+    {
+        "encounterConditionValueId": 25,
+        "localLanguageId": 9,
+        "name": "Fennekin as starter"
+    },
+    {
+        "encounterConditionValueId": 26,
+        "localLanguageId": 9,
+        "name": "Froakie as starter"
+    },
+    {
+        "encounterConditionValueId": 27,
+        "localLanguageId": 9,
+        "name": "Chose \u2018Blue\u2019 on the TV news report"
+    },
+    {
+        "encounterConditionValueId": 28,
+        "localLanguageId": 9,
+        "name": "Chose \u2018Red\u2019 on the TV news report"
+    },
+    {
+        "encounterConditionValueId": 29,
+        "localLanguageId": 9,
+        "name": "Awakened the legendary beasts at Burned Tower"
+    },
+    {
+        "encounterConditionValueId": 30,
+        "localLanguageId": 9,
+        "name": "Visited Lake Verity after defeating Team Galactic at Mt. Coronet"
+    },
+    {
+        "encounterConditionValueId": 31,
+        "localLanguageId": 9,
+        "name": "Talked to Professor Oak at Eterna City"
+    },
+    {
+        "encounterConditionValueId": 32,
+        "localLanguageId": 9,
+        "name": "Visited the Pok\u00e9mon Fan Club with Copycat\u2019s doll"
+    },
+    {
+        "encounterConditionValueId": 33,
+        "localLanguageId": 9,
+        "name": "Met Tornadus or Thundurus in a cutscene"
+    },
+    {
+        "encounterConditionValueId": 34,
+        "localLanguageId": 9,
+        "name": "Beat the Elite 4 for the second time"
+    },
+    {
+        "encounterConditionValueId": 35,
+        "localLanguageId": 9,
+        "name": "Enter the Hall of Fame"
+    },
+    {
+        "encounterConditionValueId": 36,
+        "localLanguageId": 9,
+        "name": "None"
+    },
+    {
+        "encounterConditionValueId": 37,
+        "localLanguageId": 9,
+        "name": "Acquired National Pok\u00e9dex"
+    },
+    {
+        "encounterConditionValueId": 38,
+        "localLanguageId": 9,
+        "name": "None"
+    },
+    {
+        "encounterConditionValueId": 39,
+        "localLanguageId": 9,
+        "name": "Beat the Pok\u00e9mon league after knocking out Snorlax at Route 11"
+    }
+]

@@ -1,0 +1,1502 @@
+[
+    {
+        "characteristicId": 1,
+        "localLanguageId": 1,
+        "message": "\u305f\u3079\u308b\u306e\u304c\u3000\u3060\u3044\u3059\u304d"
+    },
+    {
+        "characteristicId": 1,
+        "localLanguageId": 3,
+        "message": "\uba39\ub294 \uac83\uc744 \uc81c\uc77c \uc88b\uc544\ud568"
+    },
+    {
+        "characteristicId": 1,
+        "localLanguageId": 4,
+        "message": "\u975e\u5e38\u559c\u6b61\u5403\u6771\u897f"
+    },
+    {
+        "characteristicId": 1,
+        "localLanguageId": 5,
+        "message": "Il adore manger"
+    },
+    {
+        "characteristicId": 1,
+        "localLanguageId": 6,
+        "message": "Liebt es zu essen"
+    },
+    {
+        "characteristicId": 1,
+        "localLanguageId": 7,
+        "message": "Le encanta comer"
+    },
+    {
+        "characteristicId": 1,
+        "localLanguageId": 8,
+        "message": "Adora mangiare"
+    },
+    {
+        "characteristicId": 1,
+        "localLanguageId": 9,
+        "message": "Loves to eat"
+    },
+    {
+        "characteristicId": 1,
+        "localLanguageId": 11,
+        "message": "\u98df\u3079\u308b\u306e\u304c\u3000\u5927\u597d\u304d"
+    },
+    {
+        "characteristicId": 1,
+        "localLanguageId": 12,
+        "message": "\u975e\u5e38\u559c\u6b22\u5403\u4e1c\u897f"
+    },
+    {
+        "characteristicId": 2,
+        "localLanguageId": 1,
+        "message": "\u3061\u304b\u3089\u304c\u3000\u3058\u307e\u3093"
+    },
+    {
+        "characteristicId": 2,
+        "localLanguageId": 3,
+        "message": "\ud798\uc790\ub791\uc774 \ud2b9\uae30\uc784"
+    },
+    {
+        "characteristicId": 2,
+        "localLanguageId": 4,
+        "message": "\u4ee5\u529b\u6c23\u5927\u70ba\u50b2"
+    },
+    {
+        "characteristicId": 2,
+        "localLanguageId": 5,
+        "message": "Il est fier de sa puissance"
+    },
+    {
+        "characteristicId": 2,
+        "localLanguageId": 6,
+        "message": "Ist stolz auf seine St\u00e4rke"
+    },
+    {
+        "characteristicId": 2,
+        "localLanguageId": 7,
+        "message": "Se enorgullece de su fuerza"
+    },
+    {
+        "characteristicId": 2,
+        "localLanguageId": 8,
+        "message": "La forza \u00e8 il suo vanto"
+    },
+    {
+        "characteristicId": 2,
+        "localLanguageId": 9,
+        "message": "Proud of its power"
+    },
+    {
+        "characteristicId": 2,
+        "localLanguageId": 11,
+        "message": "\u529b\u304c\u3000\u81ea\u6162"
+    },
+    {
+        "characteristicId": 2,
+        "localLanguageId": 12,
+        "message": "\u4ee5\u529b\u6c14\u5927\u4e3a\u50b2"
+    },
+    {
+        "characteristicId": 3,
+        "localLanguageId": 1,
+        "message": "\u304b\u3089\u3060\u304c\u3000\u3058\u3087\u3046\u3076"
+    },
+    {
+        "characteristicId": 3,
+        "localLanguageId": 3,
+        "message": "\ubab8\uc774 \ud2bc\ud2bc\ud568"
+    },
+    {
+        "characteristicId": 3,
+        "localLanguageId": 4,
+        "message": "\u8eab\u9ad4\u5f37\u58ef"
+    },
+    {
+        "characteristicId": 3,
+        "localLanguageId": 5,
+        "message": "Il a un corps robuste"
+    },
+    {
+        "characteristicId": 3,
+        "localLanguageId": 6,
+        "message": "Hat einen robusten K\u00f6rper"
+    },
+    {
+        "characteristicId": 3,
+        "localLanguageId": 7,
+        "message": "Se caracteriza por su cuerpo resistente"
+    },
+    {
+        "characteristicId": 3,
+        "localLanguageId": 8,
+        "message": "Ha un corpo robusto"
+    },
+    {
+        "characteristicId": 3,
+        "localLanguageId": 9,
+        "message": "Sturdy body"
+    },
+    {
+        "characteristicId": 3,
+        "localLanguageId": 11,
+        "message": "\u4f53\u304c\u3000\u4e08\u592b"
+    },
+    {
+        "characteristicId": 3,
+        "localLanguageId": 12,
+        "message": "\u8eab\u4f53\u5f3a\u58ee"
+    },
+    {
+        "characteristicId": 4,
+        "localLanguageId": 1,
+        "message": "\u3053\u3046\u304d\u3057\u3093\u304c\u3000\u3064\u3088\u3044"
+    },
+    {
+        "characteristicId": 4,
+        "localLanguageId": 3,
+        "message": "\ud638\uae30\uc2ec\uc774 \uac15\ud568"
+    },
+    {
+        "characteristicId": 4,
+        "localLanguageId": 4,
+        "message": "\u597d\u5947\u5fc3\u5f37"
+    },
+    {
+        "characteristicId": 4,
+        "localLanguageId": 5,
+        "message": "Il est extr\u00eamement curieux"
+    },
+    {
+        "characteristicId": 4,
+        "localLanguageId": 6,
+        "message": "Ist sehr neugierig"
+    },
+    {
+        "characteristicId": 4,
+        "localLanguageId": 7,
+        "message": "Siente mucha curiosidad por todo"
+    },
+    {
+        "characteristicId": 4,
+        "localLanguageId": 8,
+        "message": "\u00c8 un grande ficcanaso"
+    },
+    {
+        "characteristicId": 4,
+        "localLanguageId": 9,
+        "message": "Highly curious"
+    },
+    {
+        "characteristicId": 4,
+        "localLanguageId": 11,
+        "message": "\u597d\u5947\u5fc3\u304c\u3000\u5f37\u3044"
+    },
+    {
+        "characteristicId": 4,
+        "localLanguageId": 12,
+        "message": "\u597d\u5947\u5fc3\u5f3a"
+    },
+    {
+        "characteristicId": 5,
+        "localLanguageId": 1,
+        "message": "\u304d\u304c\u3000\u3064\u3088\u3044"
+    },
+    {
+        "characteristicId": 5,
+        "localLanguageId": 3,
+        "message": "\uae30\uac00 \uc13c \uc131\uaca9\uc784"
+    },
+    {
+        "characteristicId": 5,
+        "localLanguageId": 4,
+        "message": "\u6027\u683c\u5f37\u52e2"
+    },
+    {
+        "characteristicId": 5,
+        "localLanguageId": 5,
+        "message": "Il est tr\u00e8s volontaire"
+    },
+    {
+        "characteristicId": 5,
+        "localLanguageId": 6,
+        "message": "Besitzt einen starken Willen"
+    },
+    {
+        "characteristicId": 5,
+        "localLanguageId": 7,
+        "message": "Se distingue por su gran fuerza de voluntad"
+    },
+    {
+        "characteristicId": 5,
+        "localLanguageId": 8,
+        "message": "Sa il fatto suo"
+    },
+    {
+        "characteristicId": 5,
+        "localLanguageId": 9,
+        "message": "Strong willed"
+    },
+    {
+        "characteristicId": 5,
+        "localLanguageId": 11,
+        "message": "\u6c17\u304c\u3000\u5f37\u3044"
+    },
+    {
+        "characteristicId": 5,
+        "localLanguageId": 12,
+        "message": "\u6027\u683c\u5f3a\u52bf"
+    },
+    {
+        "characteristicId": 6,
+        "localLanguageId": 1,
+        "message": "\u304b\u3051\u3063\u3053\u304c\u3000\u3059\u304d"
+    },
+    {
+        "characteristicId": 6,
+        "localLanguageId": 3,
+        "message": "\ub2ec\ub9ac\uae30\ub97c \uc88b\uc544\ud568"
+    },
+    {
+        "characteristicId": 6,
+        "localLanguageId": 4,
+        "message": "\u559c\u6b61\u6bd4\u8ab0\u8dd1\u5f97\u5feb"
+    },
+    {
+        "characteristicId": 6,
+        "localLanguageId": 5,
+        "message": "Il aime la vitesse"
+    },
+    {
+        "characteristicId": 6,
+        "localLanguageId": 6,
+        "message": "Ist gerne schnell unterwegs"
+    },
+    {
+        "characteristicId": 6,
+        "localLanguageId": 7,
+        "message": "Le gusta ir muy r\u00e1pido"
+    },
+    {
+        "characteristicId": 6,
+        "localLanguageId": 8,
+        "message": "Adora andare veloce"
+    },
+    {
+        "characteristicId": 6,
+        "localLanguageId": 9,
+        "message": "Likes to run"
+    },
+    {
+        "characteristicId": 6,
+        "localLanguageId": 11,
+        "message": "\u99c6\u3051\u3063\u3053\u304c\u3000\u597d\u304d"
+    },
+    {
+        "characteristicId": 6,
+        "localLanguageId": 12,
+        "message": "\u559c\u6b22\u6bd4\u8c01\u8dd1\u5f97\u5feb"
+    },
+    {
+        "characteristicId": 7,
+        "localLanguageId": 1,
+        "message": "\u3072\u308b\u306d\u3092\u3000\u3088\u304f\u3059\u308b"
+    },
+    {
+        "characteristicId": 7,
+        "localLanguageId": 3,
+        "message": "\ub0ae\uc7a0\uc744 \uc798 \uc7a0"
+    },
+    {
+        "characteristicId": 7,
+        "localLanguageId": 4,
+        "message": "\u7d93\u5e38\u7761\u5348\u89ba"
+    },
+    {
+        "characteristicId": 7,
+        "localLanguageId": 5,
+        "message": "Il s\u2019assoupit souvent"
+    },
+    {
+        "characteristicId": 7,
+        "localLanguageId": 6,
+        "message": "Nickt oft ein"
+    },
+    {
+        "characteristicId": 7,
+        "localLanguageId": 7,
+        "message": "A menudo se duerme"
+    },
+    {
+        "characteristicId": 7,
+        "localLanguageId": 8,
+        "message": "Si addormenta spesso"
+    },
+    {
+        "characteristicId": 7,
+        "localLanguageId": 9,
+        "message": "Takes plenty of siestas"
+    },
+    {
+        "characteristicId": 7,
+        "localLanguageId": 11,
+        "message": "\u663c\u5bdd\u3092\u3000\u3088\u304f\u3059\u308b"
+    },
+    {
+        "characteristicId": 7,
+        "localLanguageId": 12,
+        "message": "\u7ecf\u5e38\u7761\u5348\u89c9"
+    },
+    {
+        "characteristicId": 8,
+        "localLanguageId": 1,
+        "message": "\u3042\u3070\u308c\u308b\u3053\u3068\u304c\u3000\u3059\u304d"
+    },
+    {
+        "characteristicId": 8,
+        "localLanguageId": 3,
+        "message": "\ub09c\ub3d9\ubd80\ub9ac\uae30\ub97c \uc88b\uc544\ud568"
+    },
+    {
+        "characteristicId": 8,
+        "localLanguageId": 4,
+        "message": "\u559c\u6b61\u80e1\u9b27"
+    },
+    {
+        "characteristicId": 8,
+        "localLanguageId": 5,
+        "message": "Il aime se d\u00e9mener"
+    },
+    {
+        "characteristicId": 8,
+        "localLanguageId": 6,
+        "message": "Pr\u00fcgelt sich gern"
+    },
+    {
+        "characteristicId": 8,
+        "localLanguageId": 7,
+        "message": "Le gusta revolverse"
+    },
+    {
+        "characteristicId": 8,
+        "localLanguageId": 8,
+        "message": "Adora dimenarsi"
+    },
+    {
+        "characteristicId": 8,
+        "localLanguageId": 9,
+        "message": "Likes to thrash about"
+    },
+    {
+        "characteristicId": 8,
+        "localLanguageId": 11,
+        "message": "\u66b4\u308c\u308b\u3053\u3068\u304c\u3000\u597d\u304d"
+    },
+    {
+        "characteristicId": 8,
+        "localLanguageId": 12,
+        "message": "\u559c\u6b22\u80e1\u95f9"
+    },
+    {
+        "characteristicId": 9,
+        "localLanguageId": 1,
+        "message": "\u3046\u305f\u308c\u3000\u3065\u3088\u3044"
+    },
+    {
+        "characteristicId": 9,
+        "localLanguageId": 3,
+        "message": "\ub9f7\uc9d1\uc774 \uac15\ud568"
+    },
+    {
+        "characteristicId": 9,
+        "localLanguageId": 4,
+        "message": "\u6297\u6253\u80fd\u529b\u5f37"
+    },
+    {
+        "characteristicId": 9,
+        "localLanguageId": 5,
+        "message": "Il sait encaisser les coups"
+    },
+    {
+        "characteristicId": 9,
+        "localLanguageId": 6,
+        "message": "Kann Treffer gut verkraften"
+    },
+    {
+        "characteristicId": 9,
+        "localLanguageId": 7,
+        "message": "Encaja bien los ataques"
+    },
+    {
+        "characteristicId": 9,
+        "localLanguageId": 8,
+        "message": "\u00c8 forte in attacco"
+    },
+    {
+        "characteristicId": 9,
+        "localLanguageId": 9,
+        "message": "Capable of taking hits"
+    },
+    {
+        "characteristicId": 9,
+        "localLanguageId": 11,
+        "message": "\u6253\u305f\u308c\u5f37\u3044"
+    },
+    {
+        "characteristicId": 9,
+        "localLanguageId": 12,
+        "message": "\u6297\u6253\u80fd\u529b\u5f3a"
+    },
+    {
+        "characteristicId": 10,
+        "localLanguageId": 1,
+        "message": "\u30a4\u30bf\u30ba\u30e9\u304c\u3000\u3059\u304d"
+    },
+    {
+        "characteristicId": 10,
+        "localLanguageId": 3,
+        "message": "\uc7a5\ub09c\uc744 \uc88b\uc544\ud568"
+    },
+    {
+        "characteristicId": 10,
+        "localLanguageId": 4,
+        "message": "\u559c\u6b61\u60e1\u4f5c\u5287"
+    },
+    {
+        "characteristicId": 10,
+        "localLanguageId": 5,
+        "message": "Il est coquin"
+    },
+    {
+        "characteristicId": 10,
+        "localLanguageId": 6,
+        "message": "Ist hinterh\u00e4ltig"
+    },
+    {
+        "characteristicId": 10,
+        "localLanguageId": 7,
+        "message": "Le gusta hacer travesuras"
+    },
+    {
+        "characteristicId": 10,
+        "localLanguageId": 8,
+        "message": "\u00c8 alquanto vivace"
+    },
+    {
+        "characteristicId": 10,
+        "localLanguageId": 9,
+        "message": "Mischievous"
+    },
+    {
+        "characteristicId": 10,
+        "localLanguageId": 11,
+        "message": "\u30a4\u30bf\u30ba\u30e9\u304c\u3000\u597d\u304d"
+    },
+    {
+        "characteristicId": 10,
+        "localLanguageId": 12,
+        "message": "\u559c\u6b22\u6076\u4f5c\u5267"
+    },
+    {
+        "characteristicId": 11,
+        "localLanguageId": 1,
+        "message": "\u3061\u3087\u3063\u3074\u308a\u3000\u307f\u3048\u3063\u3071\u308a"
+    },
+    {
+        "characteristicId": 11,
+        "localLanguageId": 3,
+        "message": "\uc870\uae08 \uac89\uce58\ub808\ub97c \uc88b\uc544\ud568"
+    },
+    {
+        "characteristicId": 11,
+        "localLanguageId": 4,
+        "message": "\u6709\u4e00\u9ede\u9ede\u611b\u6155\u865b\u69ae"
+    },
+    {
+        "characteristicId": 11,
+        "localLanguageId": 5,
+        "message": "Il est un peu vaniteux"
+    },
+    {
+        "characteristicId": 11,
+        "localLanguageId": 6,
+        "message": "Ist etwas eitel"
+    },
+    {
+        "characteristicId": 11,
+        "localLanguageId": 7,
+        "message": "Es un poco petulante"
+    },
+    {
+        "characteristicId": 11,
+        "localLanguageId": 8,
+        "message": "\u00c8 abbastanza superficiale"
+    },
+    {
+        "characteristicId": 11,
+        "localLanguageId": 9,
+        "message": "Somewhat vain"
+    },
+    {
+        "characteristicId": 11,
+        "localLanguageId": 11,
+        "message": "\u3061\u3087\u3063\u3074\u308a\u3000\u307f\u3048\u3063\u3071\u308a"
+    },
+    {
+        "characteristicId": 11,
+        "localLanguageId": 12,
+        "message": "\u6709\u4e00\u70b9\u70b9\u7231\u6155\u865a\u8363"
+    },
+    {
+        "characteristicId": 12,
+        "localLanguageId": 1,
+        "message": "\u3082\u306e\u304a\u3068\u306b\u3000\u3073\u3093\u304b\u3093"
+    },
+    {
+        "characteristicId": 12,
+        "localLanguageId": 3,
+        "message": "\uc8fc\uc704 \uc18c\ub9ac\uc5d0 \ubbfc\uac10\ud568"
+    },
+    {
+        "characteristicId": 12,
+        "localLanguageId": 4,
+        "message": "\u5c0d\u8072\u97f3\u654f\u611f"
+    },
+    {
+        "characteristicId": 12,
+        "localLanguageId": 5,
+        "message": "Il est attentif aux sons"
+    },
+    {
+        "characteristicId": 12,
+        "localLanguageId": 6,
+        "message": "Achtet auf Ger\u00e4usche"
+    },
+    {
+        "characteristicId": 12,
+        "localLanguageId": 7,
+        "message": "Siempre tiene el o\u00eddo alerta"
+    },
+    {
+        "characteristicId": 12,
+        "localLanguageId": 8,
+        "message": "Fa attenzione ai suoni"
+    },
+    {
+        "characteristicId": 12,
+        "localLanguageId": 9,
+        "message": "Alert to sounds"
+    },
+    {
+        "characteristicId": 12,
+        "localLanguageId": 11,
+        "message": "\u7269\u97f3\u306b\u3000\u654f\u611f"
+    },
+    {
+        "characteristicId": 12,
+        "localLanguageId": 12,
+        "message": "\u5bf9\u58f0\u97f3\u654f\u611f"
+    },
+    {
+        "characteristicId": 13,
+        "localLanguageId": 1,
+        "message": "\u3044\u306d\u3080\u308a\u304c\u3000\u304a\u304a\u3044"
+    },
+    {
+        "characteristicId": 13,
+        "localLanguageId": 3,
+        "message": "\ub9d0\ub69d\uc7a0\uc774 \ub9ce\uc74c"
+    },
+    {
+        "characteristicId": 13,
+        "localLanguageId": 4,
+        "message": "\u5e38\u5e38\u6253\u778c\u7761"
+    },
+    {
+        "characteristicId": 13,
+        "localLanguageId": 5,
+        "message": "Il dort beaucoup"
+    },
+    {
+        "characteristicId": 13,
+        "localLanguageId": 6,
+        "message": "Schl\u00e4ft gern"
+    },
+    {
+        "characteristicId": 13,
+        "localLanguageId": 7,
+        "message": "Duerme mucho"
+    },
+    {
+        "characteristicId": 13,
+        "localLanguageId": 8,
+        "message": "Dorme a lungo"
+    },
+    {
+        "characteristicId": 13,
+        "localLanguageId": 9,
+        "message": "Nods off a lot"
+    },
+    {
+        "characteristicId": 13,
+        "localLanguageId": 11,
+        "message": "\u5c45\u7720\u308a\u304c\u3000\u591a\u3044"
+    },
+    {
+        "characteristicId": 13,
+        "localLanguageId": 12,
+        "message": "\u5e38\u5e38\u6253\u778c\u7761"
+    },
+    {
+        "characteristicId": 14,
+        "localLanguageId": 1,
+        "message": "\u3061\u3087\u3063\u3068\u3000\u304a\u3053\u308a\u3063\u307d\u3044"
+    },
+    {
+        "characteristicId": 14,
+        "localLanguageId": 3,
+        "message": "\uc57d\uac04 \ud654\ub97c \uc798 \ub0b4\ub294 \uc131\ubbf8\uc784"
+    },
+    {
+        "characteristicId": 14,
+        "localLanguageId": 4,
+        "message": "\u6709\u9ede\u5bb9\u6613\u751f\u6c23"
+    },
+    {
+        "characteristicId": 14,
+        "localLanguageId": 5,
+        "message": "Il est un peu col\u00e9reux"
+    },
+    {
+        "characteristicId": 14,
+        "localLanguageId": 6,
+        "message": "Besitzt Temperament"
+    },
+    {
+        "characteristicId": 14,
+        "localLanguageId": 7,
+        "message": "A veces se enfada"
+    },
+    {
+        "characteristicId": 14,
+        "localLanguageId": 8,
+        "message": "Si arrabbia facilmente"
+    },
+    {
+        "characteristicId": 14,
+        "localLanguageId": 9,
+        "message": "A little quick tempered"
+    },
+    {
+        "characteristicId": 14,
+        "localLanguageId": 11,
+        "message": "\u3061\u3087\u3063\u3068\u3000\u6012\u308a\u3063\u307d\u3044"
+    },
+    {
+        "characteristicId": 14,
+        "localLanguageId": 12,
+        "message": "\u6709\u70b9\u5bb9\u6613\u751f\u6c14"
+    },
+    {
+        "characteristicId": 15,
+        "localLanguageId": 1,
+        "message": "\u306d\u3070\u308a\u3000\u3065\u3088\u3044"
+    },
+    {
+        "characteristicId": 15,
+        "localLanguageId": 3,
+        "message": "\ub048\uc9c8\uae40"
+    },
+    {
+        "characteristicId": 15,
+        "localLanguageId": 4,
+        "message": "\u9811\u5f37\u4e0d\u5c48"
+    },
+    {
+        "characteristicId": 15,
+        "localLanguageId": 5,
+        "message": "Il est tr\u00e8s obstin\u00e9"
+    },
+    {
+        "characteristicId": 15,
+        "localLanguageId": 6,
+        "message": "Ist \u00e4u\u00dferst z\u00e4h"
+    },
+    {
+        "characteristicId": 15,
+        "localLanguageId": 7,
+        "message": "Es muy persistente"
+    },
+    {
+        "characteristicId": 15,
+        "localLanguageId": 8,
+        "message": "\u00c8 molto ostinato"
+    },
+    {
+        "characteristicId": 15,
+        "localLanguageId": 9,
+        "message": "Highly persistent"
+    },
+    {
+        "characteristicId": 15,
+        "localLanguageId": 11,
+        "message": "\u7c98\u308a\u5f37\u3044"
+    },
+    {
+        "characteristicId": 15,
+        "localLanguageId": 12,
+        "message": "\u987d\u5f3a\u4e0d\u5c48"
+    },
+    {
+        "characteristicId": 16,
+        "localLanguageId": 1,
+        "message": "\u306c\u3051\u3081\u304c\u3000\u306a\u3044"
+    },
+    {
+        "characteristicId": 16,
+        "localLanguageId": 3,
+        "message": "\ube48\ud2c8\uc774 \uc5c6\uc74c"
+    },
+    {
+        "characteristicId": 16,
+        "localLanguageId": 4,
+        "message": "\u505a\u4e8b\u842c\u7121\u4e00\u5931"
+    },
+    {
+        "characteristicId": 16,
+        "localLanguageId": 5,
+        "message": "Il est tr\u00e8s astucieux"
+    },
+    {
+        "characteristicId": 16,
+        "localLanguageId": 6,
+        "message": "Ist \u00e4u\u00dferst gerissen"
+    },
+    {
+        "characteristicId": 16,
+        "localLanguageId": 7,
+        "message": "Es muy sagaz"
+    },
+    {
+        "characteristicId": 16,
+        "localLanguageId": 8,
+        "message": "\u00c8 estremamente sagace"
+    },
+    {
+        "characteristicId": 16,
+        "localLanguageId": 9,
+        "message": "Thoroughly cunning"
+    },
+    {
+        "characteristicId": 16,
+        "localLanguageId": 11,
+        "message": "\u629c\u3051\u76ee\u304c\u3000\u306a\u3044"
+    },
+    {
+        "characteristicId": 16,
+        "localLanguageId": 12,
+        "message": "\u505a\u4e8b\u4e07\u65e0\u4e00\u5931"
+    },
+    {
+        "characteristicId": 17,
+        "localLanguageId": 1,
+        "message": "\u307e\u3051\u3093\u304d\u304c\u3000\u3064\u3088\u3044"
+    },
+    {
+        "characteristicId": 17,
+        "localLanguageId": 3,
+        "message": "\uc624\uae30\uac00 \uc13c \uc131\uaca9\uc784"
+    },
+    {
+        "characteristicId": 17,
+        "localLanguageId": 4,
+        "message": "\u722d\u5f37\u597d\u52dd"
+    },
+    {
+        "characteristicId": 17,
+        "localLanguageId": 5,
+        "message": "Il a l\u2019esprit rebelle"
+    },
+    {
+        "characteristicId": 17,
+        "localLanguageId": 6,
+        "message": "Ist sehr aufs\u00e4ssig"
+    },
+    {
+        "characteristicId": 17,
+        "localLanguageId": 7,
+        "message": "Es muy insolente"
+    },
+    {
+        "characteristicId": 17,
+        "localLanguageId": 8,
+        "message": "\u00c8 molto insolente"
+    },
+    {
+        "characteristicId": 17,
+        "localLanguageId": 9,
+        "message": "Strongly defiant"
+    },
+    {
+        "characteristicId": 17,
+        "localLanguageId": 11,
+        "message": "\u8ca0\u3051\u3093\u6c17\u304c\u3000\u5f37\u3044"
+    },
+    {
+        "characteristicId": 17,
+        "localLanguageId": 12,
+        "message": "\u4e89\u5f3a\u597d\u80dc"
+    },
+    {
+        "characteristicId": 18,
+        "localLanguageId": 1,
+        "message": "\u304a\u3063\u3061\u3087\u3053\u3061\u3087\u3044"
+    },
+    {
+        "characteristicId": 18,
+        "localLanguageId": 3,
+        "message": "\ucd10\ub791\ub300\ub294 \uc131\uaca9\uc784"
+    },
+    {
+        "characteristicId": 18,
+        "localLanguageId": 4,
+        "message": "\u5192\u5192\u5931\u5931"
+    },
+    {
+        "characteristicId": 18,
+        "localLanguageId": 5,
+        "message": "Il est b\u00eate et impulsif"
+    },
+    {
+        "characteristicId": 18,
+        "localLanguageId": 6,
+        "message": "Ist ungest\u00fcm und einf\u00e4ltig"
+    },
+    {
+        "characteristicId": 18,
+        "localLanguageId": 7,
+        "message": "Es de car\u00e1cter simple e impetuoso"
+    },
+    {
+        "characteristicId": 18,
+        "localLanguageId": 8,
+        "message": "\u00c8 irruente e semplice"
+    },
+    {
+        "characteristicId": 18,
+        "localLanguageId": 9,
+        "message": "Impetuous and silly"
+    },
+    {
+        "characteristicId": 18,
+        "localLanguageId": 11,
+        "message": "\u304a\u3063\u3061\u3087\u3053\u3061\u3087\u3044"
+    },
+    {
+        "characteristicId": 18,
+        "localLanguageId": 12,
+        "message": "\u5192\u5192\u5931\u5931"
+    },
+    {
+        "characteristicId": 19,
+        "localLanguageId": 1,
+        "message": "\u3082\u306e\u3092\u3000\u3088\u304f\u3000\u3061\u3089\u304b\u3059"
+    },
+    {
+        "characteristicId": 19,
+        "localLanguageId": 3,
+        "message": "\ubb3c\uac74\uc744 \uc798 \uc5b4\uc9c0\ub984"
+    },
+    {
+        "characteristicId": 19,
+        "localLanguageId": 4,
+        "message": "\u7d93\u5e38\u4e82\u6254\u6771\u897f"
+    },
+    {
+        "characteristicId": 19,
+        "localLanguageId": 5,
+        "message": "Il \u00e9parpille souvent les choses"
+    },
+    {
+        "characteristicId": 19,
+        "localLanguageId": 6,
+        "message": "Macht oft Unordnung"
+    },
+    {
+        "characteristicId": 19,
+        "localLanguageId": 7,
+        "message": "Suele desordenar cosas"
+    },
+    {
+        "characteristicId": 19,
+        "localLanguageId": 8,
+        "message": "Lascia cose in giro"
+    },
+    {
+        "characteristicId": 19,
+        "localLanguageId": 9,
+        "message": "Scatters things often"
+    },
+    {
+        "characteristicId": 19,
+        "localLanguageId": 11,
+        "message": "\u3082\u306e\u3092\u3000\u3088\u304f\u3000\u6563\u3089\u304b\u3059"
+    },
+    {
+        "characteristicId": 19,
+        "localLanguageId": 12,
+        "message": "\u7ecf\u5e38\u4e71\u6254\u4e1c\u897f"
+    },
+    {
+        "characteristicId": 20,
+        "localLanguageId": 1,
+        "message": "\u30b1\u30f3\u30ab\u3092\u3000\u3059\u308b\u306e\u304c\u3000\u3059\u304d"
+    },
+    {
+        "characteristicId": 20,
+        "localLanguageId": 3,
+        "message": "\uc2f8\uc6c0\uc744 \uc88b\uc544\ud568"
+    },
+    {
+        "characteristicId": 20,
+        "localLanguageId": 4,
+        "message": "\u559c\u6b61\u6253\u67b6"
+    },
+    {
+        "characteristicId": 20,
+        "localLanguageId": 5,
+        "message": "Il aime combattre"
+    },
+    {
+        "characteristicId": 20,
+        "localLanguageId": 6,
+        "message": "Liebt K\u00e4mpfe"
+    },
+    {
+        "characteristicId": 20,
+        "localLanguageId": 7,
+        "message": "Le gusta luchar"
+    },
+    {
+        "characteristicId": 20,
+        "localLanguageId": 8,
+        "message": "Adora lottare"
+    },
+    {
+        "characteristicId": 20,
+        "localLanguageId": 9,
+        "message": "Likes to fight"
+    },
+    {
+        "characteristicId": 20,
+        "localLanguageId": 11,
+        "message": "\u30b1\u30f3\u30ab\u3092\u3000\u3059\u308b\u306e\u304c\u3000\u597d\u304d"
+    },
+    {
+        "characteristicId": 20,
+        "localLanguageId": 12,
+        "message": "\u559c\u6b22\u6253\u67b6"
+    },
+    {
+        "characteristicId": 21,
+        "localLanguageId": 1,
+        "message": "\u3057\u3093\u307c\u3046\u3000\u3065\u3088\u3044"
+    },
+    {
+        "characteristicId": 21,
+        "localLanguageId": 3,
+        "message": "\uc778\ub0b4\uc2ec\uc774 \uac15\ud568"
+    },
+    {
+        "characteristicId": 21,
+        "localLanguageId": 4,
+        "message": "\u80fd\u5403\u82e6\u8010\u52de"
+    },
+    {
+        "characteristicId": 21,
+        "localLanguageId": 5,
+        "message": "Il a une bonne endurance"
+    },
+    {
+        "characteristicId": 21,
+        "localLanguageId": 6,
+        "message": "Hat eine gute Ausdauer"
+    },
+    {
+        "characteristicId": 21,
+        "localLanguageId": 7,
+        "message": "Se caracteriza por ser muy resistente"
+    },
+    {
+        "characteristicId": 21,
+        "localLanguageId": 8,
+        "message": "\u00c8 molto paziente"
+    },
+    {
+        "characteristicId": 21,
+        "localLanguageId": 9,
+        "message": "Good endurance"
+    },
+    {
+        "characteristicId": 21,
+        "localLanguageId": 11,
+        "message": "\u8f9b\u62b1\u5f37\u3044"
+    },
+    {
+        "characteristicId": 21,
+        "localLanguageId": 12,
+        "message": "\u80fd\u5403\u82e6\u8010\u52b3"
+    },
+    {
+        "characteristicId": 22,
+        "localLanguageId": 1,
+        "message": "\u304b\u3093\u304c\u3048\u3054\u3068\u304c\u3000\u304a\u304a\u3044"
+    },
+    {
+        "characteristicId": 22,
+        "localLanguageId": 3,
+        "message": "\uac71\uc815\uac70\ub9ac\uac00 \ub9ce\uc74c"
+    },
+    {
+        "characteristicId": 22,
+        "localLanguageId": 4,
+        "message": "\u7d93\u5e38\u601d\u8003"
+    },
+    {
+        "characteristicId": 22,
+        "localLanguageId": 5,
+        "message": "Il est souvent dans la lune"
+    },
+    {
+        "characteristicId": 22,
+        "localLanguageId": 6,
+        "message": "Ist oft in Gedanken"
+    },
+    {
+        "characteristicId": 22,
+        "localLanguageId": 7,
+        "message": "A menudo est\u00e1 en Babia"
+    },
+    {
+        "characteristicId": 22,
+        "localLanguageId": 8,
+        "message": "Si perde nel suo mondo"
+    },
+    {
+        "characteristicId": 22,
+        "localLanguageId": 9,
+        "message": "Often lost in thought"
+    },
+    {
+        "characteristicId": 22,
+        "localLanguageId": 11,
+        "message": "\u8003\u3048\u4e8b\u304c\u3000\u591a\u3044"
+    },
+    {
+        "characteristicId": 22,
+        "localLanguageId": 12,
+        "message": "\u7ecf\u5e38\u601d\u8003"
+    },
+    {
+        "characteristicId": 23,
+        "localLanguageId": 1,
+        "message": "\u307e\u3051\u305a\u304e\u3089\u3044"
+    },
+    {
+        "characteristicId": 23,
+        "localLanguageId": 3,
+        "message": "\uc9c0\uae30 \uc2eb\uc5b4\ud568"
+    },
+    {
+        "characteristicId": 23,
+        "localLanguageId": 4,
+        "message": "\u4e0d\u670d\u8f38"
+    },
+    {
+        "characteristicId": 23,
+        "localLanguageId": 5,
+        "message": "Il a horreur de perdre"
+    },
+    {
+        "characteristicId": 23,
+        "localLanguageId": 6,
+        "message": "Hasst Niederlagen"
+    },
+    {
+        "characteristicId": 23,
+        "localLanguageId": 7,
+        "message": "Odia perder"
+    },
+    {
+        "characteristicId": 23,
+        "localLanguageId": 8,
+        "message": "Non sopporta perdere"
+    },
+    {
+        "characteristicId": 23,
+        "localLanguageId": 9,
+        "message": "Hates to lose"
+    },
+    {
+        "characteristicId": 23,
+        "localLanguageId": 11,
+        "message": "\u8ca0\u3051\u305a\u5acc\u3044"
+    },
+    {
+        "characteristicId": 23,
+        "localLanguageId": 12,
+        "message": "\u4e0d\u670d\u8f93"
+    },
+    {
+        "characteristicId": 24,
+        "localLanguageId": 1,
+        "message": "\u3059\u3053\u3057\u3000\u304a\u3061\u3087\u3046\u3057\u3082\u306e"
+    },
+    {
+        "characteristicId": 24,
+        "localLanguageId": 3,
+        "message": "\uc57d\uac04 \uc6b0\ucb50\uc7c1\uc774\uc784"
+    },
+    {
+        "characteristicId": 24,
+        "localLanguageId": 4,
+        "message": "\u6709\u9ede\u5bb9\u6613\u5f97\u610f\u5fd8\u5f62"
+    },
+    {
+        "characteristicId": 24,
+        "localLanguageId": 5,
+        "message": "Il aime faire le pitre"
+    },
+    {
+        "characteristicId": 24,
+        "localLanguageId": 6,
+        "message": "Ist ein bisschen albern"
+    },
+    {
+        "characteristicId": 24,
+        "localLanguageId": 7,
+        "message": "Le encanta hacer payasadas"
+    },
+    {
+        "characteristicId": 24,
+        "localLanguageId": 8,
+        "message": "\u00c8 una specie di buffone"
+    },
+    {
+        "characteristicId": 24,
+        "localLanguageId": 9,
+        "message": "Somewhat of a clown"
+    },
+    {
+        "characteristicId": 24,
+        "localLanguageId": 11,
+        "message": "\u3059\u3053\u3057\u3000\u304a\u8abf\u5b50\u8005"
+    },
+    {
+        "characteristicId": 24,
+        "localLanguageId": 12,
+        "message": "\u6709\u70b9\u5bb9\u6613\u5f97\u610f\u5fd8\u5f62"
+    },
+    {
+        "characteristicId": 25,
+        "localLanguageId": 1,
+        "message": "\u306e\u3093\u3073\u308a\u3059\u308b\u306e\u304c\u3000\u3059\u304d"
+    },
+    {
+        "characteristicId": 25,
+        "localLanguageId": 3,
+        "message": "\uc720\uc720\uc790\uc801\ud568\uc744 \uc88b\uc544\ud568"
+    },
+    {
+        "characteristicId": 25,
+        "localLanguageId": 4,
+        "message": "\u559c\u6b61\u60a0\u7136\u81ea\u5728"
+    },
+    {
+        "characteristicId": 25,
+        "localLanguageId": 5,
+        "message": "Il aime se d\u00e9tendre"
+    },
+    {
+        "characteristicId": 25,
+        "localLanguageId": 6,
+        "message": "Mag es, sich zu entspannen"
+    },
+    {
+        "characteristicId": 25,
+        "localLanguageId": 7,
+        "message": "Le gusta relajarse"
+    },
+    {
+        "characteristicId": 25,
+        "localLanguageId": 8,
+        "message": "Adora rilassarsi"
+    },
+    {
+        "characteristicId": 25,
+        "localLanguageId": 9,
+        "message": "Likes to relax"
+    },
+    {
+        "characteristicId": 25,
+        "localLanguageId": 11,
+        "message": "\u306e\u3093\u3073\u308a\u3059\u308b\u306e\u304c\u3000\u597d\u304d"
+    },
+    {
+        "characteristicId": 25,
+        "localLanguageId": 12,
+        "message": "\u559c\u6b22\u60a0\u7136\u81ea\u5728"
+    },
+    {
+        "characteristicId": 26,
+        "localLanguageId": 1,
+        "message": "\u3061\u306e\u3051\u304c\u3000\u304a\u304a\u3044"
+    },
+    {
+        "characteristicId": 26,
+        "localLanguageId": 3,
+        "message": "\ud608\uae30\uac00 \uc655\uc131\ud568"
+    },
+    {
+        "characteristicId": 26,
+        "localLanguageId": 4,
+        "message": "\u8840\u6c23\u65b9\u525b"
+    },
+    {
+        "characteristicId": 26,
+        "localLanguageId": 5,
+        "message": "Il s\u2019emporte facilement"
+    },
+    {
+        "characteristicId": 26,
+        "localLanguageId": 6,
+        "message": "Ist impulsiv"
+    },
+    {
+        "characteristicId": 26,
+        "localLanguageId": 7,
+        "message": "Tiene mal genio"
+    },
+    {
+        "characteristicId": 26,
+        "localLanguageId": 8,
+        "message": "\u00c8 facilmente irritabile"
+    },
+    {
+        "characteristicId": 26,
+        "localLanguageId": 9,
+        "message": "Quick tempered"
+    },
+    {
+        "characteristicId": 26,
+        "localLanguageId": 11,
+        "message": "\u8840\u306e\u6c17\u304c\u3000\u591a\u3044"
+    },
+    {
+        "characteristicId": 26,
+        "localLanguageId": 12,
+        "message": "\u8840\u6c14\u65b9\u521a"
+    },
+    {
+        "characteristicId": 27,
+        "localLanguageId": 1,
+        "message": "\u304c\u307e\u3093\u3000\u3065\u3088\u3044"
+    },
+    {
+        "characteristicId": 27,
+        "localLanguageId": 3,
+        "message": "\uc798 \ucc38\uc74c"
+    },
+    {
+        "characteristicId": 27,
+        "localLanguageId": 4,
+        "message": "\u5584\u65bc\u5fcd\u8010"
+    },
+    {
+        "characteristicId": 27,
+        "localLanguageId": 5,
+        "message": "Il est pers\u00e9v\u00e9rant"
+    },
+    {
+        "characteristicId": 27,
+        "localLanguageId": 6,
+        "message": "Ist beharrlich"
+    },
+    {
+        "characteristicId": 27,
+        "localLanguageId": 7,
+        "message": "Es muy perseverante"
+    },
+    {
+        "characteristicId": 27,
+        "localLanguageId": 8,
+        "message": "\u00c8 molto tenace"
+    },
+    {
+        "characteristicId": 27,
+        "localLanguageId": 9,
+        "message": "Good perseverance"
+    },
+    {
+        "characteristicId": 27,
+        "localLanguageId": 11,
+        "message": "\u6211\u6162\u5f37\u3044"
+    },
+    {
+        "characteristicId": 27,
+        "localLanguageId": 12,
+        "message": "\u5584\u4e8e\u5fcd\u8010"
+    },
+    {
+        "characteristicId": 28,
+        "localLanguageId": 1,
+        "message": "\u3068\u3066\u3082\u3000\u304d\u3061\u3087\u3046\u3081\u3093"
+    },
+    {
+        "characteristicId": 28,
+        "localLanguageId": 3,
+        "message": "\ub9e4\uc6b0 \uaf3c\uaf3c\ud568"
+    },
+    {
+        "characteristicId": 28,
+        "localLanguageId": 4,
+        "message": "\u4e00\u7d72\u4e0d\u82df"
+    },
+    {
+        "characteristicId": 28,
+        "localLanguageId": 5,
+        "message": "Il est tr\u00e8s particulier"
+    },
+    {
+        "characteristicId": 28,
+        "localLanguageId": 6,
+        "message": "Ist sehr pedantisch"
+    },
+    {
+        "characteristicId": 28,
+        "localLanguageId": 7,
+        "message": "Es muy tiquismiquis"
+    },
+    {
+        "characteristicId": 28,
+        "localLanguageId": 8,
+        "message": "\u00c8 molto esigente"
+    },
+    {
+        "characteristicId": 28,
+        "localLanguageId": 9,
+        "message": "Very finicky"
+    },
+    {
+        "characteristicId": 28,
+        "localLanguageId": 11,
+        "message": "\u3068\u3066\u3082\u3000\u304d\u3061\u3087\u3046\u3081\u3093"
+    },
+    {
+        "characteristicId": 28,
+        "localLanguageId": 12,
+        "message": "\u4e00\u4e1d\u4e0d\u82df"
+    },
+    {
+        "characteristicId": 29,
+        "localLanguageId": 1,
+        "message": "\u3061\u3087\u3063\u3074\u308a\u3000\u3054\u3046\u3058\u3087\u3046"
+    },
+    {
+        "characteristicId": 29,
+        "localLanguageId": 3,
+        "message": "\uc870\uae08 \uace0\uc9d1\ud1b5\uc774\uc784"
+    },
+    {
+        "characteristicId": 29,
+        "localLanguageId": 4,
+        "message": "\u6709\u4e00\u9ede\u9ede\u56fa\u57f7"
+    },
+    {
+        "characteristicId": 29,
+        "localLanguageId": 5,
+        "message": "Il est assez ent\u00eat\u00e9"
+    },
+    {
+        "characteristicId": 29,
+        "localLanguageId": 6,
+        "message": "Ist dickk\u00f6pfig"
+    },
+    {
+        "characteristicId": 29,
+        "localLanguageId": 7,
+        "message": "Es un poco cabezota"
+    },
+    {
+        "characteristicId": 29,
+        "localLanguageId": 8,
+        "message": "\u00c8 un po\u2019 testardo"
+    },
+    {
+        "characteristicId": 29,
+        "localLanguageId": 9,
+        "message": "Somewhat stubborn"
+    },
+    {
+        "characteristicId": 29,
+        "localLanguageId": 11,
+        "message": "\u3061\u3087\u3063\u3074\u308a\u3000\u5f37\u60c5"
+    },
+    {
+        "characteristicId": 29,
+        "localLanguageId": 12,
+        "message": "\u6709\u4e00\u70b9\u70b9\u56fa\u6267"
+    },
+    {
+        "characteristicId": 30,
+        "localLanguageId": 1,
+        "message": "\u306b\u3052\u308b\u306e\u304c\u3000\u306f\u3084\u3044"
+    },
+    {
+        "characteristicId": 30,
+        "localLanguageId": 3,
+        "message": "\ub3c4\ub9dd\uc5d0\ub294 \uc120\uc218\uc784"
+    },
+    {
+        "characteristicId": 30,
+        "localLanguageId": 4,
+        "message": "\u9003\u5f97\u5feb"
+    },
+    {
+        "characteristicId": 30,
+        "localLanguageId": 5,
+        "message": "Il fuit rapidement"
+    },
+    {
+        "characteristicId": 30,
+        "localLanguageId": 6,
+        "message": "Fl\u00fcchtet schnell"
+    },
+    {
+        "characteristicId": 30,
+        "localLanguageId": 7,
+        "message": "Huye r\u00e1pido"
+    },
+    {
+        "characteristicId": 30,
+        "localLanguageId": 8,
+        "message": "Sa fuggire velocemente"
+    },
+    {
+        "characteristicId": 30,
+        "localLanguageId": 9,
+        "message": "Quick to flee"
+    },
+    {
+        "characteristicId": 30,
+        "localLanguageId": 11,
+        "message": "\u9003\u3052\u308b\u306e\u304c\u3000\u306f\u3084\u3044"
+    },
+    {
+        "characteristicId": 30,
+        "localLanguageId": 12,
+        "message": "\u9003\u5f97\u5feb"
+    }
+]
