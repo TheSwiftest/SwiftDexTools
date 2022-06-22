@@ -682,15 +682,15 @@ func loadMoves() {
        if let contestTypeId = objectJSON["contestTypeId"] as? Int {
            realmObject.contestType = realmDB.object(ofType: ContestType.self, forPrimaryKey: contestTypeId)
        }
-       
+
        if let contestEffectId = objectJSON["contestEffectId"] as? Int {
            realmObject.contestEffect = realmDB.object(ofType: ContestEffect.self, forPrimaryKey: contestEffectId)
        }
-       
+
        if let superContestEffectId = objectJSON["superContestEffectId"] as? Int {
            realmObject.superContestEffect = realmDB.object(ofType: SuperContestEffect.self, forPrimaryKey: superContestEffectId)
        }
-        
+
        realmDB.add(realmObject)
    }
 }
@@ -832,27 +832,27 @@ func loadPokemonColors() {
 func loadPokemonDexNumbers() {
    for objectJSON in storedData["pokemon_dex_numbers"]! {
        let realmObject = PokemonDexNumber(value: objectJSON)
-       
+
         realmObject.pokedex = realmDB.object(ofType: Pokedex.self, forPrimaryKey: objectJSON["pokedexId"])
-       
+
        var pokemon = realmDB.object(ofType: Pokemon.self, forPrimaryKey: objectJSON["speciesId"])!
-       
+
        // 16 - 25 is alola, check for alola forms
        if realmObject.pokedex!.id >= 16 && realmObject.pokedex!.id <= 25 {
            if let otherPokemon = realmDB.objects(Pokemon.self).filter({ $0.identifier ==  "\(pokemon.identifier)-alola"}).first {
                pokemon = otherPokemon
            }
        }
-       
+
        // 27 - 29 is galar, check for galar forms
        if realmObject.pokedex!.id >= 27 && realmObject.pokedex!.id <= 29 {
            if let otherPokemon = realmDB.objects(Pokemon.self).filter({ $0.identifier ==  "\(pokemon.identifier)-galar"}).first {
                pokemon = otherPokemon
            }
        }
-       
+
        realmObject.pokemon = pokemon
-       
+
        realmDB.add(realmObject)
    }
 }
@@ -1217,3 +1217,32 @@ func loadVersions() {
    }
 }
 
+func loadShowdownCategories() {
+    for objectJSON in storedData["showdown_categories"]! {
+        let realmObject = ShowdownCategory(value: objectJSON)
+        realmDB.add(realmObject)
+    }
+}
+
+func loadShowdownFormats() {
+    for objectJSON in storedData["showdown_formats"]! {
+        let realmObject = ShowdownFormat(value: objectJSON)
+        if let categoryId = objectJSON["categoryId"] as? Int {
+            realmObject.category = realmDB.object(ofType: ShowdownCategory.self, forPrimaryKey: categoryId)
+        }
+        if let groupId = objectJSON["groupId"] as? Int {
+            realmObject.group = realmDB.object(ofType: ShowdownFormatGroup.self, forPrimaryKey: groupId)
+        }
+        if let generationId = objectJSON["generationId"] as? Int {
+            realmObject.generation = realmDB.object(ofType: Generation.self, forPrimaryKey: generationId)
+        }
+        realmDB.add(realmObject)
+    }
+}
+
+func loadShowdownFormatGroups() {
+    for objectJSON in storedData["showdown_format_groups"]! {
+        let realmObject = ShowdownFormatGroup(value: objectJSON)
+        realmDB.add(realmObject)
+    }
+}

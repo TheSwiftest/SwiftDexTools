@@ -27,11 +27,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E8766C52285FF543005FF975 /* json */ = {isa = PBXFileReference; lastKnownFileType = folder; path = json; sourceTree = "<group>"; };
 		E897E53927F0E9B3004849EC /* RealmDexGen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RealmDexGen; sourceTree = BUILT_PRODUCTS_DIR; };
 		E897E54327F0E9D5004849EC /* RealmDataModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDataModels.swift; sourceTree = "<group>"; };
 		E897E54427F0E9D5004849EC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E897E54627F0E9D5004849EC /* loadData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loadData.swift; sourceTree = "<group>"; };
+		E89A19CA2860E34B00EBFFDA /* json */ = {isa = PBXFileReference; lastKnownFileType = folder; path = json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 		E897E53B27F0E9B3004849EC /* RealmDexGen */ = {
 			isa = PBXGroup;
 			children = (
-				E8766C52285FF543005FF975 /* json */,
+				E89A19CA2860E34B00EBFFDA /* json */,
 				E897E54627F0E9D5004849EC /* loadData.swift */,
 				E897E54427F0E9D5004849EC /* main.swift */,
 				E897E54327F0E9D5004849EC /* RealmDataModels.swift */,

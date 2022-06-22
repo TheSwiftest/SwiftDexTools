@@ -8,6 +8,21 @@
 import Foundation
 import RealmSwift
 
+/*
+let realm = try! Realm(configuration: Realm.Configuration(fileURL: URL(fileURLWithPath: "/Users/briancorbin/Programming/SwiftDexTools/RealmDexGen/RealmDexGen/swiftdex"), readOnly: true))
+
+let showdownFormats = Array(realm.objects(ShowdownFormat.self))
+
+let encoder = JSONEncoder()
+encoder.outputFormatting = .prettyPrinted
+
+let formatsJson = try! encoder.encode(showdownFormats)
+print(String(data: formatsJson, encoding: .utf8)!)
+
+
+try! realm.writeCopy(toFile: URL(fileURLWithPath: "/Users/briancorbin/Programming/SwiftDexTools/RealmDexGen/RealmDexGen/swiftdex_old.realm"))
+*/
+
 typealias StoredData = [String: [[String: Any]]]
 
 let realmDB = try! Realm()
@@ -163,5 +178,10 @@ loadPokemonEvolution()
 loadPokemonMoves()
 loadPokemonSpeciesFlavorText()
 loadLanguageNames()
+loadShowdownCategories()
+loadShowdownFormatGroups()
+loadShowdownFormats()
 
 try! realmDB.commitWrite()
+try! realmDB.writeCopy(toFile: URL(fileURLWithPath: "/Users/briancorbin/Programming/SwiftDexTools/RealmDexGen/RealmDexGen/swiftdex.realm"))
+

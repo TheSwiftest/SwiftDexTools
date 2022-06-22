@@ -1,13 +1,12 @@
 //
 //  RealmDataModels.swift
-//  Realm Pokedex Gen
+//  SwiftDex
 //
-//  Created by BrianCorbin on 1/28/21.
+//  Created by Brian Corbin on 4/2/22.
 //
 
 // swiftlint:disable file_length
 
-import AVFoundation
 import Foundation
 import Realm
 import RealmSwift
@@ -19,10 +18,10 @@ class Ability: Object, Identifiable {
     @Persisted var isMainSeries = false
     @Persisted var generation: Generation?
 
-    let changelogs = LinkingObjects(fromType: AbilityChangelog.self, property: "ability")
-    let names = LinkingObjects(fromType: AbilityName.self, property: "ability")
-    let prose = LinkingObjects(fromType: AbilityProse.self, property: "ability")
-    let pokemonWithAbility = LinkingObjects(fromType: PokemonAbility.self, property: "ability")
+    @Persisted(originProperty: "ability") var changelogs: LinkingObjects<AbilityChangelog>
+    @Persisted(originProperty: "ability") var names: LinkingObjects<AbilityName>
+    @Persisted(originProperty: "ability") var prose: LinkingObjects<AbilityProse>
+    @Persisted(originProperty: "ability") var pokemonWithAbility: LinkingObjects<PokemonAbility>
 
     var name: String {
         return names.first(where: { $0.localLanguageId == 9 })?.name ?? identifier
@@ -165,10 +164,10 @@ class EggGroupProse: Object {
 }
 
 class EggGroup: Object, Identifiable {
-    @Persisted(primaryKey: true) var id = 0
-    @Persisted var identifier = ""
+    @Persisted(primaryKey: true) var id: Int
+    @Persisted var identifier: String
 
-    let prose = LinkingObjects(fromType: EggGroupProse.self, property: "eggGroup")
+    @Persisted(originProperty: "eggGroup") var prose: LinkingObjects<EggGroupProse>
 
     var name: String {
         return prose.first(where: { $0.localLanguageId == 9 })?.name ?? identifier
@@ -265,7 +264,7 @@ class EvolutionTrigger: Object {
     @Persisted var identifier = ""
 
     let prose = LinkingObjects(fromType: EvolutionTriggerProse.self, property: "evolutionTrigger")
-    
+
     var name: String {
         return prose.first(where: { $0.localLanguageId == 9 })?.name ?? identifier
     }
@@ -297,12 +296,12 @@ class Generation: Object, Identifiable {
     @Persisted var mainRegion: Region?
     @Persisted var identifier: String = ""
 
-    let versionGroups = LinkingObjects(fromType: VersionGroup.self, property: "generation")
-    let moves = LinkingObjects(fromType: Move.self, property: "generation")
-    let locationGameIndices = LinkingObjects(fromType: LocationGameIndex.self, property: "generation")
-    let itemGameIndices = LinkingObjects(fromType: ItemGameIndex.self, property: "generation")
-    let names = LinkingObjects(fromType: GenerationName.self, property: "generation")
-    let abilities = LinkingObjects(fromType: Ability.self, property: "generation")
+    @Persisted(originProperty: "generation") var versionGroups: LinkingObjects<VersionGroup>
+    @Persisted(originProperty: "generation") var moves: LinkingObjects<Move>
+    @Persisted(originProperty: "generation") var locationGameIndices: LinkingObjects<LocationGameIndex>
+    @Persisted(originProperty: "generation") var itemGameIndices: LinkingObjects<ItemGameIndex>
+    @Persisted(originProperty: "generation") var names: LinkingObjects<GenerationName>
+    @Persisted(originProperty: "generation") var abilities: LinkingObjects<Ability>
 
     var name: String {
         return names.first(where: { $0.localLanguageId == 9 })?.name ?? identifier
@@ -322,7 +321,7 @@ class GrowthRate: Object {
 
     let prose = LinkingObjects(fromType: GrowthRateProse.self, property: "growthRate")
     let experienceForLevels = LinkingObjects(fromType: Experience.self, property: "growthRate")
-    
+
     var name: String {
         return prose.first(where: { $0.localLanguageId == 9 })?.name ?? identifier
     }
@@ -335,7 +334,7 @@ class ItemCategory: Object {
 
     let items = LinkingObjects(fromType: Item.self, property: "category")
     let prose = LinkingObjects(fromType: ItemCategoryProse.self, property: "itemCategory")
-    
+
     var name: String {
         return prose.first(where: { $0.localLanguageId == 9 })?.name ?? identifier
     }
@@ -374,19 +373,19 @@ class Item: Object, Identifiable {
     @Persisted var flingPower: Int?
     @Persisted var flingEffect: ItemFlingEffect?
 
-    let machines = LinkingObjects(fromType: Machine.self, property: "item")
-    let names = LinkingObjects(fromType: ItemName.self, property: "item")
-    let prose = LinkingObjects(fromType: ItemProse.self, property: "item")
-    let gameIndices = LinkingObjects(fromType: ItemGameIndex.self, property: "item")
-    let flavorTexts = LinkingObjects(fromType: ItemFlavorText.self, property: "item")
-    let flags = LinkingObjects(fromType: ItemFlagMap.self, property: "item")
+    @Persisted(originProperty: "item") var machines: LinkingObjects<Machine>
+    @Persisted(originProperty: "item") var names: LinkingObjects<ItemName>
+    @Persisted(originProperty: "item") var prose: LinkingObjects<ItemProse>
+    @Persisted(originProperty: "item") var gameIndices: LinkingObjects<ItemGameIndex>
+    @Persisted(originProperty: "item") var flavorTexts: LinkingObjects<ItemFlavorText>
+    @Persisted(originProperty: "item") var flags: LinkingObjects<ItemFlagMap>
 
     var name: String {
         return names.first(where: { $0.localLanguageId == 9 })?.name ?? identifier
     }
 
     var sprite: Image {
-        return Image("sprites/items/\(identifier)")
+        return Image("sprite/item/\(identifier)")
     }
 
     func flavorText(for versionGroup: VersionGroup?) -> String {
@@ -525,7 +524,7 @@ class Location: Object {
     let names = LinkingObjects(fromType: LocationName.self, property: "location")
     let gameIndices = LinkingObjects(fromType: LocationGameIndex.self, property: "location")
     let areas = LinkingObjects(fromType: LocationArea.self, property: "location")
-    
+
     var name: String {
         return names.first(where: { $0.localLanguageId == 9 })?.name ?? identifier
     }
@@ -569,21 +568,33 @@ class Move: Object, Identifiable {
     @Persisted var contestEffect: ContestEffect?
     @Persisted var superContestEffect: SuperContestEffect?
 
-    let names = LinkingObjects(fromType: MoveName.self, property: "move")
-    let meta = LinkingObjects(fromType: MoveMeta.self, property: "move")
-    let metaStatChanges = LinkingObjects(fromType: MoveMetaStatChange.self, property: "move")
-    let flavorTexts = LinkingObjects(fromType: MoveFlavorText.self, property: "move")
-    let flags = LinkingObjects(fromType: MoveFlagMap.self, property: "move")
-    let changelogs = LinkingObjects(fromType: MoveChangelog.self, property: "move")
-    let machines = LinkingObjects(fromType: Machine.self, property: "move")
-    let firstInContestCombos = LinkingObjects(fromType: ContestCombo.self, property: "firstMove")
-    let firstInSuperContestCombos = LinkingObjects(fromType: SuperContestCombo.self, property: "firstMove")
-    let secondInContestCombos = LinkingObjects(fromType: ContestCombo.self, property: "secondMove")
-    let secondInSuperContestCombos = LinkingObjects(fromType: SuperContestCombo.self, property: "secondMove")
-    let pokemonMoves = LinkingObjects(fromType: PokemonMove.self, property: "move")
+    @Persisted(originProperty: "move") var names: LinkingObjects<MoveName>
+    @Persisted(originProperty: "move") var meta: LinkingObjects<MoveMeta>
+    @Persisted(originProperty: "move") var metaStatChanges: LinkingObjects<MoveMetaStatChange>
+    @Persisted(originProperty: "move") var flavorTexts: LinkingObjects<MoveFlavorText>
+    @Persisted(originProperty: "move") var flags: LinkingObjects<MoveFlagMap>
+    @Persisted(originProperty: "move") var changelogs: LinkingObjects<MoveChangelog>
+    @Persisted(originProperty: "move") var machines: LinkingObjects<Machine>
+    @Persisted(originProperty: "firstMove") var firstInContestCombo: LinkingObjects<ContestCombo>
+    @Persisted(originProperty: "firstMove") var firstInSuperContestCombos: LinkingObjects<SuperContestCombo>
+    @Persisted(originProperty: "secondMove") var secondInContestCombos: LinkingObjects<ContestCombo>
+    @Persisted(originProperty: "secondMove") var secondInSuperContestCombos: LinkingObjects<SuperContestCombo>
+    @Persisted(originProperty: "move") var pokemonMoves: LinkingObjects<PokemonMove>
 
     var name: String {
         return names.first(where: { $0.localLanguageId == 9 })?.name ?? identifier
+    }
+
+    func flavorText(for versionGroup: VersionGroup) -> String? {
+        return flavorTexts.first(where: {$0.versionGroup == versionGroup && $0.languageId == 9})?.flavorText.replacingOccurrences(of: "\n", with: " ")
+    }
+
+    var shortEffectText: String {
+        let effectText = effect!.shortEffectDescription
+
+        let effectTextParsed = effectText.replacingOccurrences(of: "$effect_chance", with: "\(effectChance ?? 0)").replacingOccurrences(of: "\n", with: " ")
+
+        return effectTextParsed
     }
 }
 
@@ -604,22 +615,22 @@ class MoveDamageClass: Object, Identifiable {
     @Persisted(primaryKey: true) var id = 0
     @Persisted var identifier = ""
 
-    let prose = LinkingObjects(fromType: MoveDamageClassProse.self, property: "moveDamageClass")
+    @Persisted(originProperty: "moveDamageClass") var prose: LinkingObjects<MoveDamageClassProse>
 
     var name: String {
         return prose.first(where: { $0.localLanguageId == 9 })?.name ?? identifier
     }
 
     var color: Color {
-        return Color("damage_class_\(identifier)")
+        return Color("color/damage_class/\(identifier)")
     }
 
     var backgroundColor: Color {
-        return Color("damage_class_\(identifier)_bg")
+        return Color("color/damage_class/\(identifier)_bg")
     }
 
     var icon: Image {
-        return Image("damage_class_\(identifier)")
+        return Image("icon/damage_class/\(identifier)")
     }
 }
 
@@ -654,8 +665,8 @@ class MoveEffectProse: Object {
 class MoveEffect: Object {
     @Persisted(primaryKey: true) var id: Int = 0
 
-    let prose = LinkingObjects(fromType: MoveEffectProse.self, property: "moveEffect")
-    let changelogs = LinkingObjects(fromType: MoveEffectChangelog.self, property: "effect")
+    @Persisted(originProperty: "moveEffect") var prose: LinkingObjects<MoveEffectProse>
+    @Persisted(originProperty: "effect") var changelogs: LinkingObjects<MoveEffectChangelog>
 
     var shortEffectDescription: String {
         return prose.first(where: { $0.localLanguageId == 9 })?.shortEffect ?? "No short effect"
@@ -758,7 +769,7 @@ class MoveTarget: Object {
     @Persisted(primaryKey: true) var id = 0
     @Persisted var identifier = ""
 
-    let prose = LinkingObjects(fromType: MoveTargetProse.self, property: "moveTarget")
+    @Persisted(originProperty: "moveTarget") var prose: LinkingObjects<MoveTargetProse>
 
     var name: String {
         return prose.first(where: { $0.localLanguageId == 9 })?.name ?? identifier
@@ -859,9 +870,9 @@ class Pokedex: Object, Identifiable {
     @Persisted var identifier: String = ""
     @Persisted var isMainSeries = false
 
-    let pokemonSpeciesDexNumbers = LinkingObjects(fromType: PokemonDexNumber.self, property: "pokedex")
-    let versionGroups = LinkingObjects(fromType: PokedexVersionGroup.self, property: "pokedex")
-    let prose = LinkingObjects(fromType: PokedexProse.self, property: "pokedex")
+    @Persisted(originProperty: "pokedex") var pokemonDexNumbers: LinkingObjects<PokemonDexNumber>
+    @Persisted(originProperty: "pokedex") var versionGroups: LinkingObjects<PokedexVersionGroup>
+    @Persisted(originProperty: "pokedex") var prose: LinkingObjects<PokedexProse>
 
     var name: String {
         return prose.first(where: { $0.localLanguageId == 9 })?.name
@@ -875,8 +886,12 @@ class Pokedex: Object, Identifiable {
 class PokemonAbility: Object {
     @Persisted var pokemon: Pokemon?
     @Persisted var ability: Ability?
-    @Persisted var isHidden = false
-    @Persisted var slot = 0
+    @Persisted var isHidden: Bool
+    @Persisted var slot: Int
+
+    var name: String {
+        return ability!.name
+    }
 }
 
 class PokemonColorName: Object {
@@ -958,7 +973,7 @@ class PokemonFormType: Object {
     @Persisted var slot: Int
 }
 
-class PokemonForm: Object {
+class PokemonForm: Object, Identifiable {
     @Persisted(primaryKey: true) var id: Int = 0
     @Persisted var identifier: String
     @Persisted var formIdentifier: String?
@@ -970,9 +985,37 @@ class PokemonForm: Object {
     @Persisted var formOrder = 0
     @Persisted var order: Int = 0
 
-    let names = LinkingObjects(fromType: PokemonFormName.self, property: "pokemonForm")
-    let generations = LinkingObjects(fromType: PokemonFormGeneration.self, property: "pokemonForm")
-    let pokeathlonStats = LinkingObjects(fromType: PokemonFormPokeathlonStat.self, property: "pokemonForm")
+    @Persisted(originProperty: "pokemonForm") var names: LinkingObjects<PokemonFormName>
+    @Persisted(originProperty: "pokemonForm") var generations: LinkingObjects<PokemonFormGeneration>
+    @Persisted(originProperty: "pokemonForm") var pokeathlonStats: LinkingObjects<PokemonFormPokeathlonStat>
+
+    var name: String {
+        return names.first(where: {$0.localLanguageId == 9})?.formName ?? "Normal"
+    }
+
+    var sprite: Image {
+        guard let speciesId = pokemon?.species?.id else {
+            return Image("sprite/pokemon/0")
+        }
+
+        if let formIdentifier = formIdentifier {
+            return Image("sprite/pokemon/\(speciesId)-\(formIdentifier)")
+        }
+
+        return Image("sprite/pokemon/\(speciesId)")
+    }
+
+    var shinySprite: Image {
+        guard let speciesId = pokemon?.species?.id else {
+            return Image("sprite/pokemon/0")
+        }
+
+        if let formIdentifier = formIdentifier {
+            return Image("sprite/pokemon/shiny/\(speciesId)-\(formIdentifier)")
+        }
+
+        return Image("sprite/pokemon/shiny/\(speciesId)")
+    }
 }
 
 class PokemonGameIndex: Object {
@@ -1012,11 +1055,23 @@ class PokemonMoveMethod: Object, Identifiable {
     @Persisted(primaryKey: true) var id = 0
     @Persisted var identifier = ""
 
-    let prose = LinkingObjects(fromType: PokemonMoveMethodProse.self, property: "pokemonMoveMethod")
-    let versions = LinkingObjects(fromType: VersionGroupPokemonMoveMethod.self, property: "pokemonMoveMethod")
+    @Persisted(originProperty: "pokemonMoveMethod") var prose: LinkingObjects<PokemonMoveMethodProse>
+    @Persisted(originProperty: "pokemonMoveMethod") var versionGroups: LinkingObjects<VersionGroupPokemonMoveMethod>
+
+    var methodDescription: String {
+        return prose.first(where: {$0.localLanguageId == 9})?.pokemonMoveMethodProseDescription ?? "N/A"
+    }
+
+    var name: String {
+        return prose.first(where: {$0.localLanguageId == 9})?.name ?? identifier
+    }
 }
 
-class PokemonMove: Object {
+class PokemonMove: Object, Identifiable {
+    var id: String {
+        return "\(pokemon!.id)-\(versionGroup!.id)-\(move!.id)-\(pokemonMoveMethod!.id)"
+    }
+
     @Persisted var pokemon: Pokemon?
     @Persisted var versionGroup: VersionGroup?
     @Persisted var move: Move?
@@ -1028,29 +1083,41 @@ class PokemonMove: Object {
         return move!.names.first(where: { $0.localLanguageId == 9 })!.name
     }
 
-    func machineName(for versionGroup: VersionGroup) -> String? {
-        if let machine = move!.machines.first(where: { $0.versionGroup?.id == versionGroup.id }) {
-            return machine.item!.name
+    var machine: Machine? {
+        return move!.machines.first(where: {$0.versionGroup?.id == self.versionGroup?.id})
+    }
+
+    var machineName: String? {
+        guard let machine = move!.machines.first(where: {$0.versionGroup?.id == self.versionGroup?.id}) else {
+            return nil
         }
 
-        return nil
+        return machine.item!.name
     }
 }
 
 class PokemonShapeProse: Object {
     @Persisted var pokemonShape: PokemonShape?
-    @Persisted var localLanguageId: Int = 0
-    @Persisted var name = ""
-    @Persisted var awesomeName = ""
-    @Persisted var pokemonShapeProseDescription: String = ""
+    @Persisted var localLanguageId: Int
+    @Persisted var name: String
+    @Persisted var awesomeName: String
+    @Persisted var pokemonShapeProseDescription: String
 }
 
 class PokemonShape: Object {
-    @Persisted(primaryKey: true) var id: Int = 0
-    @Persisted var identifier: String = ""
+    @Persisted(primaryKey: true) var id: Int
+    @Persisted var identifier: String
 
-    let prose = LinkingObjects(fromType: PokemonShapeProse.self, property: "pokemonShape")
-    let pokemon = LinkingObjects(fromType: PokemonSpecies.self, property: "shape")
+    @Persisted(originProperty: "pokemonShape") var prose: LinkingObjects<PokemonShapeProse>
+    @Persisted(originProperty: "shape") var species: LinkingObjects<PokemonSpecies>
+
+    var name: String {
+        return prose.first(where: {$0.localLanguageId == 9})?.name ?? identifier
+    }
+
+    var icon: Image {
+        return Image("icon/bodyshape/Body\(id)")
+    }
 }
 
 class PokemonSpeciesName: Object {
@@ -1094,13 +1161,13 @@ class PokemonSpecies: Object, Identifiable {
     @Persisted var isMythical = false
     @Persisted var order: Int = 0
 
-    let pokemon = LinkingObjects(fromType: Pokemon.self, property: "species")
-    let prose = LinkingObjects(fromType: PokemonSpeciesProse.self, property: "pokemonSpecies")
-    let flavorText = LinkingObjects(fromType: PokemonSpeciesFlavorText.self, property: "species")
-    let names = LinkingObjects(fromType: PokemonSpeciesName.self, property: "pokemonSpecies")
-    let eggGroups = LinkingObjects(fromType: PokemonEggGroup.self, property: "species")
-    let palParkAreas = LinkingObjects(fromType: PalParkAreaSpecies.self, property: "species")
-    
+    @Persisted(originProperty: "species") var pokemon: LinkingObjects<Pokemon>
+    @Persisted(originProperty: "pokemonSpecies") var prose: LinkingObjects<PokemonSpeciesProse>
+    @Persisted(originProperty: "species") var flavorText: LinkingObjects<PokemonSpeciesFlavorText>
+    @Persisted(originProperty: "pokemonSpecies") var names: LinkingObjects<PokemonSpeciesName>
+    @Persisted(originProperty: "species") var eggGroups: LinkingObjects<PokemonEggGroup>
+    @Persisted(originProperty: "species") var palParkAreas: LinkingObjects<PalParkAreaSpecies>
+
     var defaultForm: Pokemon {
         return pokemon.first(where: { $0.isDefault })!
     }
@@ -1127,12 +1194,32 @@ class PokemonStat: Object {
     @Persisted var stat: Stat?
     @Persisted var baseStat = 0
     @Persisted var effort: Int = 0
+
+    var icon: Image {
+        return stat!.icon
+    }
+
+    var color: Color {
+        return stat!.color
+    }
+
+    var name: String {
+        return stat!.name
+    }
+
+    var identifier: String {
+        return stat!.identifier
+    }
+
+    var gameIndex: Int? {
+        return stat!.gameIndex
+    }
 }
 
 class PokemonType: Object {
     @Persisted var pokemon: Pokemon?
     @Persisted var type: Type?
-    @Persisted var slot: Int = 0
+    @Persisted var slot: Int
 }
 
 class PokemonTypePast: Object {
@@ -1143,7 +1230,7 @@ class PokemonTypePast: Object {
 }
 
 class Pokemon: Object, Identifiable {
-    @Persisted(primaryKey: true) var id: Int = 0
+    @Persisted(primaryKey: true) var id: Int
     @Persisted var identifier: String
     @Persisted var species: PokemonSpecies?
     @Persisted var height: Int
@@ -1152,28 +1239,115 @@ class Pokemon: Object, Identifiable {
     @Persisted var order: Int?
     @Persisted var isDefault: Bool
 
-    let types = LinkingObjects(fromType: PokemonType.self, property: "pokemon")
-    let stats = LinkingObjects(fromType: PokemonStat.self, property: "pokemon")
-    let moves = LinkingObjects(fromType: PokemonMove.self, property: "pokemon")
-    let items = LinkingObjects(fromType: PokemonItem.self, property: "pokemon")
-    let versionGameIndices = LinkingObjects(fromType: PokemonGameIndex.self, property: "pokemon")
-    let forms = LinkingObjects(fromType: PokemonForm.self, property: "pokemon")
-    let abilities = LinkingObjects(fromType: PokemonAbility.self, property: "pokemon")
-    let encounters = LinkingObjects(fromType: Encounter.self, property: "pokemon")
-    let dexNumbers = LinkingObjects(fromType: PokemonDexNumber.self, property: "pokemon")
+    @Persisted(originProperty: "pokemon") var types: LinkingObjects<PokemonType>
+    @Persisted(originProperty: "pokemon") var stats: LinkingObjects<PokemonStat>
+    @Persisted(originProperty: "pokemon") var moves: LinkingObjects<PokemonMove>
+    @Persisted(originProperty: "pokemon") var items: LinkingObjects<PokemonItem>
+    @Persisted(originProperty: "pokemon") var versionGameIndices: LinkingObjects<PokemonGameIndex>
+    @Persisted(originProperty: "pokemon") var forms: LinkingObjects<PokemonForm>
+    @Persisted(originProperty: "pokemon") var abilities: LinkingObjects<PokemonAbility>
+    @Persisted(originProperty: "pokemon") var encounters: LinkingObjects<Encounter>
+    @Persisted(originProperty: "pokemon") var dexNumbers: LinkingObjects<PokemonDexNumber>
 
-    
+    var name: String {
+        if let formName = defaultForm.names.first(where: { $0.localLanguageId == 9 })?.pokemonName, !formName.isEmpty, !isDefault {
+            return formName
+        }
+
+        return species?.names.first(where: { $0.localLanguageId == 9 })?.name ?? identifier
+    }
+
+    var genus: String {
+        return species!.names.first(where: { $0.localLanguageId == 9})?.genus ?? "Unknown"
+    }
+
+    var defaultForm: PokemonForm {
+        return forms.first(where: {$0.isDefault})!
+    }
+
+    var sprite: Image {
+        guard let speciesId = species?.id else {
+            return Image("sprite/pokemon/0")
+        }
+
+        if isDefault {
+            return Image("sprite/pokemon/\(speciesId)")
+        }
+
+        return Image("sprite/pokemon/\(speciesId)-\(defaultForm.formIdentifier!)")
+    }
+
+    var shinySprite: Image {
+        guard let speciesId = species?.id else {
+            return Image("sprite/pokemon/0")
+        }
+
+        if isDefault {
+            return Image("sprite/pokemon/shiny/\(speciesId)")
+        }
+
+        return Image("sprite/pokemon/shiny/\(speciesId)-\(defaultForm.formIdentifier!)")
+    }
+
+
+    var bodyShape: PokemonShape? {
+        return species!.shape
+    }
+
+    var slot1Ability: PokemonAbility {
+        return abilities.first(where: {$0.slot == 1})!
+    }
+
+    var slot2Ability: PokemonAbility? {
+        return abilities.first(where: {$0.slot == 2})
+    }
+
+    var slot3Ability: PokemonAbility? {
+        return abilities.first(where: {$0.slot == 3})
+    }
+
+    var baseHP: Int {
+        return stats.first(where: { $0.stat?.id == 1 })?.baseStat ?? 0
+    }
+
+    var baseATK: Int {
+        return stats.first(where: { $0.stat?.id == 2 })?.baseStat ?? 0
+    }
+
+    var baseDEF: Int {
+        return stats.first(where: { $0.stat?.id == 3 })?.baseStat ?? 0
+    }
+
+    var baseSATK: Int {
+        return stats.first(where: { $0.stat?.id == 4 })?.baseStat ?? 0
+    }
+
+    var baseSDEF: Int {
+        return stats.first(where: { $0.stat?.id == 5 })?.baseStat ?? 0
+    }
+
+    var baseSPE: Int {
+        return stats.first(where: { $0.stat?.id == 6 })?.baseStat ?? 0
+    }
+
+    var showdownName: String {
+        if identifier.contains("-alola") || identifier.contains("-galar") || identifier.contains("-gmax") || identifier.contains("-mega") || identifier.contains("-eternamax") {
+            return identifier
+        }
+
+        return name
+    }
 }
 
 class RegionName: Object {
     @Persisted var region: Region?
-    @Persisted var localLanguageId: Int = 0
-    @Persisted var name: String = ""
+    @Persisted var localLanguageId: Int
+    @Persisted var name: String
 }
 
 class Region: Object {
-    @Persisted(primaryKey: true) var id: Int = 0
-    @Persisted var identifier: String = ""
+    @Persisted(primaryKey: true) var id: Int
+    @Persisted var identifier: String
 
     let names = LinkingObjects(fromType: RegionName.self, property: "region")
     let versionGroups = LinkingObjects(fromType: VersionGroupRegion.self, property: "region")
@@ -1181,22 +1355,67 @@ class Region: Object {
     let generations = LinkingObjects(fromType: Generation.self, property: "mainRegion")
 }
 
+class ShowdownFormat: Object, Identifiable, Encodable {
+    var id: String { return identifier }
+    @Persisted(primaryKey: true) var identifier: String
+    @Persisted var generation: Generation?
+    @Persisted var category: ShowdownCategory?
+    @Persisted var group: ShowdownFormatGroup?
+    
+    enum CodingKeys: String, CodingKey {
+        case identifier
+        case generationId
+        case categoryId
+        case groupId
+    }
+    
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(identifier, forKey: .identifier)
+        try container.encode(generation?.id, forKey: .generationId)
+        try container.encode(category?.id, forKey: .categoryId)
+        try container.encode(group?.id, forKey: .groupId)
+    }
+}
+
+class ShowdownCategory: Object, Identifiable, Encodable {
+    @Persisted(primaryKey: true) var id: Int
+    @Persisted var name: String
+}
+
+class ShowdownFormatGroup: Object, Identifiable, Encodable {
+    @Persisted(primaryKey: true) var id: Int
+    @Persisted var name: String
+}
+
 class StatName: Object {
     @Persisted var stat: Stat?
-    @Persisted var localLanguageId: Int = 0
-    @Persisted var name: String = ""
+    @Persisted var localLanguageId: Int
+    @Persisted var name: String
 }
 
 class Stat: Object {
     @Persisted(primaryKey: true) var id: Int = 0
     @Persisted var damageClass: MoveDamageClass?
-    @Persisted var identifier: String = ""
-    @Persisted var isBattleOnly = false
+    @Persisted var identifier: String
+    @Persisted var isBattleOnly: Bool
     @Persisted var gameIndex: Int?
 
-    let names = LinkingObjects(fromType: StatName.self, property: "stat")
-    let moveMetaStatChanges = LinkingObjects(fromType: MoveMetaStatChange.self, property: "stat")
-    let characteristics = LinkingObjects(fromType: Characteristic.self, property: "stat")
+    @Persisted(originProperty: "stat") var names: LinkingObjects<StatName>
+    @Persisted(originProperty: "stat") var moveMetaStatChanges: LinkingObjects<MoveMetaStatChange>
+    @Persisted(originProperty: "stat") var characteristics: LinkingObjects<Characteristic>
+
+    var name: String {
+        return names.first(where: {$0.localLanguageId == 9})?.name ?? identifier
+    }
+
+    var icon: Image {
+        return Image("icon/ev/\(identifier)")
+    }
+
+    var color: Color {
+        return Color("color/ev/\(identifier)")
+    }
 }
 
 class SuperContestCombo: Object {
@@ -1242,15 +1461,19 @@ class TypeName: Object {
     @Persisted var name: String = ""
 }
 
-class Type: Object {
+class Type: Object, Identifiable {
     @Persisted(primaryKey: true) var id: Int = 0
-    @Persisted var identifier: String = ""
+    @Persisted var identifier: String
     @Persisted var generation: Generation?
     @Persisted var damageClass: MoveDamageClass?
 
-    let names = LinkingObjects(fromType: TypeName.self, property: "type")
-    let gameIndices = LinkingObjects(fromType: TypeGameIndex.self, property: "type")
-    let moves = LinkingObjects(fromType: Move.self, property: "type")
+    @Persisted(originProperty: "type") var names: LinkingObjects<TypeName>
+    @Persisted(originProperty: "type") var gameIndices: LinkingObjects<TypeGameIndex>
+    @Persisted(originProperty: "type") var moves: LinkingObjects<Move>
+
+    var name: String {
+        return names.first(where: { $0.localLanguageId == 9 })?.name ?? identifier
+    }
 }
 
 class VersionGroupPokemonMoveMethod: Object {
@@ -1263,18 +1486,18 @@ class VersionGroupRegion: Object {
     @Persisted var region: Region?
 }
 
-class VersionGroup: Object {
+class VersionGroup: Object, Identifiable {
     @Persisted(primaryKey: true) var id = 0
     @Persisted var identifier = ""
     @Persisted var generation: Generation?
     @Persisted var order = 0
 
-    let versionGroupRegions = LinkingObjects(fromType: VersionGroupRegion.self, property: "versionGroup")
-    let pokemonMoveMethods = LinkingObjects(fromType: VersionGroupPokemonMoveMethod.self, property: "versionGroup")
-    let versions = LinkingObjects(fromType: Version.self, property: "versionGroup")
-    let pokedexes = LinkingObjects(fromType: PokedexVersionGroup.self, property: "versionGroup")
-    let machines = LinkingObjects(fromType: Machine.self, property: "versionGroup")
-    let encounterSlots = LinkingObjects(fromType: EncounterSlot.self, property: "versionGroup")
+    @Persisted(originProperty: "versionGroup") var versionGroupRegions: LinkingObjects<VersionGroupRegion>
+    @Persisted(originProperty: "versionGroup") var pokemonMoveMethods: LinkingObjects<VersionGroupPokemonMoveMethod>
+    @Persisted(originProperty: "versionGroup") var versions: LinkingObjects<Version>
+    @Persisted(originProperty: "versionGroup") var pokedexes: LinkingObjects<PokedexVersionGroup>
+    @Persisted(originProperty: "versionGroup") var machines: LinkingObjects<Machine>
+    @Persisted(originProperty: "versionGroup") var encounterSlots: LinkingObjects<EncounterSlot>
 }
 
 class VersionName: Object {
@@ -1288,7 +1511,15 @@ class Version: Object, Identifiable {
     @Persisted var identifier: String = ""
     @Persisted var versionGroup: VersionGroup?
 
-    let names = LinkingObjects(fromType: VersionName.self, property: "version")
-    let pokemonGameIndices = LinkingObjects(fromType: PokemonGameIndex.self, property: "version")
-    let encounters = LinkingObjects(fromType: Encounter.self, property: "version")
+    @Persisted(originProperty: "version") var names: LinkingObjects<VersionName>
+    @Persisted(originProperty: "version") var pokemonGameIndices: LinkingObjects<PokemonGameIndex>
+    @Persisted(originProperty: "version") var encounters: LinkingObjects<Encounter>
+
+    var name: String {
+        return names.first(where: { $0.localLanguageId == 9 })?.name ?? identifier
+    }
+
+    var color: Color {
+        return Color("color/version/\(identifier)")
+    }
 }
